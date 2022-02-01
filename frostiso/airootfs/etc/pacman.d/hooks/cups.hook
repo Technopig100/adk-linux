@@ -1,0 +1,11 @@
+# Cups service enable!
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = cups
+
+[Action]
+Description = Enable cups.service
+When = PostTransaction
+Exec = /bin/sh -c "systemctl enable cups.service"

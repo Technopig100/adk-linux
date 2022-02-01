@@ -1,15 +1,6 @@
 #!/bin/bash
 #set -e
 ##################################################################################################################
-# Author	:	Erik Dubois
-# Website	:	https://www.erikdubois.be
-# Website	:	https://www.arcolinux.info
-# Website	:	https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxb.com
-# Website	:	https://www.arcolinuxiso.com
-# Website	:	https://www.arcolinuxforum.com
-##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
@@ -29,19 +20,19 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	#carliVersion='v21.12.02'
+	#frostVersion='v21.12.02'
 
-	isoLabel='carli-'$(date +%Y.%m.%d)'-x86_64.iso'
+	isoLabel='frost-'$(date +%Y.%m.%d)'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 60-1"
-	buildFolder=$HOME"/carli-build"
-	outFolder=$HOME"/Carli-Out"
+	buildFolder=$HOME"/frost-build"
+	outFolder=$HOME"/Frost-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
-	#echo "Building version                       : "$carliVersion
+	#echo "Building version                       : "$frostVersion
 	#echo "Iso label                              : "$isoLabel
 	echo "Do you have the right archiso version? : "$archisoVersion
 	echo "What is the required archiso version?  : "$archisoRequiredVersion
@@ -123,7 +114,7 @@ echo
 
 	echo
 	echo "Saving current archiso version to readme"
-	sudo sed -i "s/\(^archiso-version=\).*/\1$archisoVersion/" ../archiso.readme
+	sudo sed -i "s/\(^archiso-version=\).*/\1$archisoVersion/" ../frostiso.readme
 	echo
 	echo "Making mkarchiso verbose"
 	sudo sed -i 's/quiet="y"/quiet="n"/g' /usr/bin/mkarchiso
@@ -144,7 +135,7 @@ echo
 	echo "Copying the Archiso folder to build work"
 	echo
 	mkdir $buildFolder
-	cp -r ../archiso $buildFolder/archiso
+	cp -r ../frostiso $buildFolder/frostiso
 
 echo
 echo "################################################################## "
@@ -168,10 +159,10 @@ echo
 	#wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/etc/skel/.bashrc-latest -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
 
 	echo "Removing the old packages.x86_64 file from build folder"
-	rm $buildFolder/archiso/packages.x86_64
+	rm $buildFolder/frostiso/packages.x86_64
 	echo
 	echo "Copying the new packages.x86_64 file to the build folder"
-	cp -f ../archiso/packages.x86_64 $buildFolder/archiso/packages.x86_64
+	cp -f ../frostiso/packages.x86_64 $buildFolder/frostiso/packages.x86_64
 	echo
 	#echo "Changing group for polkit folder"
 	#sudo chgrp polkitd $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
@@ -190,18 +181,18 @@ echo
 	#Setting variables
 
 	#profiledef.sh
-	oldname1='iso_name="carli'
-	newname1='iso_name="carli'
+	oldname1='iso_name="frost'
+	newname1='iso_name="frost'
 
-	oldname2='iso_label="carli'
-	newname2='iso_label="carli'
+	oldname2='iso_label="frost'
+	newname2='iso_label="frost'
 
-	oldname3='Carli'
-	newname3='Carli'
+	oldname3='Frost'
+	newname3='Frost'
 
 	#hostname
-	oldname4='Carli'
-	newname4='Carli'
+	oldname4='Frost'
+	newname4='Frost'
 
 	#sddm.conf user-session
 	oldname5='Session=plasma'
@@ -209,16 +200,16 @@ echo
 
 	echo "Changing all references"
 	echo
-	sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/archiso/profiledef.sh
-	sed -i 's/'$oldname2'/'$newname2'/g' $buildFolder/archiso/profiledef.sh
-	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/archiso/airootfs/etc/dev-rel
-	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/archiso/airootfs/etc/hostname
-	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/archiso/airootfs/etc/sddm.conf
+	sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/frostiso/profiledef.sh
+	sed -i 's/'$oldname2'/'$newname2'/g' $buildFolder/frostiso/profiledef.sh
+	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/frostiso/airootfs/etc/dev-rel
+	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/frostiso/airootfs/etc/hostname
+	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/frostiso/airootfs/etc/sddm.conf
 
 	echo "Adding time to /etc/dev-rel"
 	date_build=$(date -d now)
 	echo "Iso build on : "$date_build
-	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/archiso/airootfs/etc/dev-rel
+	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/frostiso/airootfs/etc/dev-rel
 
 
 echo
@@ -243,8 +234,8 @@ echo "################################################################## "
 echo
 
 	[ -d $outFolder ] || mkdir $outFolder
-	cd $buildFolder/archiso/
-	sudo mkarchiso -v -w $buildFolder -o $outFolder $buildFolder/archiso/
+	cd $buildFolder/frostiso/
+	sudo mkarchiso -v -w $buildFolder -o $outFolder $buildFolder/frostiso/
 
 
 

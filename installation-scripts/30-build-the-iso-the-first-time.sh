@@ -20,19 +20,19 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	#frostVersion='v21.12.02'
+	#adkVersion='v21.12.02'
 
-	isoLabel='frost-'$(date +%Y.%m.%d)'-x86_64.iso'
+	isoLabel='adk-'$(date +%Y.%m.%d)'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 60-1"
-	buildFolder=$HOME"/frost-build"
-	outFolder=$HOME"/Frost-Out"
+	buildFolder=$HOME"/adk-build"
+	outFolder=$HOME"/ADK-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
-	#echo "Building version                       : "$frostVersion
+	#echo "Building version                       : "$adkVersion
 	#echo "Iso label                              : "$isoLabel
 	echo "Do you have the right archiso version? : "$archisoVersion
 	echo "What is the required archiso version?  : "$archisoRequiredVersion
@@ -114,7 +114,7 @@ echo
 
 	echo
 	echo "Saving current archiso version to readme"
-	sudo sed -i "s/\(^archiso-version=\).*/\1$archisoVersion/" ../frostiso.readme
+	sudo sed -i "s/\(^archiso-version=\).*/\1$archisoVersion/" ../adkiso.readme
 	echo
 	echo "Making mkarchiso verbose"
 	sudo sed -i 's/quiet="y"/quiet="n"/g' /usr/bin/mkarchiso
@@ -135,7 +135,7 @@ echo
 	echo "Copying the Archiso folder to build work"
 	echo
 	mkdir $buildFolder
-	cp -r ../frostiso $buildFolder/frostiso
+	cp -r ../adkiso $buildFolder/adkiso
 
 echo
 echo "################################################################## "
@@ -159,10 +159,10 @@ echo
 	#wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/etc/skel/.bashrc-latest -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
 
 	echo "Removing the old packages.x86_64 file from build folder"
-	rm $buildFolder/frostiso/packages.x86_64
+	rm $buildFolder/adkiso/packages.x86_64
 	echo
 	echo "Copying the new packages.x86_64 file to the build folder"
-	cp -f ../frostiso/packages.x86_64 $buildFolder/frostiso/packages.x86_64
+	cp -f ../adkiso/packages.x86_64 $buildFolder/adkiso/packages.x86_64
 	echo
 	#echo "Changing group for polkit folder"
 	#sudo chgrp polkitd $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
@@ -181,18 +181,18 @@ echo
 	#Setting variables
 
 	#profiledef.sh
-	oldname1='iso_name="frost'
-	newname1='iso_name="frost'
+	oldname1='iso_name="adk'
+	newname1='iso_name="adk'
 
-	oldname2='iso_label="frost'
-	newname2='iso_label="frost'
+	oldname2='iso_label="adk'
+	newname2='iso_label="adk'
 
-	oldname3='Frost'
-	newname3='Frost'
+	oldname3='ADK'
+	newname3='ADK'
 
 	#hostname
-	oldname4='Frost'
-	newname4='Frost'
+	oldname4='ADK'
+	newname4='ADK'
 
 	#sddm.conf user-session
 	oldname5='Session=plasma'
@@ -200,16 +200,16 @@ echo
 
 	echo "Changing all references"
 	echo
-	sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/frostiso/profiledef.sh
-	sed -i 's/'$oldname2'/'$newname2'/g' $buildFolder/frostiso/profiledef.sh
-	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/frostiso/airootfs/etc/dev-rel
-	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/frostiso/airootfs/etc/hostname
-	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/frostiso/airootfs/etc/sddm.conf
+	sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/adkiso/profiledef.sh
+	sed -i 's/'$oldname2'/'$newname2'/g' $buildFolder/adkiso/profiledef.sh
+	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
+	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/adkiso/airootfs/etc/hostname
+	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/adkiso/airootfs/etc/sddm.conf
 
 	echo "Adding time to /etc/dev-rel"
 	date_build=$(date -d now)
 	echo "Iso build on : "$date_build
-	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/frostiso/airootfs/etc/dev-rel
+	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/adkiso/airootfs/etc/dev-rel
 
 
 echo
@@ -234,8 +234,8 @@ echo "################################################################## "
 echo
 
 	[ -d $outFolder ] || mkdir $outFolder
-	cd $buildFolder/frostiso/
-	sudo mkarchiso -v -w $buildFolder -o $outFolder $buildFolder/frostiso/
+	cd $buildFolder/adkiso/
+	sudo mkarchiso -v -w $buildFolder -o $outFolder $buildFolder/adkiso/
 
 
 

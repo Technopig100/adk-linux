@@ -1,0 +1,14 @@
+[Autologin]
+Relogin=false
+Session=plasma
+User=
+
+[General]
+HaltCommand=/usr/bin/systemctl poweroff
+Numlock=on
+RebootCommand=/usr/bin/systemctl reboot
+
+[Theme]
+Current=adk-sugar-candy
+CursorTheme=Oxygen_White
+Font=Noto Sans,10,-1,0,50,0,0,0,0,0

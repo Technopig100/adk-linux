@@ -2,11 +2,13 @@ alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
+aic94xx-firmware
 b43-fwcutter
 base
+base-devel
 bind-tools
 brltty
-broadcom-wl
+broadcom-wl-dkms
 btrfs-progs
 clonezilla
 cloud-init
@@ -34,6 +36,7 @@ gpart
 gpm
 gptfdisk
 grml-zsh-config
+grub
 hdparm
 intel-ucode
 ipw2100-fw
@@ -50,13 +53,15 @@ libusb-compat
 linux
 linux-atm
 linux-firmware
+linux-firmware-qlogic
+linux-headers
 livecd-sounds
 lsscsi
 lvm2
 lynx
 man-db
 man-pages
-mc
+#mc
 mdadm
 memtest86+
 mkinitcpio
@@ -83,6 +88,7 @@ ppp
 pptpclient
 pv
 qemu-guest-agent
+refind
 reflector
 reiserfsprogs
 rp-pppoe
@@ -102,6 +108,7 @@ terminus-font
 testdisk
 tmux
 tpm2-tss
+upd72020x-fw
 udftools
 usb_modeswitch
 usbmuxd
@@ -109,6 +116,7 @@ usbutils
 vim
 virtualbox-guest-utils
 vpnc
+wd719x-firmware
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -117,54 +125,203 @@ xfsprogs
 xl2tpd
 zsh
 
-#ADK Desktop
-adk-grub-poly-light
-#adk-grub-poly-dark
-sddm
-bash-completion
-adk-keyring
-xfce4
-xfce4-goodies
 
-#Calamares
-calamares
+#######################################################
+###                    ADK                         ###
+#######################################################
+
+#######################################################
+###  PACKAGES THAT ARE REMOVED AFTER INSTALLATION   ###
+###             VIA CALAMARES CONFIG                ###
+#######################################################
+
 adk-calamares-config
-#adk-calamares-qml-config
-adk-mirrorlist
-adk-system-installation
-grub
-os-prober
-
-#Software
-git
-base-devel
-yay-bin
-#neofetch
+adk-keyring
 adk-neofetch
-sublime-text-4
+calamares
+adk-mirrorlist
+adkstick
+adk-sddm-sugar-candy
+adk-scantool
+flat-remix-adk
+xterm
+discover
+vim
+
+#######################################################
+###      PACKAGES THAT STAY AFTER INSTALLATION      ###
+#######################################################
+
+sddm
+sddm-kcm
+bash-completion
+os-prober
+gnome-keyring
+dex
+libxinerama
+make
+xorg-xkill
+xterm
+xorg-xrdb
+xdg-user-dirs
+mkinitcpio-openswap
+
+#######################################################
+###                  NETWORKING                     ###
+#######################################################
 networkmanager
-
-#sound
-pipewire
-pipewire-media-session
-pipewire-alsa
-pipewire-jack
-pipewire-zeroconf
-pipewire-pulse
-pavucontrol
-
-#bluetooth
-blueberry
-
-#design
-papirus-icon-theme
-arc-gtk-theme
-capitaine-cursors
-
-#desktop related
-adk-xfce-config
-file-roller
-gvfs
+network-manager-applet
+plasma-nm
+avahi
 gvfs-smb
-xdg-user-dirs-gtk
-lsb-release
+
+#######################################################
+###                     VIDEO                       ###
+#######################################################
+
+##### xorg applications
+
+xorg-server
+xorg-apps
+
+##### Drivers for graphical cards
+
+spice-vdagent
+xf86-video-intel
+xf86-video-amdgpu
+
+##### Driver for notebook and laptop Touchpads
+
+#xf86-input-synaptics
+
+##### Open-source for nvidia
+
+#xf86-video-nouveau 
+#nvidia
+#nvidia-settings
+#nvidia-utils
+
+#######################################################
+###                    REPOS                        ###
+#######################################################
+
+chaotic-mirrorlist
+chaotic-keyring
+
+
+#######################################################
+###                    BTRFS                        ###
+#######################################################
+
+timeshift
+grub-btrfs
+timeshift-autosnap
+
+#######################################################
+###                    DESKTOP                      ###
+#######################################################
+plasma
+#kde-applications
+plasma-pa
+qt5ct
+xdg-user-dirs
+ufw
+dolphin
+konsole
+yakuake
+spectacle
+plasma-browser-integration
+power-profiles-daemon
+
+#######################################################
+###                    BLUTOOTH                     ###
+#######################################################
+pulseaudio-bluetooth
+bluez
+bluez-libs
+bluez-utils
+bluedevil
+
+#######################################################
+###                    UTILITIES                    ###
+#######################################################
+latte-dock
+ark
+filelight
+sweeper
+ktimer
+kshutdown
+sublime-text-4
+kgpg
+kfind
+kcalc
+variety
+
+#######################################################
+###                    SYSTEM                       ###
+#######################################################
+plasma-systemmonitor
+systemdgenie
+cups
+cups-pdf
+ghostscript
+gsfonts
+gtk3-print-backends
+gutenprint
+libcups
+print-manager
+printer-support
+system-config-printer
+kdf
+kwalletmanager
+ksystemlog
+ksysguard
+konsole
+partitionmanager
+kinfocenter
+htop
+dolphin
+pamac-aur
+pamac-tray-icon-plasma
+reflector
+yay
+
+#######################################################
+###                    MULTIMEDIA                   ###
+#######################################################
+vlc
+
+#######################################################
+###                     INTERNET                    ###
+#######################################################
+mailspring
+ktorrent
+kget
+caprine
+akregator
+git
+
+#######################################################
+###                     GRAPHICS                    ###
+####################################################### 
+skanlite
+krita
+kuickshow
+
+#######################################################
+###                      SOUNDS                     ###
+#######################################################
+alsa-lib
+pulseaudio
+pulseaudio-alsa
+alsa-firmware
+gstreamer
+gst-plugins-good
+plasma-pa
+
+#######################################################
+###                    DEVELOPMENT                  ###
+#######################################################
+meld
+kompare
+aritim-dark-adk-git 

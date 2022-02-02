@@ -1,4 +1,4 @@
-# Frost - neofetch logo
+# ADK - neofetch logo
 [Trigger]
 Operation = Install
 Operation = Upgrade
@@ -6,6 +6,6 @@ Type = Package
 Target = lsb-release
 
 [Action]
-Description = Copy /etc/frost-release to /etc/lsb-release
+Description = Copy /etc/adk-release to /etc/lsb-release
 When = PostTransaction
-Exec = /bin/sh -c "cp /etc/frost-release /etc/lsb-release"
+Exec = /bin/sh -c "cp /etc/adk-release /etc/lsb-release"

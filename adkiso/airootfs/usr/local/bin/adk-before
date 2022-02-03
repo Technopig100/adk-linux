@@ -13,6 +13,7 @@ pacman-key --populate adk
 echo "Changing into our own linux.preset"
 echo "#################################"
 mv /etc/mkinitcpio.d/adk /etc/mkinitcpio.d/linux.preset
+mv /usr/lib/adk-release /usr/lib/os-release
 
 echo "#################################"
 echo "End adk-before"

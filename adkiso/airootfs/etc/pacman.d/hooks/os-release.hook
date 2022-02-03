@@ -1,0 +1,11 @@
+# ADK Release!
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = systemd
+
+[Action]
+Description = Copy /usr/lib/adk-release to /usr/lib/os-release
+When = PostTransaction
+Exec = /bin/sh -c "cp /usr/lib/adk-release /usr/lib/os-release"

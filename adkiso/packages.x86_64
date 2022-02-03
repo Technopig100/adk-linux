@@ -130,11 +130,6 @@ zsh
 ###                    ADK                         ###
 #######################################################
 
-#######################################################
-###  PACKAGES THAT ARE REMOVED AFTER INSTALLATION   ###
-###             VIA CALAMARES CONFIG                ###
-#######################################################
-
 adk-calamares-config
 adk-keyring
 adk-neofetch
@@ -144,9 +139,10 @@ adkstick
 adk-sddm-sugar-candy
 adk-scantool
 flat-remix-adk
-xterm
+adk-system-installation
+adk-wallpapers
 discover
-vim
+adk-plasma-config
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
@@ -205,8 +201,8 @@ xf86-video-amdgpu
 ###                    REPOS                        ###
 #######################################################
 
-chaotic-mirrorlist
-chaotic-keyring
+#chaotic-mirrorlist
+#chaotic-keyring
 
 
 #######################################################
@@ -215,7 +211,11 @@ chaotic-keyring
 
 timeshift
 grub-btrfs
+grub-customizer
 timeshift-autosnap
+#adk-grub-poly-light
+adk-grub-poly-dark
+
 
 #######################################################
 ###                    DESKTOP                      ###
@@ -290,6 +290,8 @@ yay
 ###                    MULTIMEDIA                   ###
 #######################################################
 vlc
+aritim-dark-adk-git
+aritim-dark-gtk-git
 
 #######################################################
 ###                     INTERNET                    ###
@@ -300,6 +302,7 @@ kget
 caprine
 akregator
 git
+falkon
 
 #######################################################
 ###                     GRAPHICS                    ###
@@ -324,4 +327,4 @@ plasma-pa
 #######################################################
 meld
 kompare
-aritim-dark-adk-git 
+ 

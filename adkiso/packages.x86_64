@@ -264,6 +264,7 @@ plasma-systemmonitor
 systemdgenie
 cups
 cups-pdf
+cups-filters
 ghostscript
 gsfonts
 gtk3-print-backends

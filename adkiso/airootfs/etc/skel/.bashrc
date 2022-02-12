@@ -24,6 +24,7 @@ alias mirror='sudo reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorl
 alias mirrorx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 5 --sort rate --protocol https --save /etc/pacman.d/mirrorlist"
 alias build='cd ~/.build/linux/ && updpkgsums && makepkg -s'
 alias git-build="sudo rm -r ~/.build/ && mkdir ~/.build/ && cd ~/.build/ && sudo pacman -Sy asp pacman-contrib --noconfirm --needed && asp update linux && asp export linux && cd ~/.build/linux/ && sed -i 's/^pkgbase=linux.*/pkgbase=linux-adk/' PKGBUILD"
+alias mvb='sudo mount -t vboxsf -o rw,uid=1000,gid=1000 Public /home/$USER/Public'
 PS1='[\u@\h \W]\$ '
 
 neofetch

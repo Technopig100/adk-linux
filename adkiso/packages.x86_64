@@ -54,14 +54,16 @@ linux
 linux-atm
 linux-firmware
 linux-firmware-qlogic
+linux-firmware-whence
 linux-headers
 livecd-sounds
+lsb-release
 lsscsi
 lvm2
 lynx
 man-db
 man-pages
-#mc
+mc
 mdadm
 memtest86+
 mkinitcpio
@@ -88,6 +90,7 @@ ppp
 pptpclient
 pv
 qemu-guest-agent
+r8168-dkms
 refind
 reflector
 reiserfsprogs
@@ -106,14 +109,14 @@ systemd-resolvconf
 tcpdump
 terminus-font
 testdisk
-tmux
+#tmux
 tpm2-tss
 upd72020x-fw
 udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
+#vim
 virtualbox-guest-utils
 vpnc
 wd719x-firmware
@@ -135,14 +138,15 @@ adk-keyring
 adk-neofetch
 calamares
 adk-mirrorlist
-adkstick
+#adkstick
 adk-sddm-sugar-candy
-adk-scantool
+#adk-scantool
 flat-remix-adk
 adk-system-installation
 adk-wallpapers
-discover
-adk-plasma-config
+#discover
+#adk-plasma-config
+adk-kde-config
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
@@ -157,7 +161,7 @@ dex
 libxinerama
 make
 xorg-xkill
-xterm
+#xterm
 xorg-xrdb
 xdg-user-dirs
 mkinitcpio-openswap
@@ -185,14 +189,20 @@ xorg-apps
 spice-vdagent
 xf86-video-intel
 xf86-video-amdgpu
+xf86-video-fbdev
+xf86-video-openchrome
+xf86-video-vmware
+xf86-video-ati
+xf86-video-nouveau
+xf86-video-vesa
+
 
 ##### Driver for notebook and laptop Touchpads
 
 #xf86-input-synaptics
 
-##### Open-source for nvidia
+##### Drivers for nvidia
 
-#xf86-video-nouveau 
 #nvidia
 #nvidia-settings
 #nvidia-utils
@@ -211,11 +221,11 @@ chaotic-keyring
 
 timeshift
 grub-btrfs
-grub-customizer
+#grub-customizer
 timeshift-autosnap
-#adk-grub-poly-light
+adk-grub-poly-light
 adk-grub-poly-dark
-
+btrfs-du
 
 #######################################################
 ###                    DESKTOP                      ###
@@ -228,8 +238,8 @@ xdg-user-dirs
 ufw
 dolphin
 konsole
-yakuake
-spectacle
+#yakuake
+#spectacle
 plasma-browser-integration
 power-profiles-daemon
 
@@ -246,22 +256,22 @@ bluedevil
 ###                    UTILITIES                    ###
 #######################################################
 latte-dock
-ark
-filelight
-sweeper
-ktimer
-kshutdown
-sublime-text-4
-kgpg
-kfind
-kcalc
+#ark
+#filelight
+#sweeper
+#ktimer
+#kshutdown
+sublime-text-3
+#kgpg
+#kfind
+#kcalc
 variety
 
 #######################################################
 ###                    SYSTEM                       ###
 #######################################################
 plasma-systemmonitor
-systemdgenie
+#systemdgenie
 cups
 cups-pdf
 cups-filters
@@ -269,10 +279,10 @@ ghostscript
 gsfonts
 gtk3-print-backends
 gutenprint
+foomatic-db-gutenprint-ppds
 libcups
 print-manager
 printer-support
-system-config-printer
 kdf
 kwalletmanager
 ksystemlog
@@ -290,27 +300,28 @@ yay
 #######################################################
 ###                    MULTIMEDIA                   ###
 #######################################################
-vlc
+#vlc
 aritim-dark-adk-git
 aritim-dark-gtk-git
 
 #######################################################
 ###                     INTERNET                    ###
 #######################################################
-mailspring
-ktorrent
-kget
-caprine
-akregator
+#mailspring
+#ktorrent
+#kget
+#caprine
+#akregator
+wget
 git
-falkon
+#falkon
 
 #######################################################
 ###                     GRAPHICS                    ###
 ####################################################### 
-skanlite
-krita
-kuickshow
+#skanlite
+#krita
+#kuickshow
 
 #######################################################
 ###                      SOUNDS                     ###
@@ -327,5 +338,6 @@ plasma-pa
 ###                    DEVELOPMENT                  ###
 #######################################################
 meld
-kompare
+#kompare
+firefox
  

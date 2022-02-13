@@ -109,14 +109,12 @@ systemd-resolvconf
 tcpdump
 terminus-font
 testdisk
-#tmux
 tpm2-tss
 upd72020x-fw
 udftools
 usb_modeswitch
 usbmuxd
 usbutils
-#vim
 virtualbox-guest-utils
 vpnc
 wd719x-firmware
@@ -138,15 +136,10 @@ adk-keyring
 adk-neofetch
 calamares
 adk-mirrorlist
-#adkstick
 adk-sddm-sugar-candy
-#adk-scantool
 flat-remix-adk
 adk-system-installation
 adk-wallpapers
-#discover
-#adk-plasma-config
-adk-kde-config
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
@@ -155,13 +148,13 @@ adk-kde-config
 sddm
 sddm-kcm
 bash-completion
+pacman-contrib
 os-prober
 gnome-keyring
 dex
 libxinerama
 make
 xorg-xkill
-#xterm
 xorg-xrdb
 xdg-user-dirs
 mkinitcpio-openswap
@@ -221,7 +214,6 @@ chaotic-keyring
 
 timeshift
 grub-btrfs
-#grub-customizer
 timeshift-autosnap
 adk-grub-poly-light
 adk-grub-poly-dark
@@ -231,15 +223,12 @@ btrfs-du
 ###                    DESKTOP                      ###
 #######################################################
 plasma
-#kde-applications
 plasma-pa
 qt5ct
 xdg-user-dirs
 ufw
 dolphin
 konsole
-#yakuake
-#spectacle
 plasma-browser-integration
 power-profiles-daemon
 
@@ -256,22 +245,14 @@ bluedevil
 ###                    UTILITIES                    ###
 #######################################################
 latte-dock
-#ark
-#filelight
-#sweeper
-#ktimer
-#kshutdown
-sublime-text-3
-#kgpg
-#kfind
-#kcalc
+ark
+sublime-text-4
 variety
 
 #######################################################
 ###                    SYSTEM                       ###
 #######################################################
 plasma-systemmonitor
-#systemdgenie
 cups
 cups-pdf
 cups-filters
@@ -300,28 +281,19 @@ yay
 #######################################################
 ###                    MULTIMEDIA                   ###
 #######################################################
-#vlc
-aritim-dark-adk-git
+aritim-dark-kde-git
 aritim-dark-gtk-git
 
 #######################################################
 ###                     INTERNET                    ###
 #######################################################
-#mailspring
-#ktorrent
-#kget
-#caprine
-#akregator
+mailspring
 wget
 git
-#falkon
 
 #######################################################
 ###                     GRAPHICS                    ###
 ####################################################### 
-#skanlite
-#krita
-#kuickshow
 
 #######################################################
 ###                      SOUNDS                     ###
@@ -338,6 +310,6 @@ plasma-pa
 ###                    DEVELOPMENT                  ###
 #######################################################
 meld
-#kompare
 firefox
+
  

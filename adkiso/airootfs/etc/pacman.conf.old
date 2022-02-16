@@ -21,7 +21,7 @@ HoldPkg     = pacman glibc
 #CleanMethod = KeepInstalled
 Architecture = auto
 
-#IgnorePkg   =
+# Pacman won't upgrade packages listed in IgnorePkg and members of IgnoreGroup
 #IgnorePkg   =
 #IgnoreGroup =
 
@@ -33,9 +33,9 @@ Architecture = auto
 Color
 #NoProgressBar
 CheckSpace
-ILoveCandy
 #VerbosePkgLists
-ParallelDownloads = 5
+ParallelDownloads = 4
+ILoveCandy
 
 # By default, pacman accepts packages signed by keys that its local keyring
 # trusts (see pacman-key and its man page), as well as unsigned packages.
@@ -70,10 +70,6 @@ LocalFileSigLevel = Optional
 # repo name header and Include lines. You can add preferred servers immediately
 # after the header, and they will be used before the default mirrors.
 
-[adklinux_local_repo]
-SigLevel = Optional TrustAll
-Server = file:///home/jacob/Public/$repo/$arch
-
 #[adklinux_test_repo]
 #Include = /etc/pacman.d/adklinux-mirrorlist
 
@@ -106,25 +102,11 @@ Include = /etc/pacman.d/mirrorlist
 
 # An example of a custom package repository.  See the pacman manpage for
 # tips on creating your own repositories.
+#[custom]
+#SigLevel = Optional TrustAll
+#Server = file:///home/custompkgs
 
-#[arcolinux_repo_testing]
-#SigLevel = Required DatabaseOptional
-#Include = /etc/pacman.d/arcolinux-mirrorlist
-
-[arcolinux_repo]
-SigLevel = Required DatabaseOptional
-Include = /etc/pacman.d/arcolinux-mirrorlist
-
-[arcolinux_repo_3party]
-SigLevel = Required DatabaseOptional
-Include = /etc/pacman.d/arcolinux-mirrorlist
-
-[arcolinux_repo_xlarge]
-SigLevel = Required DatabaseOptional
-Include = /etc/pacman.d/arcolinux-mirrorlist
+#Chaotic-mirrorlist and Chaotic-keyring are preinstalled.
 
 [chaotic-aur]
 Include = /etc/pacman.d/chaotic-mirrorlist
-
-#ADK Linux repository
-

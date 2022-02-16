@@ -47,6 +47,13 @@ echo "Permission of root"
 echo "#################################"
 chmod -v 750 /root
 
+#keys for adk-linux 
+pacman-key --recv-keys 360DCBA5948FDE5944CA1E2E1A8DE33B5A149FDF --keyserver hkps://keyserver.ubuntu.com
+pacman-key --lsign-key 360DCBA5948FDE5944CA1E2E1A8DE33B5A149FDF
+
+pacman-key --recv-keys DB8C9336927412AD01764AD88C40B4EF4EF24C82 --keyserver hkps://keyserver.ubuntu.com 
+pacman-key --lsign-key DB8C9336927412AD01764AD88C40B4EF4EF24C82 
+
 echo "#################################"
 echo "End adk-final"
 echo "#################################"

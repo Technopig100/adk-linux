@@ -25,6 +25,13 @@ alias mirrorx="sudo reflector --age 6 --latest 20  --fastest 20 --threads 5 --so
 alias build='cd ~/.build/linux/ && updpkgsums && makepkg -s'
 alias git-build="sudo rm -r ~/.build/ && mkdir ~/.build/ && cd ~/.build/ && sudo pacman -Sy asp pacman-contrib --noconfirm --needed && asp update linux && asp export linux && cd ~/.build/linux/ && sed -i 's/^pkgbase=linux.*/pkgbase=linux-adk/' PKGBUILD"
 alias mvb='sudo mount -t vboxsf -o rw,uid=1000,gid=1000 Public /home/$USER/Public'
+alias ram='rate-mirrors --allow-root arch | sudo tee /etc/pacman.d/mirrorlist'
+alias unlock="sudo rm /var/lib/pacman/db.lck"
+alias microcode='grep . /sys/devices/system/cpu/vulnerabilities/*'
+alias pt='grep -Ril'
+alias xls="exa -a --icons --color=always --group-directories-first"
+alias xll="exa -lag --icons --color=always --group-directories-first --octal-permissions"
+alias rg='ranger'
 PS1='[\u@\h \W]\$ '
 
 neofetch

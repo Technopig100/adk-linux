@@ -22,10 +22,10 @@ appstream-glib
 arch-install-scripts
 archinstall
 archiso
-#arcolinux-bin-git
-#arcolinux-conky-collection-plasma-git
-#arcolinux-keyring
-#arcolinux-mirrorlist-git                        
+arcolinux-bin-git
+arcolinux-mirrorlist-git
+arcolinux-conky-collection-plasma-git
+arcolinux-keyring
 aritim-dark-gtk-git
 aritim-dark-kde-git
 arj
@@ -72,7 +72,7 @@ cloud-init
 cmake
 cmatrix
 confuse
-#conky-lua-archers
+conky-lua-archers
 crda
 cronie
 cryptsetup
@@ -177,8 +177,6 @@ ipw2100-fw
 ipw2200-fw
 irssi
 itstool
-iw
-iwd
 jasper
 jfsutils
 kaccounts-providers

@@ -9,6 +9,11 @@ pacman-key --init
 pacman-key --populate archlinux
 pacman-key --populate adk
 
+#keys for adk-linux 
+pacman-key --lsign-key 360DCBA5948FDE5944CA1E2E1A8DE33B5A149FDF 
+pacman-key --lsign-key DB8C9336927412AD01764AD88C40B4EF4EF24C82 
+pacman-key --lsign-key 0A74C5909A8A2600AD012AF67B22BF2F72D54DAC
+
 
 echo "Changing into our own linux.preset"
 echo "#################################"

@@ -254,15 +254,9 @@ echo
 	echo "Creating checksums for : "$isoLabel
 	echo "##################################################################"
 	echo
-	echo "Building sha1sum"
-	echo "########################"
-	sha1sum $isoLabel | tee $isoLabel.sha1
 	echo "Building sha256sum"
 	echo "########################"
 	sha256sum $isoLabel | tee $isoLabel.sha256
-	echo "Building md5sum"
-	echo "########################"
-	md5sum $isoLabel | tee $isoLabel.md5
 	echo
 	echo "Moving pkglist.x86_64.txt"
 	echo "########################"

@@ -1,7 +1,7 @@
 [Autologin]
 Relogin=false
 User=liveuser
-Session=Xfce Session
+Session=plasma
 
 [General]
 HaltCommand=/usr/bin/systemctl poweroff

@@ -36,7 +36,7 @@ rm -r /etc/systemd/system/etc-pacman.d-gnupg.mount
 rm -f /etc/pacman.d/hooks/avahi.hook
 rm -f /etc/pacman.d/hooks/cups.hook
 rm /root/{.automated_script.sh,.zlogin}
-mv /etc/adk-release /etc/lsb-release
+cp /etc/adk-release /etc/lsb-release
 mv /etc/sddm.conf.d/adk_settings /etc/sddm.conf.d/kde_settings.conf
 rm -f /etc/sddm.conf.d/adk_settings
 

@@ -1,5 +1,5 @@
 LSB_VERSION=1.4
-DISTRIB_ID="ADK Linux"
-DISTRIB_RELEASE="22.2.16"
-DISTRIB_DESCRIPTION="ADK Linux"
-
+DISTRIB_ID="ADK-Linux"
+DISTRIB_RELEASE="3.2.22"
+DISTRIB_DESCRIPTION="ADK-Linux"
+LogoPath=/etc/xdg/adk-linux/distributor-logo-adklinux.svg

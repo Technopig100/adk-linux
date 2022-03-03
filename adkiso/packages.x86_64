@@ -1,3 +1,6 @@
+#
+# ~/.bashrc
+#
 
 ###############################################################################
 ############################### Arco-Linux ####################################
@@ -31,8 +34,7 @@ adk-system-installation
 adk-wallpapers
 adklinux-plasma-git
 adklinux-iso-config-git
-flat-remix
-#flat-remix-adk
+flat-remix-adk
 aritim-dark-gtk-git
 aritim-dark-kde-git
 ###############################################################################

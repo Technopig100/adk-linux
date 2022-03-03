@@ -4,17 +4,14 @@ To be able to build you install this package
 
 sudo pacman -S archiso
 
-Download also the Carli keyring from github and install it with pacman -U.
+Download and build adklinux-keyring & adk-mirrorlist from github and install it with pacman -U.
 
-https://github.com/Technopig100/adk_repo/tree/master/x86_64
+git clone https://github.com/Technopig100/adk-pkgbuild.git
 
-Download the last version.
 Install with pacman -U nameofthefile
-
-Or run the script import-adk-key.sh to download and sign it.
 
 Do check out the archiso.readme.
 
 Use the correct version of archiso.
 
-Start building your own carli version with the use of the scripts
+Start building your own adk-linux version with the use of the scripts

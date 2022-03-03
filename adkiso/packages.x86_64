@@ -257,7 +257,7 @@ lvm2
 lynx
 lzop
 m4
-mailspring
+#mailspring
 make
 man-db
 man-pages

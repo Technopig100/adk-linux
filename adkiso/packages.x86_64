@@ -34,7 +34,8 @@ adk-system-installation
 adk-wallpapers
 adklinux-plasma-git
 adklinux-iso-config-git
-flat-remix-adk
+adk-dark-git
+#flat-remix-adk
 aritim-dark-gtk-git
 aritim-dark-kde-git
 ###############################################################################

@@ -23,7 +23,8 @@
 
 ##############################################################################
 ############################### ADK-Linux ####################################
-adk-calamares-config
+#adk-calamares-config
+adk-calamares-config-xanmod
 adk-grub-poly-dark
 adk-grub-poly-light
 adklinux-keyring
@@ -243,14 +244,16 @@ libtool
 liburing
 libusb-compat
 libxinerama
-linux
+#linux
 linux-atm
-linux-docs
+#linux-docs
 linux-firmware
 linux-firmware-marvell
 linux-firmware-qlogic
 linux-firmware-whence
-linux-headers
+#linux-headers
+linux-xanmod-edge-headers
+linux-xanmod-edge
 livecd-sounds
 lsb-release
 lsscsi

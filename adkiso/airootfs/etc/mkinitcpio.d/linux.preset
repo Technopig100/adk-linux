@@ -1,8 +1,8 @@
-# mkinitcpio preset file for the 'linux' package on archiso
+# mkinitcpio preset file for the 'linux' package on adkiso
 
 PRESETS=('adkiso')
 
-ALL_kver='/boot/vmlinuz-linux-xanmod-edge'
+ALL_kver='/boot/vmlinuz-linux'
 ALL_config='/etc/mkinitcpio.conf'
 
-adkiso_image="/boot/vmlinuz-linux-xanmod-edge"
+adkiso_image="/boot/initramfs-linux.img"

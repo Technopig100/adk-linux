@@ -151,4 +151,7 @@ alias rg='ranger'
 
 PS1='[\u@\h \W]\$ '
 
+#if you would like to have your own aliases then add them to .bashrc-personal file
+[[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
+
 neofetch

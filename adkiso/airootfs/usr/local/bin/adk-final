@@ -33,14 +33,14 @@ rm -f /etc/xdg/autostart/calamares.desktop
 rm -f /root/Desktop/calamares.desktop
 rm -f /etc/sddm.conf.d/autologin.conf
 rm -r /etc/systemd/system/etc-pacman.d-gnupg.mount
-rm -f /etc/pacman.d/hooks/avahi.hook
-rm -f /etc/pacman.d/hooks/cups.hook
+#rm -f /etc/pacman.d/hooks/avahi.hook
+#rm -f /etc/pacman.d/hooks/cups.hook
 rm /root/{.automated_script.sh,.zlogin}
 cp /etc/adk-release /etc/lsb-release
 mv /etc/sddm.conf.d/adk_settings /etc/sddm.conf.d/kde_settings.conf
 rm -f /etc/sddm.conf.d/adk_settings
 
-#cleanup xfce
+#cleanup
 for i in `ls /home/`; do rm -rf /home/$i/*/calamares.desktop || exit 0; done
 
 echo "Permission of root"

@@ -11,7 +11,13 @@ adklinux-iso-config-git
 adk-dark-git
 aritim-dark-gtk-git
 aritim-dark-kde-git
+
 ###############################################################################
+adk-bluetooth-enable-git
+adk-ssh-enable-git
+adk-printer-enable-git
+###############################################################################
+
 a52dec
 aic94xx-firmware
 akonadi-contacts

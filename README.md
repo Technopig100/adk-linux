@@ -27,4 +27,4 @@ Download and or build archiso, adklinux-keyring & adk-mirrorlist:
 
 Do check out the archiso.readme.
 
-_  Start building your own adk-linux version with the use of the scripts
+### Start building your own ADK-Linux version with the use of this script!

@@ -1,3 +1,4 @@
+###################################adk-linux-install#############################################
 adk-calamares-config
 adk-grub-poly-dark
 adklinux-keyring
@@ -12,12 +13,12 @@ adk-dark-git
 aritim-dark-gtk-git
 aritim-dark-kde-git
 
-###############################################################################
+###################################adk-system-enable############################################
 adk-bluetooth-enable-git
 adk-ssh-enable-git
 adk-printer-enable-git
-###############################################################################
 
+#######################################archlinux################################################
 a52dec
 aic94xx-firmware
 akonadi-contacts

@@ -3,7 +3,7 @@
 
 iso_name="adk"
 iso_label="adk-$(date +%Y%m)"
-iso_publisher="ADK Linux <https://www.arcolinuxiso.com>"
+iso_publisher="ADK Linux <https://github.com/Technopig100>"
 iso_application="ADK Linux Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"
 install_dir="arch"

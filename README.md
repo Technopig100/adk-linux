@@ -7,7 +7,7 @@ Adk-linux is a Arch-Linux based ISO created by Technopig a student of Erik Duboi
 GNU GPL v3
 
 ## view
-![view](View-1.jpg?raw=true)
+![view](View-1.png?raw=true)
 
 In this repository you'll find:
 

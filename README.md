@@ -1,17 +1,30 @@
-# ADK-Linux Iso build
+## ADK-Linux Iso build
 
-To be able to build you install this package
+Adk-linux is a Arch-Linux based ISO created by Technopig a student of Erik Dubois.
 
-sudo pacman -S archiso
+## License
 
-Download and build adklinux-keyring & adk-mirrorlist from github and install it with pacman -U.
+GNU GPL v3
 
-git clone https://github.com/Technopig100/adk-pkgbuild.git
+## view
+![view](View-1.jpg?raw=true)
 
-Install with pacman -U nameofthefile
+In this repository you'll find:
+
+-  ADK-Linux ISO Builder
+
+To build you will need to install:
+
+-  archiso
+-  adklinux-keyring
+-  adk-mirrorlist
+
+Download and or build archiso, adklinux-keyring & adk-mirrorlist:
+
+-  git clone https://github.com/Technopig100/adk-pkgbuild.git
+-  sudo pacman -U adklinux-keyring adk-mirrorlist
+-  sudo pacman -Sy archiso
 
 Do check out the archiso.readme.
 
-Use the correct version of archiso.
-
-Start building your own adk-linux version with the use of the scripts
+_  Start building your own adk-linux version with the use of the scripts

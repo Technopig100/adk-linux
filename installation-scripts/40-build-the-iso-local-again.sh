@@ -235,7 +235,7 @@ echo
 
 	[ -d $outFolder ] || mkdir $outFolder
 	cd $buildFolder/adkiso/
-	sudo mkarchiso -v -w $buildFolder -o $outFolder $buildFolder/adkiso/
+	sudo mkarchiso -v -G -w $buildFolder -o $outFolder $buildFolder/adkiso/
 
 
 

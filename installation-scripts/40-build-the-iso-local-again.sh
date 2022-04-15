@@ -20,7 +20,7 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	#adkVersion='v22.2.022'
+	adkVersion='v22.04'
 
 	isoLabel='adk-'$(date +%Y.%m.%d)'-x86_64.iso'
 
@@ -32,8 +32,8 @@ echo
 
 	echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
-	#echo "Building version                       : "$adkVersion
-	#echo "Iso label                              : "$isoLabel
+	echo "Building version                       : "$adkVersion
+	echo "Iso label                              : "$isoLabel
 	echo "Do you have the right archiso version? : "$archisoVersion
 	echo "What is the required archiso version?  : "$archisoRequiredVersion
 	echo "Build folder                           : "$buildFolder

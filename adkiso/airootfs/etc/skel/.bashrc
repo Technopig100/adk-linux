@@ -102,7 +102,7 @@ alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
 #fixes
 alias fix-permissions="sudo chown -R $USER:$USER ~/.config ~/.local"
-alias keyfix="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
+alias keyfix="/usr/local/bin/fix-pacman-databases-and-keys.sh"
 
 #systeminfo
 alias probe="sudo -E hw-probe -all -upload"

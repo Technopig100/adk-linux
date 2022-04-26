@@ -1,0 +1,10 @@
+###when complete####
+# exit
+# umount /mnt/boot
+# umount /mnt/dev
+# umount /mnt/proc
+# umount /mnt/sys
+# umount /mnt/run
+# umount /mnt/var/cache
+# umount /mnt/home
+# umount /mnt/ 

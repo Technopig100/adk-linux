@@ -1,0 +1,23 @@
+###Practical chroot with btrfs subvolumes###
+
+# mount /dev/**** /mnt/ -t btrfs -o subvol=@
+
+# mount /dev/**** /mnt/home -t btrfs -o subvol=@home
+
+# mount /dev/**** /mnt/var/cache -t btrfs -o subvol=@cache
+
+# mount /dev/**** /mnt/boot
+
+# mount --bind /dev /mnt/dev
+
+# mount -t proc /proc /mnt/proc
+
+# mount -t sysfs /sys /mnt/sys
+
+# mount -t tmpfs tmpfs /mnt/run
+
+# mkdir -p /mnt/run/systemd/resolve/
+
+# echo 'nameserver 1.1.1.1' > /mnt/run/systemd/resolve/stub-resolv.conf
+
+# chroot /mnt

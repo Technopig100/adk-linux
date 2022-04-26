@@ -1,0 +1,5 @@
+###Overview of a ADK-Linux with btrfs filesystem and subvolumes############
+###Replace /dev/**** with your desired drive and partition or partitons.###
+# mount /dev/**** /mnt/
+# btrfs subvolume list /mnt
+# umount /mnt 

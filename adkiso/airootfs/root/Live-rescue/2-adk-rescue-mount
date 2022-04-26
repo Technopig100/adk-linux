@@ -1,4 +1,5 @@
-###Practical chroot with btrfs subvolumes###
+###ADK-Linux Rescue chroot live with btrfs subvolumes###
+###Replace /dev/**** with your desired drive and partition or partitons.###
 
 # mount /dev/**** /mnt/ -t btrfs -o subvol=@
 
@@ -21,3 +22,5 @@
 # echo 'nameserver 1.1.1.1' > /mnt/run/systemd/resolve/stub-resolv.conf
 
 # chroot /mnt
+
+## exit

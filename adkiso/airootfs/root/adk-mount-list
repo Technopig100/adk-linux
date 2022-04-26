@@ -1,5 +1,0 @@
-###Overview of a btrfs filesystem with subvolumes###
-
-# mount /dev/**** /mnt/
-# btrfs subvolume list /mnt
-# umount /mnt 

@@ -1,5 +1,5 @@
-###when complete####
-# exit
+###ADK-Linux Rescue chroot live unmount with btrfs subvolumes###
+
 # umount /mnt/boot
 # umount /mnt/dev
 # umount /mnt/proc

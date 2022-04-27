@@ -1,4 +1,5 @@
 ###################################adk-linux-install#############################################
+adk-updateinfo-git
 adk-calamares-config-git
 adk-grub-dark-git
 adklinux-keyring-git

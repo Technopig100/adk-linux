@@ -209,7 +209,7 @@ kwayland-integration
 kwayland-server
 kwin
 kwrited
-latte-dock
+latte-dock-git
 less
 lftp
 libcups

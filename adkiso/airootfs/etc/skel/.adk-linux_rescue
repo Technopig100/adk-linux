@@ -1,0 +1,25 @@
+ ## First we will become a super user ##
+ sudo su
+
+ ## Please replace "*" with your device name. ##
+ mount -o subvol=@ /dev/* /mnt
+ mount /dev/* /mnt/boot/efi
+
+ ## Chroot into ADK-Linux ##
+ arch-chroot /mnt
+
+ ## Mount remaining subvolumes ##
+ mount -a
+
+ ## Usefull commands ##
+
+ ## Create a new initramfs ##
+ mkinitcpio -P
+
+ ## Install Grub ##
+ grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB --recheck
+ grub-mkconfig -o /boot/grub/grub.cfg
+
+ ## Edit Fstab ##
+ nano /etc/fstab
+

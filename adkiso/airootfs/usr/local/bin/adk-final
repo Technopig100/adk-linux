@@ -18,6 +18,7 @@ cp -aT /etc/skel/ /root/
 echo "Cleanup autologin root"
 echo "#################################"
 rm -rf /etc/systemd/system/getty@tty1.service.d
+rm -rf /usr/local/bin/adk-linux_rescue
 
 echo "Setting editor to nano"
 echo "#################################"

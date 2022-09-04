@@ -9,10 +9,6 @@ pacman-key --init
 pacman-key --populate archlinux
 pacman-key --populate adklinux
 
-#keys for adk-linux 
-#pacman-key --lsign-key 0A74C5909A8A2600AD012AF67B22BF2F72D54DAC
-
-
 echo "Changing into our own linux.preset"
 echo "#################################"
 mv /etc/mkinitcpio.d/adk /etc/mkinitcpio.d/linux.preset

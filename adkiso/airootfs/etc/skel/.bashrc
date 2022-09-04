@@ -152,6 +152,9 @@ alias xll="exa -lag --icons --color=always --group-directories-first --octal-per
 #open in ranger
 alias rg='ranger'
 
+##this alias is only to be used in a live enviroment ##
+alias rescue='/usr/local/bin/adk-linux_rescue'
+
 PS1='[\u@\h \W]\$ '
 
 #if you would like to have your own aliases then add them to .bashrc-personal file

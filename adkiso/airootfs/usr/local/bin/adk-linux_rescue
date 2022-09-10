@@ -37,3 +37,6 @@ sudo arch-chroot /mnt mount -a
 
 ## Chroot into ADK-Linux ##
 sudo arch-chroot /mnt
+
+## un-mount everything ##
+sudo umount -R /mnt

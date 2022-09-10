@@ -217,6 +217,7 @@ libcups
 libfido2
 libgnome-keyring
 libpwquality
+#libreoffice-still
 libtool
 liburing
 libusb-compat

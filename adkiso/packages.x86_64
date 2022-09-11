@@ -133,6 +133,7 @@ gettext
 ghostscript
 gimp
 git
+glances
 glew
 gnome-keyring
 gnome-notes
@@ -192,7 +193,7 @@ kinfocenter
 kinit
 kitty-terminfo
 kmenuedit
-kompare
+#kompare
 konsole
 kpmcore
 kross
@@ -223,7 +224,7 @@ liburing
 libusb-compat
 libxinerama
 linux
-linux-atm
+#linux-atm
 linux-docs
 linux-firmware
 linux-firmware-marvell

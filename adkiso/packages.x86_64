@@ -10,6 +10,7 @@ adk-system-installation-git
 adk-wallpaper-git
 adklinux-plasma-git
 adklinux-iso-config-git
+adk-linux-root-git
 adk-dark-git
 aritim-dark-gtk-git
 aritim-dark-kde-git
@@ -254,6 +255,7 @@ mkinitcpio-archiso
 mkinitcpio-nfs-utils
 mkinitcpio-openswap
 modemmanager
+most
 mtools
 nano
 nbd

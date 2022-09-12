@@ -62,7 +62,9 @@ alias sysd='systemctl list-unit-files --state=disabled'
 alias ls='ls --color=auto'
 
 #grub update
+alias clean-grub-efi='sudo umount /boot/efi && sudo rm -r /boot/efi && sudo rm -r /boot/grub'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias install-grub-efi='grub-install --target=x86_64-efi --efi-directory=/boot/efi --recheck'
 
 #copy/paste all content of /etc/skel over to home folder - backup of config created - beware
 alias skel='[ -d ~/.config ] || mkdir ~/.config && cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -rf /etc/skel/* ~'

@@ -62,7 +62,9 @@ alias sysd='systemctl list-unit-files --state=disabled'
 alias ls='ls --color=auto'
 
 #grub update
+alias clean-grub-efi='sudo umount /boot/efi && sudo rm -r /boot/efi && sudo rm -r /boot/grub'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias install-grub-efi='grub-install --target=x86_64-efi --efi-directory=/boot/efi --recheck'
 
 #copy/paste all content of /etc/skel over to home folder - backup of config created - beware
 alias skel='[ -d ~/.config ] || mkdir ~/.config && cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -rf /etc/skel/* ~'
@@ -105,7 +107,7 @@ alias iso="cat /etc/dev-rel | awk -F '=' '/ISO/ {print $2}'"
 
 #fixes
 alias fix-permissions="sudo chown -R $USER:$USER ~/.config ~/.local"
-alias keyfix="/usr/local/bin/arcolinux-fix-pacman-databases-and-keys"
+alias keyfix="/usr/local/bin/fix-pacman-databases-and-keys.sh"
 
 #systeminfo
 alias probe="sudo -E hw-probe -all -upload"
@@ -156,7 +158,6 @@ alias rg='ranger'
 alias rescue='/usr/local/bin/adk-linux_rescue'
 
 PS1='[\u@\h \W]\$ '
-
 
 #if you would like to have your own aliases then add them to .bashrc-personal file
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal

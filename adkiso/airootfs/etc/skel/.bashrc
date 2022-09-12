@@ -62,7 +62,8 @@ alias sysd='systemctl list-unit-files --state=disabled'
 alias ls='ls --color=auto'
 
 #grub update
-alias clean-grub-efi='sudo umount /boot/efi && sudo rm -r /boot/efi && sudo rm -r /boot/grub'
+alias clean-grub-efi='sudo umount /boot/efi && sudo rm -r /boot/efi && sudo rm -r /boot/grub && sudo mkdir /boot/efi' 
+## You will need to mount your boot drive Example "sudo mount /dev/sda1 /boot/efi" ##
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias install-grub-efi='sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --recheck'
 

@@ -1,5 +1,6 @@
 ###################################adk-linux-install#############################################
 adk-updateinfo-git
+adk-calamares
 adk-calamares-config-git
 adk-grub-dark-git
 adklinux-keyring-git
@@ -65,7 +66,6 @@ broadcom-wl-dkms
 btrfs-progs
 bubblewrap
 cabextract
-calamares
 capitaine-cursors
 caprine
 chaotic-keyring

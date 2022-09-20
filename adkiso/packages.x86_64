@@ -102,7 +102,7 @@ drkonqi
 e2fsprogs
 edk2-shell
 efibootmgr
-elinks
+#elinks
 espeakup
 ethtool
 exa

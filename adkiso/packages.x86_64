@@ -225,7 +225,7 @@ liburing
 libusb-compat
 libxinerama
 linux
-#linux-atm
+linux-atm
 linux-docs
 linux-firmware
 linux-firmware-marvell
@@ -381,9 +381,9 @@ uudeview
 variety
 vim
 virt-viewer
-virtualbox
-virtualbox-ext-oracle
-virtualbox-guest-iso
+#virtualbox
+#virtualbox-ext-oracle
+#virtualbox-guest-iso
 virtualbox-guest-utils
 vlc
 vpnc

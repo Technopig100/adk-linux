@@ -171,8 +171,8 @@ inkscape
 intel-ucode
 intltool
 iptables-nft
-ipw2100-fw
-ipw2200-fw
+#ipw2100-fw
+#ipw2200-fw
 irssi
 itstool
 jasper

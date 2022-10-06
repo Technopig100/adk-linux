@@ -316,7 +316,7 @@ pulseaudio-bluetooth
 pv
 python-pyparted
 python-xapp
-qemu-guest-agent
+#qemu-guest-agent
 qt5-svg
 qt5-virtualkeyboard
 qt5-xmlpatterns

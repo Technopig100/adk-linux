@@ -20,7 +20,7 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	#adkVersion='v22.05'
+	adkVersion='v22.05'
 
 	isoLabel='adk-'$(date +%Y.%m.%d)'-x86_64.iso'
 
@@ -32,8 +32,8 @@ echo
 
 	echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
-	#echo "Building version                       : "$adkVersion
-	#echo "Iso label                              : "$isoLabel
+	echo "Building version                       : "$adkVersion
+	echo "Iso label                              : "$isoLabel
 	echo "Do you have the right archiso version? : "$archisoVersion
 	echo "What is the required archiso version?  : "$archisoRequiredVersion
 	echo "Build folder                           : "$buildFolder
@@ -141,8 +141,6 @@ echo
 echo "################################################################## "
 tput setaf 2
 echo "Phase 4 :"
-#echo "- Deleting any files in /etc/skel"
-#echo "- Getting the last version of bashrc in /etc/skel"
 echo "- Removing the old packages.x86_64 file from build folder"
 echo "- Copying the new packages.x86_64 file to the build folder"
 echo "- Changing group for polkit folder"
@@ -150,23 +148,12 @@ tput sgr0
 echo "################################################################## "
 echo
 
-	#echo "Deleting any files in /etc/skel"
-	#rm -rf $buildFolder/archiso/airootfs/etc/skel/.* 2> /dev/null
-	#echo
-
-	#echo "Getting the last version of bashrc in /etc/skel"
-	#echo
-	#wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/etc/skel/.bashrc-latest -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
-
 	echo "Removing the old packages.x86_64 file from build folder"
 	rm $buildFolder/adkiso/packages.x86_64
 	echo
 	echo "Copying the new packages.x86_64 file to the build folder"
 	cp -f ../adkiso/packages.x86_64 $buildFolder/adkiso/packages.x86_64
 	echo
-	#echo "Changing group for polkit folder"
-	#sudo chgrp polkitd $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
-	#is not working so fixing this during calamares installation
 
 echo
 echo "################################################################## "

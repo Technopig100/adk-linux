@@ -20,7 +20,7 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	#adkVersion='v22.05'
+	adkVersion='v22.05'
 
 	isoLabel='adk-'$(date +%Y.%m.%d)'-x86_64.iso'
 
@@ -32,8 +32,8 @@ echo
 
 	echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
-	#echo "Building version                       : "$adkVersion
-	#echo "Iso label                              : "$isoLabel
+	echo "Building version                       : "$adkVersion
+	echo "Iso label                              : "$isoLabel
 	echo "Do you have the right archiso version? : "$archisoVersion
 	echo "What is the required archiso version?  : "$archisoRequiredVersion
 	echo "Build folder                           : "$buildFolder
@@ -141,8 +141,6 @@ echo
 echo "################################################################## "
 tput setaf 2
 echo "Phase 4 :"
-#echo "- Deleting any files in /etc/skel"
-#echo "- Getting the last version of bashrc in /etc/skel"
 echo "- Removing the old packages.x86_64 file from build folder"
 echo "- Copying the new packages.x86_64 file to the build folder"
 echo "- Changing group for polkit folder"
@@ -150,13 +148,6 @@ tput sgr0
 echo "################################################################## "
 echo
 
-	#echo "Deleting any files in /etc/skel"
-	#rm -rf $buildFolder/archiso/airootfs/etc/skel/.* 2> /dev/null
-	#echo
-
-	#echo "Getting the last version of bashrc in /etc/skel"
-	#echo
-	#wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/etc/skel/.bashrc-latest -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
 
 	echo "Removing the old packages.x86_64 file from build folder"
 	rm $buildFolder/adkiso/packages.x86_64
@@ -164,9 +155,6 @@ echo
 	echo "Copying the new packages.x86_64 file to the build folder"
 	cp -f ../adkiso/packages.x86_64 $buildFolder/adkiso/packages.x86_64
 	echo
-	#echo "Changing group for polkit folder"
-	#sudo chgrp polkitd $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
-	#is not working so fixing this during calamares installation
 
 echo
 echo "################################################################## "
@@ -187,12 +175,12 @@ echo
 	oldname2='iso_label="adk'
 	newname2='iso_label="adk'
 
-	oldname3='ADK'
-	newname3='ADK'
+	oldname3='ADK-Linux'
+	newname3='ADK-Linux'
 
 	#hostname
-	oldname4='ADK'
-	newname4='ADK'
+	oldname4='ADK-Linux'
+	newname4='ADK-Linux'
 
 	#sddm.conf user-session
 	oldname5='Session=plasma'
@@ -210,19 +198,6 @@ echo
 	date_build=$(date -d now)
 	echo "Iso build on : "$date_build
 	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/adkiso/airootfs/etc/dev-rel
-
-
-#echo
-#echo "################################################################## "
-#tput setaf 2
-#echo "Phase 6 :"
-#echo "- Cleaning the cache from /var/cache/pacman/pkg/"
-#tput sgr0
-#echo "################################################################## "
-#echo
-
-	#echo "Cleaning the cache from /var/cache/pacman/pkg/"
-	#yes | sudo pacman -Scc
 
 echo
 echo "################################################################## "
@@ -254,31 +229,13 @@ echo
 	echo "Creating checksums for : "$isoLabel
 	echo "##################################################################"
 	echo
-	#echo "Building sha1sum"
-	#echo "########################"
-	#sha1sum $isoLabel | tee $isoLabel.sha1
 	echo "Building sha256sum"
 	echo "########################"
 	sha256sum $isoLabel | tee $isoLabel.sha256
-	#echo "Building md5sum"
-	#echo "########################"
-	#md5sum $isoLabel | tee $isoLabel.md5
 	echo
 	echo "Moving pkglist.x86_64.txt"
 	echo "########################"
 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/$isoLabel".pkglist.txt"
-
-#echo
-#echo "##################################################################"
-#tput setaf 2
-#echo "Phase 9 :"
-#echo "- Making sure we start with a clean slate next time"
-#tput sgr0
-#echo "################################################################## "
-#echo
-
-	#echo "Deleting the build folder if one exists - takes some time"
-	#[ -d $buildFolder ] && sudo rm -rf $buildFolder
 
 echo
 echo "##################################################################"

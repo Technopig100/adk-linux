@@ -20,9 +20,9 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	adkVersion='v22.05'
+	adkVersion='v22.10'
 
-	isoLabel='adk-'$(date +%Y.%m.%d)'-x86_64.iso'
+	isoLabel='adk-linux-'$(date +%Y.%m)'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 67-1"
@@ -148,7 +148,6 @@ tput sgr0
 echo "################################################################## "
 echo
 
-
 	echo "Removing the old packages.x86_64 file from build folder"
 	rm $buildFolder/adkiso/packages.x86_64
 	echo
@@ -170,16 +169,16 @@ echo
 
 	#profiledef.sh
 	oldname1='iso_name="adk'
-	newname1='iso_name="adk'
+	newname1='iso_name="adk-linux'
 
 	oldname2='iso_label="adk'
-	newname2='iso_label="adk'
+	newname2='iso_label="adk-linux'
 
-	oldname3='ADK-Linux'
-	newname3='ADK-Linux'
+	oldname3='date_build'
+	newname3='ISO_BUILD='
 
 	#hostname
-	oldname4='ADK-Linux'
+	oldname4='hostname'
 	newname4='ADK-Linux'
 
 	#sddm.conf user-session
@@ -197,12 +196,12 @@ echo
 	echo "Adding time to /etc/dev-rel"
 	date_build=$(date -d now)
 	echo "Iso build on : "$date_build
-	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/adkiso/airootfs/etc/dev-rel
+	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/g" $buildFolder/adkiso/airootfs/etc/dev-rel
 
 echo
 echo "################################################################## "
 tput setaf 2
-echo "Phase 7 :"
+echo "Phase 6 :"
 echo "- Building the iso - this can take a while - be patient"
 tput sgr0
 echo "################################################################## "
@@ -217,7 +216,7 @@ echo
 echo
 echo "###################################################################"
 tput setaf 2
-echo "Phase 8 :"
+echo "Phase 7 :"
 echo "- Creating checksums"
 echo "- Copying pgklist"
 tput sgr0
@@ -236,6 +235,18 @@ echo
 	echo "Moving pkglist.x86_64.txt"
 	echo "########################"
 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/$isoLabel".pkglist.txt"
+
+echo
+echo "##################################################################"
+tput setaf 2
+echo "Phase 8 :"
+echo "- Making sure we start with a clean slate next time"
+tput sgr0
+echo "################################################################## "
+echo
+
+	echo "Deleting the build folder if one exists - takes some time"
+	[ -d $buildFolder ] && sudo rm -rf $buildFolder
 
 echo
 echo "##################################################################"

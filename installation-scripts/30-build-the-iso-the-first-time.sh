@@ -20,12 +20,12 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	adkVersion='v22.05'
+	adkVersion='v22.10'
 
-	isoLabel='adk-'$(date +%Y.%m.%d)'-x86_64.iso'
+	isoLabel='adk-linux-'$(date +%Y.%m)'-x86_64.iso'
 
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 66-1"
+	archisoRequiredVersion="archiso 67-1"
 	buildFolder=$HOME"/adk-build"
 	outFolder=$HOME"/ADK-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
@@ -169,17 +169,17 @@ echo
 
 	#profiledef.sh
 	oldname1='iso_name="adk'
-	newname1='iso_name="adk'
+	newname1='iso_name="adk-linux'
 
 	oldname2='iso_label="adk'
-	newname2='iso_label="adk'
+	newname2='iso_label="adk-linux'
 
-	oldname3='ADK'
-	newname3='ADK'
+	oldname3='date_build'
+	newname3='ISO_BUILD='
 
 	#hostname
-	oldname4='ADK'
-	newname4='ADK'
+	oldname4='hostname'
+	newname4='ADK-Linux'
 
 	#sddm.conf user-session
 	oldname5='Session=plasma'
@@ -196,11 +196,10 @@ echo
 	echo "Adding time to /etc/dev-rel"
 	date_build=$(date -d now)
 	echo "Iso build on : "$date_build
-	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/" $buildFolder/adkiso/airootfs/etc/dev-rel
-
+	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/g" $buildFolder/adkiso/airootfs/etc/dev-rel
 
 echo
-echo "###########################################################"
+echo "################################################################## "
 tput setaf 2
 echo "Phase 6 :"
 echo "- Cleaning the cache from /var/cache/pacman/pkg/"
@@ -229,7 +228,7 @@ echo
 echo
 echo "###################################################################"
 tput setaf 2
-echo "Phase 8 :"
+echo "Phase 7 :"
 echo "- Creating checksums"
 echo "- Copying pgklist"
 tput sgr0
@@ -248,11 +247,11 @@ echo
 	echo "Moving pkglist.x86_64.txt"
 	echo "########################"
 	cp $buildFolder/iso/arch/pkglist.x86_64.txt  $outFolder/$isoLabel".pkglist.txt"
-	
+
 echo
 echo "##################################################################"
 tput setaf 2
-echo "Phase 9 :"
+echo "Phase 8 :"
 echo "- Making sure we start with a clean slate next time"
 tput sgr0
 echo "################################################################## "

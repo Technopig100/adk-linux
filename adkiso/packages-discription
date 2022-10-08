@@ -1,0 +1,20 @@
+adk-updateinfo-git            = A means to inform the user of changes
+adk-calamares                 = The installer of ADK-Linux
+adk-calamares-config-git      = Configuration file for adk-calamares
+adk-grub-dark-git             = Dark grub theme for ADK-Linux
+adklinux-keyring-git          = Keyrings for ADK-Linux
+adk-mirrorlist-git            = Mirror list for ADK-Linux
+adk-neofetch-git              = A Neofetch for ADK made by ADK-Linux
+adk-sddm-sugar-candy-git      = SDDM theme for ADK-Linux
+adk-system-installation-git   = Desktop launcher for adk-calamares 
+adk-wallpaper-git             = A list of Mountain wallpapers
+adklinux-plasma-git           = .config and .local files for plasma
+adklinux-iso-config-git       = ADK-Linux iso (Branding) files
+adk-linux-root-git            = .bashrc files for ADK-Linux
+adk-dark-git                  = Dark icon theme
+aritim-dark-gtk-git           = Theme for gnome/gtk Applications in ADK-Linux
+aritim-dark-kde-git           = Plasma Theme for ADK-Linux    
+
+adk-bluetooth-enable-git      = Enable bluetooth
+adk-ssh-enable-git            = Enable SSH
+adk-printer-enable-git        = Enable Printer services

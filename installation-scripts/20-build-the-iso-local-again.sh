@@ -169,10 +169,10 @@ echo
 
 	#profiledef.sh
 	oldname1='iso_name="adk'
-	newname1='iso_name='$isoLabel
+	newname1='iso_name="adk-min'
 
-	oldname2='iso_label="adk'
-	newname2='iso_label='$isoLabel
+	oldname2='iso_label="adk-'
+	newname2='iso_label="adk-min'
 
 	oldname3='date_build'
 	newname3='ISO_BUILD='

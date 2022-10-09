@@ -171,7 +171,7 @@ echo
 	oldname1='iso_name="adk'
 	newname1='iso_name="adk-linux'
 
-	oldname2='iso_label="adk'
+	oldname2='iso_label="adk-'
 	newname2='iso_label="adk-linux'
 
 	oldname3='date_build'

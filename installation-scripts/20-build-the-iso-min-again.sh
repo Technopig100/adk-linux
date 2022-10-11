@@ -22,7 +22,7 @@ echo
 
 	adkVersion='v22.10'
 
-	isoLabel='adk-min-'$(date +%Y.%m)'-x86_64.iso'
+	isoLabel='adk-min-'$(date +%Y.%m.%d)'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 67-1"

@@ -707,6 +707,7 @@ p7zip
 pacman
 pacman-contrib
 pacman-mirrorlist
+pacseek
 pahole
 pam
 pambase
@@ -1032,4 +1033,4 @@ zsh-completions
 zsh-syntax-highlighting
 zstd
 zvbi
-zxing-cpp
+zxing-cppp

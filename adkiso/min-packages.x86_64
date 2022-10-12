@@ -113,9 +113,11 @@ irssi
 iw
 jfsutils
 kate
+kcalc
 kconfig
 kcoreaddons
 kdf
+kfind
 ki18n
 kinfocenter
 konsole
@@ -123,7 +125,7 @@ kpmcore
 kservice
 kwidgetsaddons
 laptop-detect
-latte-dock
+latte-dock-git
 less
 libdvdcss
 libfido2
@@ -233,7 +235,6 @@ sg3_utils
 smartmontools
 sof-firmware
 squashfs-tools
-squashfs-tools
 sudo
 syslinux
 system-config-printer
@@ -267,7 +268,7 @@ wmctrl
 wpa_supplicant
 wvdial
 xapp
-xdg-desktop-portal-gtk
+xdg-desktop-portal-kde
 xdg-user-dirs
 xf86-input-elographics
 xf86-input-evdev

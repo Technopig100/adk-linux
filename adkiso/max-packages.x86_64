@@ -59,6 +59,7 @@ cryptsetup
 cups
 cups-filters
 cups-pdf
+cups-pk-helper
 ddrescue
 dhclient
 dialog
@@ -99,6 +100,7 @@ gnome-notes
 gnu-netcat
 gpart
 gpm
+gpsd
 gptfdisk
 grub
 grub-btrfs
@@ -121,6 +123,7 @@ hdparm
 hw-probe
 hwinfo
 hyperv
+ibus
 imagemagick
 inkscape
 intel-ucode
@@ -140,6 +143,7 @@ ki18n
 kinfocenter
 konsole
 kpmcore
+kscreen
 kservice
 kwidgetsaddons
 laptop-detect
@@ -149,6 +153,7 @@ libdvdcss
 libfido2
 libgsf
 libmtp
+libnma-gtk4
 libopenraw
 libpwquality
 libusb-compat
@@ -213,6 +218,7 @@ openvpn
 orca
 os-prober
 p7zip
+packagekit-qt5
 pacseek
 pamac-aur
 pamac-tray-icon-plasma
@@ -244,6 +250,7 @@ pulseaudio-alsa
 pulseaudio-bluetooth
 pv
 python-pyparted
+python-pyqt5
 qt5-virtualkeyboard
 qt5-xmlpatterns
 qt5ct
@@ -255,6 +262,7 @@ ripgrep
 rootactions-servicemenu
 rp-pppoe
 rsync
+scim
 screen
 sddm
 sddm-kcm
@@ -300,6 +308,7 @@ wd719x-firmware
 webkit2gtk
 wget
 which
+wireless-regdb
 wmctrl
 wpa_supplicant
 wvdial
@@ -309,7 +318,6 @@ xdg-user-dirs
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
-xf86-input-synaptics
 xf86-input-vmmouse
 xf86-input-void
 xf86-video-amdgpu

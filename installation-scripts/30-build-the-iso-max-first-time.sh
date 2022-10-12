@@ -152,7 +152,7 @@ echo
 	rm $buildFolder/adkiso/packages.x86_64
 	echo
 	echo "Copying the new packages.x86_64 file to the build folder"
-	cp -f ../adkiso/packages.x86_64 $buildFolder/adkiso/packages.x86_64
+	cp -f ../adkiso/max-packages.x86_64 $buildFolder/adkiso/packages.x86_64
 	echo
 
 echo

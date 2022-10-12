@@ -125,7 +125,6 @@ inkscape
 intel-ucode
 inxi
 irssi
-iw
 jfsutils
 kcalc
 kconfig
@@ -299,8 +298,6 @@ wd719x-firmware
 webkit2gtk
 wget
 which
-wireless-regdb
-wireless_tools
 wmctrl
 wpa_supplicant
 wvdial

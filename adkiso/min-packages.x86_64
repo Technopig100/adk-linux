@@ -111,7 +111,6 @@ imagemagick
 intel-ucode
 inxi
 irssi
-iw
 jfsutils
 kate
 kcalc
@@ -265,8 +264,6 @@ vpnc
 wd719x-firmware
 webkit2gtk
 wget
-wireless-regdb
-wireless_tools
 wmctrl
 wpa_supplicant
 wvdial

@@ -1,4 +1,3 @@
-
 #broadcom-wl-dkms
 #gnome-disk-utility
 #gparted
@@ -117,6 +116,7 @@ kcalc
 kcalc
 kconfig
 kcoreaddons
+kdeplasma-addons
 kdf
 kfind
 ki18n

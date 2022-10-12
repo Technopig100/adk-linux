@@ -129,6 +129,7 @@ jfsutils
 kcalc
 kconfig
 kcoreaddons
+kdeplasma-addons
 kdf
 kfind
 kget
@@ -222,9 +223,9 @@ pavucontrol
 pcsclite
 pkgfile
 plasma-browser-integration
+plasma-desktop
 plasma-firewall
 plasma-framework
-plasma-desktop
 plasma-nm
 plasma-pa
 polkit

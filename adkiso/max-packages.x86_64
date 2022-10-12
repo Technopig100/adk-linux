@@ -1,6 +1,7 @@
 #broadcom-wl-dkms
 #gnome-disk-utility
 #gparted
+#nextcloud-client
 #qemu-guest-agent
 #virtualbox
 #virtualbox-ext-oracle
@@ -192,7 +193,6 @@ networkmanager-openconnect
 networkmanager-openvpn
 networkmanager-pptp
 networkmanager-vpnc
-nextcloud-client
 nfs-utils
 nilfs-utils
 noto-fonts

@@ -127,7 +127,6 @@ inxi
 irssi
 iw
 jfsutils
-kate
 kcalc
 kconfig
 kcoreaddons
@@ -227,6 +226,7 @@ plasma-browser-integration
 plasma-firewall
 plasma-framework
 plasma-meta
+plasma-nm
 plasma-pa
 polkit
 polkit-kde-agent
@@ -246,7 +246,6 @@ python-pyparted
 qt5-virtualkeyboard
 qt5-xmlpatterns
 qt5ct
-ranger
 rate-mirrors
 refind
 reflector

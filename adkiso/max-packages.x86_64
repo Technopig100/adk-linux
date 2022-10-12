@@ -14,7 +14,6 @@ adk-grub-dark-git
 adk-linux-root-git
 adk-mirrorlist-git
 adk-neofetch-git
-adk-plasma-git
 adk-printer-enable-git
 adk-sddm-sugar-candy-git
 adk-ssh-enable-git
@@ -23,6 +22,7 @@ adk-updateinfo-git
 adk-wallpaper-git
 adklinux-iso-config-git
 adklinux-keyring-git
+adklinux-plasma-git
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts

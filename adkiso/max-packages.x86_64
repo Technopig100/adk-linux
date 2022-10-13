@@ -1,8 +1,11 @@
+
 #broadcom-wl-dkms
 #gnome-disk-utility
 #gparted
 #nextcloud-client
-#qemu-guest-agent
+#nvidia-dkms
+#nvidia-settings
+#nvidia-utils
 #virtualbox
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
@@ -203,9 +206,6 @@ nss-mdns
 ntfs-3g
 ntp
 numlockx
-nvidia-dkms
-nvidia-settings
-nvidia-utils
 nvme-cli
 open-iscsi
 open-vm-tools
@@ -249,6 +249,7 @@ pulseaudio-bluetooth
 pv
 python-pyparted
 python-pyqt5
+qemu-guest-agent
 qt5-virtualkeyboard
 qt5-xmlpatterns
 qt5ct
@@ -271,6 +272,7 @@ skanlite
 smartmontools
 sof-firmware
 spectacle
+spice-vdagent
 squashfs-tools
 sublime-text-4
 sudo

@@ -1,0 +1,2 @@
+alias BMax='cd /home/min/.DATA/adk-linux/installation-scripts/ && ./40-build-the-iso-max-again.sh'
+alias BMin='cd /home/min/.DATA/adk-linux/installation-scripts/ && ./20-build-the-iso-min-again.sh'

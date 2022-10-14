@@ -1,4 +1,6 @@
+#arcolinux-conky-collection-plasma-git
 #broadcom-wl-dkms
+#conky-lua-archers
 #gnome-disk-utility
 #gparted
 #nextcloud-client
@@ -34,6 +36,7 @@ alsa-utils
 amd-ucode
 appstream
 arch-install-scripts
+arcolinux-keyrings
 aritim-dark-gtk-git
 aritim-dark-kde-git
 ark

@@ -1,4 +1,3 @@
-
 #broadcom-wl-dkms
 #gnome-disk-utility
 #gparted
@@ -90,7 +89,6 @@ fatresize
 feh
 ffmpegthumbnailer
 firefox
-firewalld
 freetype2
 fsarchiver
 ghostscript
@@ -146,6 +144,7 @@ konsole
 kpmcore
 kscreen
 kservice
+kwallet-pam
 kwidgetsaddons
 laptop-detect
 latte-dock-git
@@ -291,6 +290,8 @@ tumbler
 udftools
 udiskie
 udisks2
+ufw
+ufw-extras
 unace
 unrar
 unzip

@@ -131,7 +131,6 @@ jfsutils
 kaccounts-providers
 kate
 kcalc
-kcalc
 kconfig
 kcoreaddons
 kdeplasma-addons
@@ -145,6 +144,8 @@ konsole
 kpmcore
 kscreen
 kservice
+ksystemlog
+ksytemstat
 kwallet-pam
 kwidgetsaddons
 laptop-detect

@@ -1,8 +1,13 @@
+#arcolinux-conky-collection-plasma-git
 #broadcom-wl-dkms
+#conky-lua-archers
 #gnome-disk-utility
 #gparted
+#ksystemlog
+#ksytemstat
 #nextcloud-client
 #qemu-guest-agent
+#systemdgenie
 #virtualbox
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
@@ -270,7 +275,6 @@ sudo
 sweeper
 syslinux
 system-config-printer
-systemdgenie
 tcpdump
 terminus-font
 testdisk

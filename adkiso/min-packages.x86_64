@@ -2,9 +2,11 @@
 #gnome-disk-utility
 #gparted
 #nextcloud-client
+#qemu-guest-agent
 #virtualbox
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
+#virtualbox-guest-utils
 accountsservice
 adk-calamares
 adk-dark-git
@@ -240,7 +242,6 @@ pulseaudio-bluetooth
 pv
 python-pyparted
 python-pyqt5
-qemu-guest-agent
 qt5-virtualkeyboard
 qt5-xmlpatterns
 qt5ct
@@ -290,7 +291,6 @@ usb_modeswitch
 usbmuxd
 usbutils
 variety
-virtualbox-guest-utils
 vlc
 vpnc
 wd719x-firmware

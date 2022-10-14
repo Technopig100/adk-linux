@@ -2,12 +2,10 @@
 #gnome-disk-utility
 #gparted
 #nextcloud-client
-#qemu-guest-agent
 #virtualbox
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
 accountsservice
-adk-bluetooth-enable-git
 adk-calamares
 adk-dark-git
 adk-grub-dark-git
@@ -17,9 +15,7 @@ adk-min-plasma-git
 adk-min-wallpaper-git
 adk-mirrorlist-git
 adk-neofetch-git
-adk-printer-enable-git
 adk-sddm-sugar-candy-git
-adk-ssh-enable-git
 adk-system-installation-git
 adk-updateinfo-git
 adklinux-iso-config-git
@@ -85,7 +81,6 @@ fatresize
 feh
 ffmpegthumbnailer
 firefox
-firewalld
 freetype2
 fsarchiver
 ghostscript
@@ -140,6 +135,7 @@ konsole
 kpmcore
 kscreen
 kservice
+kwallet-pam
 kwidgetsaddons
 laptop-detect
 latte-dock-git
@@ -244,6 +240,7 @@ pulseaudio-bluetooth
 pv
 python-pyparted
 python-pyqt5
+qemu-guest-agent
 qt5-virtualkeyboard
 qt5-xmlpatterns
 qt5ct
@@ -265,6 +262,7 @@ sg3_utils
 skanlite
 smartmontools
 sof-firmware
+spice-vdagent
 squashfs-tools
 sudo
 sweeper
@@ -281,6 +279,8 @@ tumbler
 udftools
 udiskie
 udisks2
+ufw
+ufw-extras
 unace
 unrar
 unzip

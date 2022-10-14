@@ -2,14 +2,10 @@
 #gnome-disk-utility
 #gparted
 #nextcloud-client
-#nvidia-dkms
-#nvidia-settings
-#nvidia-utils
 #virtualbox
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
 accountsservice
-#adk-bluetooth-enable-git
 adk-calamares
 adk-calamares-config-git
 adk-dark-git
@@ -17,9 +13,7 @@ adk-grub-dark-git
 adk-linux-root-git
 adk-mirrorlist-git
 adk-neofetch-git
-#adk-printer-enable-git
 adk-sddm-sugar-candy-git
-#adk-ssh-enable-git
 adk-system-installation-git
 adk-updateinfo-git
 adk-wallpaper-git
@@ -130,6 +124,8 @@ inxi
 irssi
 jfsutils
 kaccounts-providers
+kate
+kcalc
 kcalc
 kconfig
 kcoreaddons
@@ -205,6 +201,9 @@ nss-mdns
 ntfs-3g
 ntp
 numlockx
+nvidia-dkms
+nvidia-settings
+nvidia-utils
 nvme-cli
 open-iscsi
 open-vm-tools

@@ -1,14 +1,9 @@
 #arcolinux-conky-collection-plasma-git
-#broadcom-wl-dkms
 #conky-lua-archers
-#gnome-disk-utility
-#gparted
-#nextcloud-client
 #qemu-guest-agent
 #virtualbox
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
-#virtualbox-guest-utils
 accountsservice
 adk-calamares
 adk-calamares-config-git
@@ -37,6 +32,7 @@ amd-ucode
 appstream
 arch-install-scripts
 arcolinux-keyring
+arcolinux-mirrorlist-git
 aritim-dark-gtk-git
 aritim-dark-kde-git
 ark
@@ -95,6 +91,7 @@ gimp
 git
 gksu
 glances
+gnome-disk-utility
 gnome-keyring
 gnome-notes
 gnu-netcat
@@ -226,7 +223,6 @@ pamac-tray-icon-plasma
 partclone
 parted
 partimage
-partitionmanager
 pavucontrol
 pcsclite
 pkgfile
@@ -305,6 +301,7 @@ usbmuxd
 usbutils
 variety
 virt-viewer
+virtualbox-guest-utils
 vlc
 vpnc
 wd719x-firmware

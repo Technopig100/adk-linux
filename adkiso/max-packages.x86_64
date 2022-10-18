@@ -4,7 +4,7 @@
 #virtualbox
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
-#virtualbox-guest-utils
+virtualbox-guest-utils
 accountsservice
 adk-calamares
 adk-calamares-config-git

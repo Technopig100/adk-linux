@@ -1,12 +1,13 @@
 #arcolinux-conky-collection-plasma-git
 #caprine
+#catfish
 #conky-lua-archers
 #discord
+#filezilla
 #gimp
 #gnome-disk-utility
 #gnome-notes
 #inkscape
-#kfind
 #kget
 #ksystemlog
 #ksytemstat
@@ -21,6 +22,7 @@
 #virtualbox
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
+virtualbox-guest-utils
 accountsservice
 adk-calamares
 adk-dark-git
@@ -299,7 +301,6 @@ upower
 usb_modeswitch
 usbmuxd
 usbutils
-virtualbox-guest-utils
 vlc
 vpnc
 wd719x-firmware

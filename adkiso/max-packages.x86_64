@@ -4,6 +4,7 @@
 #virtualbox
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
+#virtualbox-guest-utils
 accountsservice
 adk-calamares
 adk-calamares-config-git
@@ -49,6 +50,7 @@ bluez-utils
 boost-libs
 btrfs-progs
 caprine
+catfish
 chaotic-keyring
 chaotic-mirrorlist
 ckbcomp
@@ -83,6 +85,7 @@ f2fs-tools
 fatresize
 feh
 ffmpegthumbnailer
+filezilla
 firefox
 freetype2
 fsarchiver
@@ -132,7 +135,6 @@ kconfig
 kcoreaddons
 kdeplasma-addons
 kdf
-kfind
 kget
 kgpg
 ki18n
@@ -301,7 +303,6 @@ usbmuxd
 usbutils
 variety
 virt-viewer
-virtualbox-guest-utils
 vlc
 vpnc
 wd719x-firmware

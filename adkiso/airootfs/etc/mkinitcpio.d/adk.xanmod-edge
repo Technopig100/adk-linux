@@ -1,8 +1,0 @@
-# mkinitcpio preset file for the 'linux' package on adkiso
-
-PRESETS=('adkiso')
-
-ALL_kver='/boot/vmlinuz-linux-xanmod-edge'
-ALL_config='/etc/mkinitcpio.conf'
-
-adkiso_image="/boot/vmlinuz-linux-xanmod-edge"

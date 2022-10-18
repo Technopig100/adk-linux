@@ -13,7 +13,8 @@ echo "- Setting General parameters"
 tput sgr0
 echo "################################################################## "
 echo
-
+    ## enlarge tmp folder for building
+    sudo mount -o remount,size=9G,noatime /tmp
 	#Let us set the desktop"
 	#First letter of desktop is small letter
 
@@ -26,7 +27,7 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 67-1"
-	buildFolder=$HOME"/adk-build"
+	buildFolder='/tmp/adkiso-tmp'
 	outFolder=$HOME"/ADK-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 

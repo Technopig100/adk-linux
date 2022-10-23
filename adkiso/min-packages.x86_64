@@ -33,7 +33,6 @@
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
 accountsservice
-calamares
 adk-dark-git
 adk-grub-dark-git
 adk-linux-root-git
@@ -71,6 +70,7 @@ bluez-libs
 bluez-utils
 boost-libs
 btrfs-progs
+calamares
 chaotic-keyring
 chaotic-mirrorlist
 ckbcomp

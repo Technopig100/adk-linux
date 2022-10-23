@@ -33,7 +33,7 @@
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
 accountsservice
-adk-calamares
+calamares
 adk-dark-git
 adk-grub-dark-git
 adk-linux-root-git

@@ -1,10 +1,8 @@
 #arcolinux-conky-collection-plasma-git
 #conky-lua-archers
-#qemu-guest-agent
 #virtualbox
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
-virtualbox-guest-utils
 accountsservice
 adk-calamares
 adk-calamares-config-git
@@ -250,6 +248,7 @@ pulseaudio-bluetooth
 pv
 python-pyparted
 python-pyqt5
+qemu-guest-agent
 qt5-virtualkeyboard
 qt5-xmlpatterns
 qt5ct
@@ -303,6 +302,7 @@ usbmuxd
 usbutils
 variety
 virt-viewer
+virtualbox-guest-utils
 vlc
 vpnc
 wd719x-firmware

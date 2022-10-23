@@ -25,7 +25,6 @@
 #mc
 #meld
 #mintstick
-#qemu-guest-agent
 #sublime-text-4
 #systemdgenie
 #variety
@@ -252,6 +251,7 @@ pulseaudio-bluetooth
 pv
 python-pyparted
 python-pyqt5
+qemu-guest-agent
 qt5-virtualkeyboard
 qt5-xmlpatterns
 qt5ct

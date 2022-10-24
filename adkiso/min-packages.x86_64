@@ -70,7 +70,7 @@ bluez-libs
 bluez-utils
 boost-libs
 btrfs-progs
-calamares
+calamares-git
 chaotic-keyring
 chaotic-mirrorlist
 ckbcomp

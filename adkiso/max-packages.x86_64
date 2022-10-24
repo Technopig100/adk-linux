@@ -4,7 +4,6 @@
 #virtualbox-ext-oracle
 #virtualbox-guest-iso
 accountsservice
-calamares
 adk-calamares-config-git
 adk-dark-git
 adk-grub-dark-git
@@ -47,6 +46,7 @@ bluez-libs
 bluez-utils
 boost-libs
 btrfs-progs
+calamares-git
 caprine
 catfish
 chaotic-keyring

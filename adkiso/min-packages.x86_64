@@ -108,7 +108,7 @@ freetype2
 fsarchiver
 ghostscript
 git
-gksu
+gtksu-git
 gnome-keyring
 gnu-netcat
 gpart

@@ -90,7 +90,7 @@ fsarchiver
 ghostscript
 gimp
 git
-gksu
+gtksu-git
 glances
 gnome-disk-utility
 gnome-keyring

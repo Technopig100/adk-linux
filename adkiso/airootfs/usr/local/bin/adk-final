@@ -49,6 +49,11 @@ echo "Permission of root"
 echo "#################################"
 chmod -v 750 /root
 
+cho "#################################"
+echo "Refreshing DataBase"
+echo "#################################"
+pacman -Syy
+
 echo "#################################"
 echo "End adk-final"
 echo "#################################"

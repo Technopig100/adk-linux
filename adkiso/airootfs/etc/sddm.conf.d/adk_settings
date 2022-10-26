@@ -12,3 +12,8 @@ RebootCommand=/usr/bin/systemctl reboot
 Current=adk-sugar-candy
 CursorTheme=Oxygen_White
 Font=Noto Sans,10,-1,0,50,0,0,0,0,0
+
+[XDisplay]
+# Xsetup script path
+# A script to execute when starting the display server
+DisplayCommand=/usr/share/sddm/scripts/Xsetup

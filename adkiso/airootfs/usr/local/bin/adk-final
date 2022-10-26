@@ -9,8 +9,8 @@ echo "#################################"
 chmod 750 /etc/sudoers.d
 chmod 750 /etc/polkit-1/rules.d
 chmod +x /usr/local/bin/fix-pacman-databases-and-keys.sh
-chmod 755 /usr/share/sddm/Xsetup
-chmod +x /usr/share/sddm/Xsetup
+chmod 755 /usr/share/sddm/scripts/Xsetup
+chmod +x /usr/share/sddm/scripts/Xsetup
 chgrp polkitd /etc/polkit-1/rules.d
 
 echo "Copy /etc/skel to /root"

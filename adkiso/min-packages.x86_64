@@ -108,7 +108,6 @@ freetype2
 fsarchiver
 ghostscript
 git
-gtksu-git
 gnome-keyring
 gnu-netcat
 gpart
@@ -121,6 +120,7 @@ gst-libav
 gst-plugins-good
 gstreamer
 gtk3-print-backends
+gtksu-git
 gutenprint
 gvfs
 gvfs-afc
@@ -299,6 +299,7 @@ upower
 usb_modeswitch
 usbmuxd
 usbutils
+variety
 virtualbox-guest-utils
 vlc
 vpnc

@@ -1,3 +1,4 @@
+
 #xf86-input-elographics
 #xf86-input-void
 accountsservice
@@ -20,6 +21,7 @@ alsa-lib
 alsa-plugins
 alsa-utils
 amd-ucode
+arch-install-scripts
 arcolinux-keyring
 arcolinux-mirrorlist-git
 aritim-dark-gtk-git

@@ -133,6 +133,8 @@ less
 libdvdcss
 libfido2
 libgsf
+libktorrent
+libmms
 libmtp
 libnma-gtk4
 libopenraw

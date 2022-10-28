@@ -6,9 +6,9 @@ adk-calamares
 adk-dark-git
 adk-grub-dark-git
 adk-linux-root-git
-adk-min-calamares-config-git
-adk-min-plasma-git
-adk-min-wallpaper-git
+adk-calamares-config-git
+adk-plasma-git
+adk-wallpaper-git
 adk-mirrorlist-git
 adk-neofetch-git
 adk-sddm-sugar-candy-git

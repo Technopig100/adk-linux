@@ -29,7 +29,7 @@ brltty
 broadcom-wl
 btrfs-progs
 chaotic-keyring
-chaotic-mirrorlist\
+chaotic-mirrorlist
 cryptsetup
 cups
 cups-pdf
@@ -70,7 +70,7 @@ hyperv
 intel-ucode
 irssi
 jfsutils
-kaccount-providers
+kaccounts-providers
 kate
 kdeplasma-addons
 kdf
@@ -105,8 +105,8 @@ modemmanager
 mtools
 nano
 nbd
-ndisc6
-networkmanager 
+ndisc6 
+networkmanager
 nfs-utils
 nilfs-utils
 nmap

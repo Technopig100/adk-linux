@@ -131,7 +131,7 @@ plasma-desktop
 plasma-firewall
 plasma-nm
 plasma-pa
-power-profile-daemon
+power-profiles-daemon
 powerdevil
 ppp
 pptpclient
@@ -190,7 +190,7 @@ xf86-video-nouveau
 xf86-video-vmware
 xfsprogs
 xl2tpd
-xorg-init
+xorg-xinit
 xorg-server
 yay
 zsh

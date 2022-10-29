@@ -106,6 +106,7 @@ mtools
 nano
 nbd
 ndisc6
+linux-headers
 networkmanager
 nfs-utils
 nilfs-utils

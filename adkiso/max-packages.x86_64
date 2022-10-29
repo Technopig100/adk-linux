@@ -276,6 +276,7 @@ usb_modeswitch
 usbmuxd
 usbutils
 variety
+virt-viewer
 virtualbox-guest-utils
 vlc
 vpnc

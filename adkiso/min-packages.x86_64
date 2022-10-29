@@ -11,6 +11,7 @@ adk-sddm-sugar-candy-git
 adk-system-installation-git
 adklinux-iso-config-git
 adklinux-keyring-git
+aic94xx-firmware
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -20,8 +21,8 @@ arcolinux-mirrorlist-git
 aritim-dark-gtk-git
 aritim-dark-kde-git
 avahi
-b43-fwcutter
 base
+bash-completion
 bat
 bind
 bluedevil
@@ -37,11 +38,9 @@ cups-pk-helper
 darkhttpd
 ddrescue
 dhclient
-dhcpcd
-diffutils
+dialog
 dmidecode
 dmraid
-dnsmasq
 dolphin
 dosfstools
 dragon
@@ -91,9 +90,10 @@ linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
-livecd-sounds
+linux-firmware-qlogic
+linux-firmware-whence
+linux-headers
 lsscsi
-lynx
 man-db
 man-pages
 mdadm
@@ -106,7 +106,6 @@ mtools
 nano
 nbd
 ndisc6
-linux-headers
 networkmanager
 nfs-utils
 nilfs-utils
@@ -124,6 +123,8 @@ openssh
 orca
 os-prober
 packagekit-qt5
+pamac-aur
+pamac-tray-icon-plasma
 partclone
 parted
 partimage
@@ -136,6 +137,7 @@ power-profiles-daemon
 powerdevil
 ppp
 pptpclient
+print-manager
 pulseaudio-alsa
 pulseaudio-bluetooth
 purpose
@@ -171,6 +173,7 @@ tpm2-tss
 udftools
 ufw
 ufw-extras
+upd72020x-fw
 usb_modeswitch
 usbmuxd
 usbutils
@@ -178,6 +181,7 @@ variety
 virtualbox-guest-utils
 vlc
 vpnc
+wd719x-firmware
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -191,7 +195,7 @@ xf86-video-nouveau
 xf86-video-vmware
 xfsprogs
 xl2tpd
-xorg-xinit
 xorg-server
+xorg-xinit
 yay
 zsh

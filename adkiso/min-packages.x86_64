@@ -12,6 +12,8 @@ adk-system-installation-git
 adklinux-iso-config-git
 adklinux-keyring-git
 aic94xx-firmware
+alsa-firmware
+alsa-firmware
 alsa-utils
 amd-ucode
 arch-install-scripts

@@ -57,6 +57,7 @@ efibootmgr
 espeakup
 ethtool
 exfatprogs
+expac
 f2fs-tools
 fatresize
 filezilla
@@ -76,6 +77,7 @@ gvfs-smb
 hdparm
 hunspell
 hunspell-en_US
+hwinfo
 hyperv
 intel-ucode
 irssi

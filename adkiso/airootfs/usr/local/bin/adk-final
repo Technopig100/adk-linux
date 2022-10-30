@@ -36,7 +36,7 @@ rm -f /usr/bin/calamares_polkit
 rm -f /etc/xdg/autostart/calamares.desktop
 rm -f /root/Desktop/calamares.desktop
 rm -f /etc/sddm.conf.d/autologin.conf
-rm -r /etc/systemd/system/etc-pacman.d-gnupg.mount
+#rm -r /etc/systemd/system/etc-pacman.d-gnupg.mount
 #rm -f /etc/pacman.d/hooks/avahi.hook
 #rm -f /etc/pacman.d/hooks/cups.hook
 rm /root/{.automated_script.sh,.zlogin}

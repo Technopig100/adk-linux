@@ -64,6 +64,7 @@ firefox
 fsarchiver
 gimp
 gnome-disk-utility
+gnome-keyring
 gnu-netcat
 gpart
 gpm
@@ -84,6 +85,7 @@ kate
 kcalc
 kdeplasma-addons
 kdf
+kgamma5
 kget
 kgpg
 kinfocenter
@@ -94,9 +96,11 @@ laptop-detect
 latte-dock-git
 less
 lftp
+libappindicator-gtk3
 libfido2
 libktorrent
 libmms
+libsecret
 libusb-compat
 linux
 linux-atm

@@ -162,7 +162,6 @@ rate-mirrors
 refind
 reflector
 reiserfsprogs
-remote-viewer
 rootactions-servicemenu
 rp-pppoe
 rsync
@@ -196,6 +195,7 @@ usb_modeswitch
 usbmuxd
 usbutils
 variety
+virt-viewer
 virtualbox-guest-utils
 vlc
 vpnc

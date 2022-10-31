@@ -4,4 +4,4 @@
 sh /usr/local/bin/fix-pacman-databases-and-keys.sh > /dev/tty1 2>&1
 
 
-rm -f /usr/share/sddm/scripts/Xsetup > /dev/tty1 2>&1
+rm -f /usr/share/sddm/scripts/Xsetup

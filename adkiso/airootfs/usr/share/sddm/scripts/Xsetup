@@ -1,4 +1,4 @@
 #!/bin/sh
 # Xsetup - run as root before the login dialog appears
-## sh /usr/local/bin/fix-pacman-databases-and-keys.sh
-## rm -f /usr/share/sddm/scripts/Xsetup
+sh /usr/local/bin/fix-pacman-databases-and-keys.sh
+rm -f /usr/share/sddm/scripts/Xsetup

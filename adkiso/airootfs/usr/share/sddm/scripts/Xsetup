@@ -1,5 +1,5 @@
 #!/bin/sh
 # Xsetup - run as root before the login dialog appears
-## wait & pacman -Syy --noconfirm --color=auto > /dev/tty1 2>&1 & rm -f /usr/share/sddm/scripts/Xsetup > /dev/tty1 2>&1 & rm -f /usr/share/sddm/scripts/Xsetup > /dev/tty1 2>&1
-## sh /usr/local/bin/fix-pacman-databases-and-keys.sh > /dev/tty1 2>&1
-## rm -f /usr/share/sddm/scripts/Xsetup
+sh /usr/local/bin/fix-pacman-databases-and-keys.sh
+## > /dev/tty1 2>&1
+rm -f /usr/share/sddm/scripts/Xsetup

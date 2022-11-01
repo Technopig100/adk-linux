@@ -121,11 +121,10 @@ meld
 memtest86+
 mintstick
 mkinitcpio
-mkinitcpio-btrfs
-mkinitcpio-firmware
-mkinitcpio-utils
 mkinitcpio-archiso
+mkinitcpio-firmware
 mkinitcpio-nfs-utils
+mkinitcpio-utils
 modemmanager
 mtools
 nano

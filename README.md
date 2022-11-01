@@ -1,4 +1,4 @@
-## ADK-Linux Iso build
+## ADK-Linux Iso builder
 
 Adk-linux is a Arch-Linux based ISO created by Technopig a student of Erik Dubois.
 
@@ -15,7 +15,7 @@ GNU GPL v3
 
 In this repository you'll find:
 
--  ADK-Linux ISO Builder
+-  ADK-Linux ISO Builder for ADK-Linux and ADK-Min!
 
 To build you will need to install:
 

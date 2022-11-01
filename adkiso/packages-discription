@@ -9,12 +9,8 @@ adk-sddm-sugar-candy-git      = SDDM theme for ADK-Linux
 adk-system-installation-git   = Desktop launcher for adk-calamares 
 adk-wallpaper-git             = A list of Mountain wallpapers
 adklinux-plasma-git           = .config and .local files for plasma
-adklinux-iso-config-git       = ADK-Linux iso (Branding) files
+adk-branding-config-git       = ADK-Linux iso (Branding) files
 adk-linux-root-git            = .bashrc files for ADK-Linux
-adk-dark-git                  = Dark icon theme
+adk-dark-git                  = Dark icon theme for ADK-Linux
 aritim-dark-gtk-git           = Theme for gnome/gtk Applications in ADK-Linux
-aritim-dark-kde-git           = Plasma Theme for ADK-Linux    
-
-adk-bluetooth-enable-git      = Enable bluetooth
-adk-ssh-enable-git            = Enable SSH
-adk-printer-enable-git        = Enable Printer services
+aritim-dark-kde-git           = Plasma Theme for ADK-Linux

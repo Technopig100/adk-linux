@@ -1,4 +1,7 @@
 #!/bin/sh
 # Xsetup - run as root before the login dialog appears
-## sh /usr/local/bin/fix-pacman-databases-and-keys.sh
-## rm -f /usr/share/sddm/scripts/Xsetup
+for next in $(xrandr --listmonitors | grep -E " *[0-9]+:.*" | cut -d" " -f6); do
+  [ -z "$current" ] && current=$next && continue
+  xrandr --output $current --auto --output $next --auto --right-of $current
+  current=$next
+done

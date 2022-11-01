@@ -111,7 +111,6 @@ memtest86+
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
-mkinitcpio-openswap
 modemmanager
 mtools
 nano

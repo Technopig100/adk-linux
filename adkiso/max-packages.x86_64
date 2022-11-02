@@ -1,3 +1,4 @@
+kwallet-pam
 adk-branding-config-git
 adk-calamares
 adk-calamares-config-git
@@ -94,7 +95,6 @@ kinfocenter
 kitty-terminfo
 konsole
 kscreen
-kwallet-pam
 laptop-detect
 latte-dock-git
 less
@@ -122,9 +122,7 @@ memtest86+
 mintstick
 mkinitcpio
 mkinitcpio-archiso
-mkinitcpio-firmware
 mkinitcpio-nfs-utils
-mkinitcpio-utils
 modemmanager
 mtools
 nano

@@ -5,4 +5,4 @@ PRESETS=('adkiso')
 ALL_kver='/boot/vmlinuz-linux'
 ALL_config='/etc/mkinitcpio.conf'
 
-adkiso_image="/boot/inittmpfs-linux.img"
+adkiso_image="/boot/initramfs-linux.img"

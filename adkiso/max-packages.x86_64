@@ -124,6 +124,7 @@ mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-firmware
 mkinitcpio-nfs-utils
+mkinitcpio-utils
 modemmanager
 mtools
 nano

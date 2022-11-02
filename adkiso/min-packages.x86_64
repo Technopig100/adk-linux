@@ -2,6 +2,7 @@ adk-branding-config-git
 adk-calamares
 adk-dark-git
 adk-grub-dark-git
+adk-linux-keyring-git
 adk-linux-root-git
 adk-min-calamares-config-git
 adk-min-plasma-git
@@ -10,7 +11,6 @@ adk-mirrorlist-git
 adk-neofetch-git
 adk-sddm-sugar-candy-git
 adk-system-installation-git
-adklinux-keyring-git
 aic94xx-firmware
 alsa-firmware
 alsa-firmware

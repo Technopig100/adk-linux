@@ -13,7 +13,6 @@ adk-system-installation-git
 adk-wallpaper-git
 aic94xx-firmware
 alsa-firmware
-alsa-firmware
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -28,7 +27,6 @@ base
 base-devel
 bash-completion
 bat
-bind
 bluedevil
 brltty
 broadcom-wl
@@ -70,7 +68,6 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
-grml-zsh-config
 grub
 grub-btrfs
 gvfs-smb
@@ -85,14 +82,12 @@ jfsutils
 kaccounts-providers
 kate
 kcalc
-kcm-polkit-kde-git
 kdeplasma-addons
 kdf
 kgamma5
 kget
 kgpg
 kinfocenter
-kitty-terminfo
 konsole
 kscreen
 kwallet-pam

@@ -13,7 +13,6 @@ adk-sddm-sugar-candy-git
 adk-system-installation-git
 aic94xx-firmware
 alsa-firmware
-alsa-firmware
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -26,7 +25,6 @@ avahi
 base
 bash-completion
 bat
-bind
 bluedevil
 brltty
 broadcom-wl
@@ -46,6 +44,7 @@ dmraid
 dolphin
 dosfstools
 dragon
+duf
 e2fsprogs
 edk2-shell
 efibootmgr
@@ -62,7 +61,6 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
-grml-zsh-config
 grub
 grub-btrfs
 gvfs-smb
@@ -81,7 +79,6 @@ kdf
 kgamma5
 kget
 kinfocenter
-kitty-terminfo
 konsole
 kscreen
 kwallet-pam
@@ -93,7 +90,6 @@ libappindicator-gtk3
 libfido2
 libktorrent
 libmms
-libsecret
 libsecret
 libusb-compat
 linux

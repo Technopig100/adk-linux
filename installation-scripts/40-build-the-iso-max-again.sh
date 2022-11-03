@@ -20,9 +20,9 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	adkVersion='v22.10'
+	adkVersion='v22.11'
 
-	isoLabel='adk-linux-'$(date +%Y.%m.%d)'-x86_64.iso'
+	isoLabel='adk-linux-'$(date +%Y.%m)-01'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 68-1"

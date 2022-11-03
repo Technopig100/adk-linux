@@ -2,10 +2,10 @@
 # shellcheck disable=SC2034
 
 iso_name="adk"
-iso_label="adk-$(date +%Y.%m.%d)"
+iso_label="adk-$(date +%Y.%m)-01"
 iso_publisher="ADK Linux <https://github.com/Technopig100>"
 iso_application="ADK Linux Live/Rescue CD"
-iso_version="$(date +%Y.%m.%d)"
+iso_version="$(date +%Y.%m)-01"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'

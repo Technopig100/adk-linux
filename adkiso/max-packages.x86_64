@@ -74,6 +74,7 @@ gvfs-smb
 hdparm
 hunspell
 hunspell-en_US
+hw-probe
 hwinfo
 hyperv
 intel-ucode
@@ -90,6 +91,7 @@ kgpg
 kinfocenter
 konsole
 kscreen
+ksysguard
 kwallet-pam
 laptop-detect
 latte-dock-git

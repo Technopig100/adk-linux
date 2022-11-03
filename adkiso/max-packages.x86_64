@@ -85,6 +85,7 @@ jfsutils
 kaccounts-providers
 kate
 kcalc
+kcm-polkit-kde-git
 kdeplasma-addons
 kdf
 kgamma5
@@ -188,8 +189,8 @@ sublime-text-4
 sudo
 syslinux
 system-config-printer
+systemd-kcm
 systemd-resolvconf
-systemdgenie
 tcpdump
 terminus-font
 testdisk

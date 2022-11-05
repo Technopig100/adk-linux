@@ -63,6 +63,8 @@ gpm
 gptfdisk
 grub
 grub-btrfs
+gst-plugins-bad
+gst-plugins-good
 gvfs-smb
 hdparm
 hunspell
@@ -74,12 +76,14 @@ intel-ucode
 irssi
 jfsutils
 kaccounts-providers
+kamoso
 kate
 kdeplasma-addons
 kdf
 kgamma5
 kget
 kinfocenter
+kirigami2
 konsole
 kscreen
 ksysguard

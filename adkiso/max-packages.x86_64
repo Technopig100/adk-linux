@@ -62,6 +62,7 @@ filezilla
 firefox
 fsarchiver
 gimp
+git
 gnome-disk-utility
 gnome-keyring
 gnu-netcat
@@ -159,6 +160,7 @@ plasma-desktop
 plasma-firewall
 plasma-nm
 plasma-pa
+plasma-wayland-session
 power-profiles-daemon
 powerdevil
 ppp

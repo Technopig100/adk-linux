@@ -78,6 +78,7 @@ jfsutils
 kaccounts-providers
 kamoso
 kate
+kde-servicemenus-rootactions
 kdeplasma-addons
 kdf
 kgamma5
@@ -163,7 +164,6 @@ refind
 reflector
 reiserfsprogs
 ripgrep
-rootactions-servicemenu
 rp-pppoe
 rsync
 rxvt-unicode-terminfo

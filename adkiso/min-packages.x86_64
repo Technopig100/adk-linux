@@ -1,3 +1,7 @@
+#aic94xx-firmware
+#mkinitcpio-firmware
+#upd72020x-fw
+#wd719x-firmware
 adk-branding-config-git
 adk-calamares
 adk-dark-git
@@ -11,7 +15,6 @@ adk-mirrorlist-git
 adk-neofetch-git
 adk-sddm-sugar-candy-git
 adk-system-installation-git
-#aic94xx-firmware
 alsa-firmware
 alsa-utils
 amd-ucode
@@ -31,6 +34,7 @@ broadcom-wl
 btrfs-progs
 chaotic-keyring
 chaotic-mirrorlist
+ckbcomp
 cryptsetup
 cups
 cups-pdf
@@ -69,7 +73,7 @@ gvfs-smb
 hdparm
 hunspell
 hunspell-en_US
-#hw-probe
+hw-probe
 hwinfo
 hyperv
 intel-ucode
@@ -90,8 +94,7 @@ kscreen
 ksysguard
 kwallet-pam
 laptop-detect
-#latte-dock-git
-latte-dock
+latte-dock-git
 less
 lftp
 libappindicator-gtk3
@@ -114,7 +117,6 @@ mdadm
 memtest86+
 mkinitcpio
 mkinitcpio-archiso
-#mkinitcpio-firmware
 mkinitcpio-nfs-utils
 mkinitcpio-utils
 modemmanager
@@ -139,8 +141,8 @@ openssh
 orca
 os-prober
 packagekit-qt5
-#pamac-aur
-#pamac-tray-icon-plasma
+pamac-aur
+pamac-tray-icon-plasma
 partclone
 parted
 partimage
@@ -159,7 +161,7 @@ pulseaudio-bluetooth
 purpose
 pv
 qemu-guest-agent
-#rate-mirrors
+rate-mirrors
 refind
 reflector
 reiserfsprogs
@@ -183,13 +185,12 @@ systemd-resolvconf
 tcpdump
 terminus-font
 testdisk
-#timeshift
-#timeshift-autosnap
+timeshift
+timeshift-autosnap
 tpm2-tss
 udftools
 ufw
 ufw-extras
-#upd72020x-fw
 usb_modeswitch
 usbmuxd
 usbutils
@@ -197,7 +198,6 @@ variety
 virtualbox-guest-utils
 vlc
 vpnc
-#wd719x-firmware
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -213,5 +213,5 @@ xfsprogs
 xl2tpd
 xorg-server
 xorg-xinit
-#yay
+yay
 zsh

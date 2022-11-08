@@ -60,6 +60,7 @@ f2fs-tools
 fatresize
 firefox
 fsarchiver
+git
 gnome-keyring
 gnu-netcat
 gpart
@@ -198,6 +199,7 @@ variety
 virtualbox-guest-utils
 vlc
 vpnc
+wget
 wireless-regdb
 wireless_tools
 wpa_supplicant

@@ -1,3 +1,7 @@
+#aic94xx-firmware
+#mkinitcpio-firmware
+#upd72020x-fw
+#wd719x-firmware
 adk-branding-config-git
 adk-calamares
 adk-calamares-config-git
@@ -11,7 +15,6 @@ adk-plasma-git
 adk-sddm-sugar-candy-git
 adk-system-installation-git
 adk-wallpaper-git
-aic94xx-firmware
 alsa-firmware
 alsa-utils
 amd-ucode
@@ -34,6 +37,7 @@ btrfs-progs
 caprine
 chaotic-keyring
 chaotic-mirrorlist
+ckbcomp
 cryptsetup
 cups
 cups-pdf
@@ -126,7 +130,6 @@ memtest86+
 mintstick
 mkinitcpio
 mkinitcpio-archiso
-mkinitcpio-firmware
 mkinitcpio-nfs-utils
 mkinitcpio-utils
 modemmanager
@@ -203,7 +206,6 @@ tpm2-tss
 udftools
 ufw
 ufw-extras
-upd72020x-fw
 usb_modeswitch
 usbmuxd
 usbutils
@@ -212,7 +214,6 @@ virt-viewer
 virtualbox-guest-utils
 vlc
 vpnc
-wd719x-firmware
 wget
 wireless-regdb
 wireless_tools

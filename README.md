@@ -20,13 +20,13 @@ In this repository you'll find:
 To build you will need to install:
 
 -  archiso
--  adklinux-keyring
+-  adk-linux-keyring
 -  adk-mirrorlist
 
-Download and or build archiso, adklinux-keyring & adk-mirrorlist:
+Download and or build archiso, adk-linux-keyring & adk-mirrorlist:
 
 -  git clone https://github.com/Technopig100/adk-pkgbuild.git
--  sudo pacman -U adklinux-keyring adk-mirrorlist
+-  sudo pacman -U adk-linux-keyring adk-mirrorlist
 -  sudo pacman -Sy archiso
 
 Do check out the archiso.readme.

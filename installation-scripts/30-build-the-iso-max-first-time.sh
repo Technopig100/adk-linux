@@ -20,7 +20,7 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	adkVersion='v22.10'
+	adkVersion='v22.11'
 
 	isoLabel='adk-linux-'$(date +%Y.%m).01'-x86_64.iso'
 

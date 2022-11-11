@@ -49,4 +49,8 @@ chmod -v 750 /root
 echo "#################################"
 echo "End adk-final"
 echo "#################################"
-rm /usr/local/bin/adk-final
+rm -rf /usr/local/share/livecd-sound
+rm -f /usr/local/bin/livecd-sound
+rm -f /usr/local/bin/Installation_guide
+rm -f /usr/local/bin/choose-mirror
+rm -f /usr/local/bin/adk-final

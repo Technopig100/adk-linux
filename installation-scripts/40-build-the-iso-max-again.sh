@@ -20,7 +20,7 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	adkVersion='v22.11'
+	adkVersion='v22.11-max'
 
 	isoLabel='adk-linux-'$(date +%Y.%m).01'-x86_64.iso'
 
@@ -185,6 +185,10 @@ echo
 	oldname5='Session=plasma'
 	newname5='Session='$dmDesktop
 
+	#version
+	oldname6='iso_version="$(date +%Y.%m).01"'
+	newname6='iso_version="$(date +%Y.%m).01-max"'
+
 	echo "Changing all references"
 	echo
 	sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/adkiso/profiledef.sh
@@ -192,6 +196,7 @@ echo
 	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
 	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/adkiso/airootfs/etc/hostname
 	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/adkiso/airootfs/etc/sddm.conf
+	sed -i 's/'$oldname6'/'$newname6'/g' $buildFolder/adkiso/profiledef.sh
 
 	echo "Adding time to /etc/dev-rel"
 	date_build=$(date -d now)

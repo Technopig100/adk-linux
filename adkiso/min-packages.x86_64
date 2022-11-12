@@ -5,8 +5,8 @@
 adk-branding-config-git
 adk-calamares
 adk-dark-git
-adk-fkeys-git
 adk-grub-dark-git
+adk-linux-fkeys-git
 adk-linux-keyring-git
 adk-linux-root-git
 adk-live-rescue-git

@@ -28,9 +28,7 @@ bat
 bluedevil
 brltty
 broadcom-wl
-btrfs-assistant
 btrfs-progs
-ckbcomp
 cryptsetup
 cups
 cups-pdf
@@ -71,7 +69,6 @@ gvfs-smb
 hdparm
 hunspell
 hunspell-en_US
-hw-probe
 hwinfo
 hyperv
 intel-ucode
@@ -211,5 +208,4 @@ xfsprogs
 xl2tpd
 xorg-server
 xorg-xinit
-yay
 zsh

@@ -28,6 +28,7 @@ aritim-dark-gtk-git
 aritim-dark-kde-git
 avahi
 base
+base-devel
 bash-completion
 bat
 bluedevil
@@ -37,6 +38,7 @@ btrfs-progs
 chaotic-keyring
 chaotic-mirrorlist
 ckbcomp
+coretime
 cryptsetup
 cups
 cups-pdf
@@ -94,7 +96,6 @@ kinfocenter
 kirigami2
 konsole
 kscreen
-korganizer
 kwallet-pam
 laptop-detect
 latte-dock-git

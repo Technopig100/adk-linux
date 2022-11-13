@@ -1,5 +1,3 @@
-#snapper-gui-git
-#snapper-support
 adk-branding-config-git
 adk-calamares
 adk-dark-git
@@ -172,8 +170,6 @@ sdparm
 sg3_utils
 skanlite
 smartmontools
-snap-pac
-snapper
 sof-firmware
 squashfs-tools
 sudo
@@ -183,6 +179,8 @@ systemd-resolvconf
 tcpdump
 terminus-font
 testdisk
+timeshift
+timeshift-autosnap
 tpm2-tss
 udftools
 ufw

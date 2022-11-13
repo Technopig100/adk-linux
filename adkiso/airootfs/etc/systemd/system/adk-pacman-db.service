@@ -6,7 +6,6 @@ After=pacman-init.service
 [Service]
 Type=oneshot
 RemainAfterExit=no
-ExecStart=/usr/bin/snapper -c root create-config /
 ExecStart=/usr/bin/pacman -Syy --noconfirm
 ExecStart=/usr/bin/systemctl disable pacman-init.service
 ExecStart=/usr/bin/systemctl disable adk-pacman-db.service

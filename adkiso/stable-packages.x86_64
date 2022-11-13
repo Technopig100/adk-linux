@@ -1,3 +1,5 @@
+#snapper-gui-git
+#snapper-support
 adk-branding-config-git
 adk-calamares
 adk-dark-git
@@ -29,6 +31,7 @@ bluedevil
 brltty
 broadcom-wl
 btrfs-progs
+ckbcomp
 cryptsetup
 cups
 cups-pdf
@@ -37,10 +40,10 @@ darkhttpd
 ddrescue
 dhclient
 dialog
+discover
 dmidecode
 dmraid
 dolphin
-discover
 dosfstools
 dragon
 duf
@@ -112,6 +115,7 @@ memtest86+
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
+mkinitcpio-openswap
 mkinitcpio-utils
 modemmanager
 mtools
@@ -170,8 +174,6 @@ skanlite
 smartmontools
 snap-pac
 snapper
-#snapper-gui-git
-#snapper-support
 sof-firmware
 squashfs-tools
 sudo

@@ -24,9 +24,6 @@ echo "Setting editor to nano"
 echo "#################################"
 echo "EDITOR=nano" >> /etc/profile
 
-#Starting Snapper
-snapper -c root create-config /
-
 #Original cleanup
 echo "Cleanup original files"
 echo "#################################"

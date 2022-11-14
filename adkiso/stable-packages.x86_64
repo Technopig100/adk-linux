@@ -43,7 +43,6 @@ dmidecode
 dmraid
 dolphin
 dosfstools
-dragon
 duf
 e2fsprogs
 edk2-shell
@@ -190,7 +189,6 @@ usbmuxd
 usbutils
 variety
 virtualbox-guest-utils
-vlc
 vpnc
 wget
 wireless-regdb

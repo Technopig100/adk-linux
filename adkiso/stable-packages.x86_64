@@ -6,12 +6,12 @@ adk-linux-fkey-git
 adk-linux-keyring-git
 adk-linux-root-git
 adk-live-rescue-git
-adk-min-calamares-config-git
-adk-min-plasma-git
 adk-min-wallpaper-git
 adk-mirrorlist-git
 adk-neofetch-git
 adk-sddm-sugar-candy-git
+adk-stable-calamares-config-git
+adk-stable-plasma-git
 adk-system-installation-git
 alsa-firmware
 alsa-utils

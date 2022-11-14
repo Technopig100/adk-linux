@@ -1,7 +1,3 @@
-#aic94xx-firmware
-#mkinitcpio-firmware
-#upd72020x-fw
-#wd719x-firmware
 adk-branding-config-git
 adk-calamares
 adk-dark-git
@@ -50,7 +46,6 @@ dmidecode
 dmraid
 dolphin
 dosfstools
-dragon
 duf
 e2fsprogs
 edk2-shell
@@ -200,7 +195,6 @@ usbmuxd
 usbutils
 variety
 virtualbox-guest-utils
-vlc
 vpnc
 wget
 wireless-regdb

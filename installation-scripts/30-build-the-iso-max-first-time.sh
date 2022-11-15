@@ -13,16 +13,16 @@ echo "- Setting General parameters"
 tput sgr0
 echo "################################################################## "
 echo
-
+   
 	#Let us set the desktop"
 	#First letter of desktop is small letter
 
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	adkVersion='v22.11-max'
+	adkVersion='v22.12'
 
-	isoLabel='adk-linux-'$(date +%Y.%m).01'-x86_64.iso'
+	isoLabel='adk-max-2022.12.01-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 68-1"
@@ -168,14 +168,14 @@ echo
 	#Setting variables
 
 	#profiledef.sh
-	oldname1='iso_name="adk'
-	newname1='iso_name="adk-linux'
+	oldname1='iso_name="adk-"'
+	newname1='iso_name="adk-max"'
 
-	oldname2='iso_label="adk-'
-	newname2='iso_label="adk-linux'
+	oldname2='iso_label="adk-2022.12.01"'
+	newname2='iso_label="adk-max-2022.12.01"'
 
 	oldname3='date_build'
-	newname3='ISO_BUILD='
+	newname3='ISO_BUILD=adk-2022.12.01'
 
 	#hostname
 	oldname4='hostname'
@@ -186,8 +186,8 @@ echo
 	newname5='Session='$dmDesktop
 
 	#version
-	oldname6='iso_version="$(date +%Y.%m).01"'
-	newname6='iso_version="$(date +%Y.%m).01-max"'
+	oldname6='iso_version="2022.12.01"'
+	newname6='iso_version="2022.12.01-min"'
 
 	echo "Changing all references"
 	echo

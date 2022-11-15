@@ -20,9 +20,9 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	adkVersion='v22.11-min'
+	adkVersion='v22.12'
 
-	isoLabel='adk-min-'$(date +%Y.%m).01'-x86_64.iso'
+	isoLabel='adk-min-2022.12.01-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 68-1"
@@ -168,14 +168,14 @@ echo
 	#Setting variables
 
 	#profiledef.sh
-	oldname1='iso_name="adk'
-	newname1='iso_name="adk-min'
+	oldname1='iso_name="adk-"'
+	newname1='iso_name="adk-min"'
 
-	oldname2='iso_label="adk-'
-	newname2='iso_label="adk-min'
+	oldname2='iso_label="adk-2022.12.01"'
+	newname2='iso_label="adk-min-2022.12.01"'
 
 	oldname3='date_build'
-	newname3='ISO_BUILD='
+	newname3='ISO_BUILD=adk-2022.12.01'
 
 	#hostname
 	oldname4='hostname'
@@ -186,8 +186,8 @@ echo
 	newname5='Session='$dmDesktop
 
 	#version
-	oldname6='iso_version="$(date +%Y.%m).01"'
-	newname6='iso_version="$(date +%Y.%m).01-min"'
+	oldname6='iso_version="2022.12.01"'
+	newname6='iso_version="2022.12.01-min"'
 
 	echo "Changing all references"
 	echo

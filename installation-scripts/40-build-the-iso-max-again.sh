@@ -22,7 +22,7 @@ echo
 
 	adkVersion='v22.12'
 
-	isoLabel='adk-max-2022.12.01-x86_64.iso'
+	isoLabel='adk-linux-2022.12.01-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 68-1"
@@ -169,10 +169,10 @@ echo
 
 	#profiledef.sh
 	oldname1='iso_name="adk-"'
-	newname1='iso_name="adk-max"'
+	newname1='iso_name="adk-linux"'
 
 	oldname2='iso_label="adk-2022.12.01"'
-	newname2='iso_label="adk-max-2022.12.01"'
+	newname2='iso_label="adk-linux-2022.12.01"'
 
 	oldname3='date_build'
 	newname3='ISO_BUILD=adk-2022.12.01'

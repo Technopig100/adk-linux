@@ -186,8 +186,8 @@ echo
 	newname5='Session='$dmDesktop
 
 	#version
-	oldname6='iso_version="2022.12.01"'
-	newname6='iso_version="2022.12.01-min"'
+	#oldname6='iso_version="2022.12.01"'
+	#newname6='iso_version="2022.12.01"'
 
 	echo "Changing all references"
 	echo
@@ -196,7 +196,7 @@ echo
 	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
 	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/adkiso/airootfs/etc/hostname
 	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/adkiso/airootfs/etc/sddm.conf
-	sed -i 's/'$oldname6'/'$newname6'/g' $buildFolder/adkiso/profiledef.sh
+	#sed -i 's/'$oldname6'/'$newname6'/g' $buildFolder/adkiso/profiledef.sh
 
 	echo "Adding time to /etc/dev-rel"
 	date_build=$(date -d now)

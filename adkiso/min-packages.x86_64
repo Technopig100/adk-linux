@@ -31,8 +31,8 @@ bluedevil
 brltty
 broadcom-wl
 btrfs-progs
-chaotic-keyring
-chaotic-mirrorlist
+#chaotic-keyring
+#chaotic-mirrorlist
 ckbcomp
 cryptsetup
 cups

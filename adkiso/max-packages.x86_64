@@ -37,8 +37,8 @@ brltty
 broadcom-wl
 btrfs-progs
 caprine
-chaotic-keyring
-chaotic-mirrorlist
+#chaotic-keyring
+#chaotic-mirrorlist
 ckbcomp
 cryptsetup
 cups

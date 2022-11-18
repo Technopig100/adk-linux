@@ -1,4 +1,7 @@
 #aic94xx-firmware
+#chaotic-keyring
+#chaotic-mirrorlist
+#mailspring
 #mkinitcpio-firmware
 #upd72020x-fw
 #wd719x-firmware
@@ -37,8 +40,6 @@ brltty
 broadcom-wl
 btrfs-progs
 caprine
-#chaotic-keyring
-#chaotic-mirrorlist
 ckbcomp
 cryptsetup
 cups
@@ -123,7 +124,6 @@ linux-firmware-qlogic
 linux-firmware-whence
 linux-headers
 lsscsi
-#mailspring
 man-db
 man-pages
 mdadm

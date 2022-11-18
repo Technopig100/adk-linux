@@ -1,3 +1,5 @@
+#chaotic-keyring
+#chaotic-mirrorlist
 adk-branding-config-git
 adk-calamares
 adk-dark-git
@@ -31,8 +33,6 @@ bluedevil
 brltty
 broadcom-wl
 btrfs-progs
-#chaotic-keyring
-#chaotic-mirrorlist
 ckbcomp
 cryptsetup
 cups

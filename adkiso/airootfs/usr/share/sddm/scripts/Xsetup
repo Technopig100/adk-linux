@@ -1,8 +1,5 @@
 #!/bin/sh
 # Xsetup - run as root before the login dialog appears
 
-for next in $(xrandr --listmonitors | grep -E " *[0-9]+:.*" | cut -d" " -f6); do
-  [ -z "$current" ] && current=$next && continue
-  xrandr --output $current --auto --output $next --auto --right-of $current
-  current=$next
-done
+xrandr --output HDMI-A-1 --mode 1920x1080 --pos 0x0 --rotate normal
+xrandr --output DVI-D-0 --off

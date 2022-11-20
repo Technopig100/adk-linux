@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="adk-"
-iso_label="adk-2022.12.01"
+iso_name=
+iso_label=
 iso_publisher="ADK Linux <https://github.com/Technopig100>"
 iso_application="ADK Linux Live/Rescue CD"
-iso_version="2022.12.01"
+iso_version=
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'

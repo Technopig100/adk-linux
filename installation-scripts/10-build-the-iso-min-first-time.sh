@@ -19,10 +19,13 @@ echo
 
 	desktop="plasma"
 	dmDesktop="plasma"
+    codeName="Gothics"
+	adkVersion="2022.12.01"
+	IsoLabel="adk-min"
+	hostName="ADK-Linux"
+	arch="x86_64"
 
-	adkVersion='v22.12'
-
-	isoLabel='adk-min-2022.12.01-x86_64.iso'
+    isoLabel=$IsoLabel-$adkVersion-$arch
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 68-1"
@@ -168,35 +171,39 @@ echo
 	#Setting variables
 
 	#profiledef.sh
-	oldname1='iso_name="adk-"'
-	newname1='iso_name="adk-min"'
+	oldname1='iso_name='
+	newname1='iso_name='$IsoLabel
 
-	oldname2='iso_label="adk-2022.12.01"'
-	newname2='iso_label="adk-min-2022.12.01"'
+	oldname2='iso_label='
+	newname2='iso_label='$IsoLabel
 
-	oldname3='date_build'
-	newname3='ISO_BUILD=adk-2022.12.01'
+	oldname7='iso_version='
+	newname7='iso_version='$adkVersion
+
+	oldname3='ISO_CODENAME='
+	newname3='ISO_CODENAME='$codeName
 
 	#hostname
 	oldname4='hostname'
-	newname4='ADK-Linux'
+	newname4=$hostName
 
 	#sddm.conf user-session
 	oldname5='Session=plasma'
 	newname5='Session='$dmDesktop
 
 	#version
-	#oldname6='iso_version="2022.12.01"'
-	#newname6='iso_version="2022.12.01"'
+	oldname6='ISO_RELEASE='
+	newname6='ISO_RELEASE='$adkVersion
 
 	echo "Changing all references"
 	echo
 	sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/adkiso/profiledef.sh
 	sed -i 's/'$oldname2'/'$newname2'/g' $buildFolder/adkiso/profiledef.sh
+	sed -i 's/'$oldname7'/'$newname7'/g' $buildFolder/adkiso/profiledef.sh
 	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
 	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/adkiso/airootfs/etc/hostname
 	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/adkiso/airootfs/etc/sddm.conf
-	#sed -i 's/'$oldname6'/'$newname6'/g' $buildFolder/adkiso/profiledef.sh
+	sed -i 's/'$oldname6'/'$newname6'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
 
 	echo "Adding time to /etc/dev-rel"
 	date_build=$(date -d now)

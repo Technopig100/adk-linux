@@ -155,7 +155,7 @@ echo
 	rm $buildFolder/adkiso/packages.x86_64
 	echo
 	echo "Copying the new packages.x86_64 file to the build folder"
-	cp -f ../adkiso/min-packages.x86_64 $buildFolder/adkiso/packages.x86_64
+	cp -f ../adkiso/$codeName-packages.x86_64 $buildFolder/adkiso/packages.x86_64
 	echo
 
 echo
@@ -172,10 +172,10 @@ echo
 
 	#profiledef.sh
 	oldname1='iso_name='
-	newname1='iso_name='$isoLabel
+	newname1='iso_name='$IsoLabel
 
 	oldname2='iso_label='
-	newname2='iso_label='$isoLabel
+	newname2='iso_label='$IsoLabel
 
 	oldname7='iso_version='
 	newname7='iso_version='$adkVersion

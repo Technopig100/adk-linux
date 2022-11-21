@@ -52,4 +52,5 @@ rm -rf /usr/local/share/livecd-sound
 rm -f /usr/local/bin/livecd-sound
 rm -f /usr/local/bin/Installation_guide
 rm -f /usr/local/bin/choose-mirror
+rm -f /usr/local/bin/adklinux-graphical-target
 rm -f /usr/local/bin/adk-final

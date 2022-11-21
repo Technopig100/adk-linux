@@ -1,10 +1,4 @@
-#aic94xx-firmware
-#chaotic-keyring
-#chaotic-mirrorlist
 #mailspring
-#mkinitcpio-firmware
-#upd72020x-fw
-#wd719x-firmware
 adk-branding-config-git
 adk-calamares
 adk-calamares-config-git
@@ -134,6 +128,7 @@ mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
 mkinitcpio-utils
+mlocate
 modemmanager
 mtools
 nano
@@ -157,6 +152,8 @@ openssh
 orca
 os-prober
 packagekit-qt5
+pacman-contrib
+pacmanlogviewer
 pamac-aur
 pamac-tray-icon-plasma
 partclone
@@ -177,6 +174,7 @@ pulseaudio-bluetooth
 purpose
 pv
 qemu-guest-agent
+qt5-charts
 rate-mirrors
 refind
 reflector

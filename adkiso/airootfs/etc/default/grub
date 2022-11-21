@@ -2,7 +2,7 @@
 
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
-GRUB_DISTRIBUTOR="ADK"
+GRUB_DISTRIBUTOR="ADKLinux"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=3 audit=0 nvme_load=yes"
 GRUB_CMDLINE_LINUX=""
 
@@ -44,7 +44,6 @@ GRUB_DISABLE_RECOVERY=true
 
 # Uncomment one of them for the gfx desired, a image background or a gfxtheme
 #GRUB_BACKGROUND="/path/to/wallpaper"
-#GRUB_THEME="/usr/share/grub/themes/adk-light/theme.txt"
 GRUB_THEME="/usr/share/grub/themes/adk-dark/theme.txt"
 
 # Uncomment to get a beep at GRUB start

@@ -82,6 +82,7 @@ hw-probe
 hwinfo
 hyperv
 intel-ucode
+inter-font
 irssi
 jfsutils
 kaccounts-providers
@@ -134,6 +135,7 @@ mtools
 nano
 nbd
 ndisc6
+nerd-fonts-meslo
 networkmanager
 nfs-utils
 nilfs-utils

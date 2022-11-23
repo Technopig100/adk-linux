@@ -1,3 +1,4 @@
+#mailspring
 adk-branding-config-git
 adk-calamares
 adk-dark-git
@@ -72,6 +73,7 @@ hw-probe
 hwinfo
 hyperv
 intel-ucode
+inter-font
 irssi
 jfsutils
 kaccounts-providers
@@ -113,11 +115,13 @@ mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
 mkinitcpio-utils
+mlocate
 modemmanager
 mtools
 nano
 nbd
 ndisc6
+nerd-fonts-meslo
 networkmanager
 nfs-utils
 nilfs-utils
@@ -136,6 +140,7 @@ openssh
 orca
 os-prober
 packagekit-qt5
+pacman-contrib
 pamac-aur
 pamac-tray-icon-plasma
 partclone

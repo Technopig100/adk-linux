@@ -2,7 +2,7 @@
 #set -e
 ##################################################################################################################
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
+#   ADK-Linux Maximum code name Titus is a Build with Linux kernel and large list of Packages pre installed.
 #
 ##################################################################################################################
 echo
@@ -14,20 +14,23 @@ tput sgr0
 echo "################################################################## "
 echo
    
-	#Only mode this section
-	#First letter of desktop is small letter
+	## Only mode this section
 
-	desktop="Plasma"
-	dmDesktop="plasma"
     codeName="Titus"
 	adkVersion="2022.12.01"
 	IsoLabel="adk-linux"
 	hostName="ADK-Linux"
-	arch="x86_64"
+	
 
+	## First letter of desktop is small letter
+
+	desktop="Plasma"
+	dmDesktop="plasma"
+	arch="x86_64"
     isoLabel="$IsoLabel-$adkVersion-$arch.iso"
 
 	# setting of the general parameters
+	
 	archisoRequiredVersion="archiso 68-1"
 	buildFolder=$HOME"/adk-build"
 	outFolder=$HOME"/ADK-Out"

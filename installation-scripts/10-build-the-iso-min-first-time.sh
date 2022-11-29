@@ -2,7 +2,7 @@
 #set -e
 ##################################################################################################################
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
+#   ADK-Linux Minimal code name Gothics is a Build with Linux kernel and as little Packages as possible.
 #
 ##################################################################################################################
 echo
@@ -14,17 +14,18 @@ tput sgr0
 echo "################################################################## "
 echo
 
-	#Only mode this section
-	#First letter of desktop is small letter
+	## Only mode this section
 
-	desktop="Plasma"
-	dmDesktop="plasma"
     codeName="Gothics"
 	adkVersion="2022.12.01"
 	IsoLabel="adk-min"
 	hostName="ADK-Linux"
-	arch="x86_64"
+	
+	## First letter of desktop is small letter
 
+	desktop="Plasma"
+	dmDesktop="plasma"
+	arch="x86_64"
     isoLabel="$IsoLabel-$adkVersion-$arch.iso"
 
 	# setting of the general parameters

@@ -2,7 +2,7 @@
 #set -e
 ##################################################################################################################
 #
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
+#   ADK-Linux Stable code name Cascade is a Build with Linux-lts kernel and as little AUR Packages as possible.
 #
 ##################################################################################################################
 echo
@@ -14,18 +14,19 @@ tput sgr0
 echo "################################################################## "
 echo
 
-	#Only mode this section
-	#First letter of desktop is small letter
+	## Only mode this section
 
-	desktop="Plasma"
-	dmDesktop="plasma"
     codeName="Cascade"
 	adkVersion="2022.12.01"
 	IsoLabel="adk-stable"
 	hostName="ADK-Linux"
-	arch="x86_64"
+
+    ## Other paramitors
 
     isoLabel="$IsoLabel-$adkVersion-$arch.iso"
+    desktop="Plasma"
+	dmDesktop="plasma"
+	arch="x86_64"
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 68-1"
@@ -135,10 +136,12 @@ echo
 	echo "Deleting the build folder if one exists - takes some time"
 	[ -d $buildFolder ] && sudo rm -rf $buildFolder
 	echo
-	echo "Copying the Archiso folder to build work"
+	echo "Copying the adkiso folder to build"
 	echo
 	mkdir $buildFolder
 	cp -r ../adkiso $buildFolder/adkiso
+	echo "Deleting pamac.conf if one exists - for stable"
+	rm -f $buildFolder/adkiso/airootfs/etc/pamac.conf
 
 echo
 echo "################################################################## "

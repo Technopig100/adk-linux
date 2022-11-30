@@ -17,7 +17,7 @@ echo
 	## Only mode this section
 
     codeName="Titus"
-	adkVersion="2022.12.01"
+	adkVersion="22.12.01"
 	IsoLabel="adk-linux"
 	hostName="ADK-Linux"
 	

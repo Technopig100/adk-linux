@@ -2,7 +2,7 @@
 #set -e
 ##################################################################################################################
 #
-#   ADK-Linux Maximum code name Titus is a Build with Linux kernel and complete list of Packages.
+#   ADK-Linux Maximum code name Titus is a Build with Linux kernel and large list of Packages pre installed.
 #
 ##################################################################################################################
 echo
@@ -17,7 +17,7 @@ echo
 	## Only mode this section
 
     codeName="Titus"
-	adkVersion="2022.12.01"
+	adkVersion="22.12.01"
 	IsoLabel="adk-linux"
 	hostName="ADK-Linux"
 	
@@ -138,7 +138,7 @@ echo
 	echo "Deleting the build folder if one exists - takes some time"
 	[ -d $buildFolder ] && sudo rm -rf $buildFolder
 	echo
-	echo "Copying the Archiso folder to build work"
+	echo "Copying the adkiso folder to build"
 	echo
 	mkdir $buildFolder
 	cp -r ../adkiso $buildFolder/adkiso

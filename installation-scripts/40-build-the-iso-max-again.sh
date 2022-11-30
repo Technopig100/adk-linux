@@ -138,7 +138,7 @@ echo
 	echo "Deleting the build folder if one exists - takes some time"
 	[ -d $buildFolder ] && sudo rm -rf $buildFolder
 	echo
-	echo "Copying the Archiso folder to build work"
+	echo "Copying the adkiso folder to build"
 	echo
 	mkdir $buildFolder
 	cp -r ../adkiso $buildFolder/adkiso

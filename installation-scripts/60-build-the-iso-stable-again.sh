@@ -20,15 +20,17 @@ echo
 	adkVersion="2022.12.01"
 	IsoLabel="adk-stable"
 	hostName="ADK-Linux"
+	
 
-    ## Other paramitors
+	## First letter of desktop is small letter
 
-    isoLabel="$IsoLabel-$adkVersion-$arch.iso"
-    desktop="Plasma"
+	desktop="Plasma"
 	dmDesktop="plasma"
 	arch="x86_64"
+    isoLabel="$IsoLabel-$adkVersion-$arch.iso"
 
 	# setting of the general parameters
+	
 	archisoRequiredVersion="archiso 68-1"
 	buildFolder=$HOME"/adk-build"
 	outFolder=$HOME"/ADK-Out"

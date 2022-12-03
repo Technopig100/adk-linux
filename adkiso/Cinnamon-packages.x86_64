@@ -1,7 +1,7 @@
+#adk-cinnamon-git
 #mailspring
 adk-branding-config-git
 adk-calamares
-#adk-cinnamon-git
 adk-cinnamon-calamares-config-git
 adk-dark-git
 adk-grub-dark-git
@@ -148,6 +148,7 @@ parted
 partimage
 pcsclite
 pix
+plank
 plank-theme-sirius-deeplight
 ppp
 pptpclient
@@ -198,6 +199,7 @@ wireless_tools
 wpa_supplicant
 wvdial
 xdg-utils
+xdg-user-dirs
 xed
 xed
 xf86-input-libinput

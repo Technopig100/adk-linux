@@ -1,6 +1,7 @@
 #mailspring
 adk-branding-config-git
 adk-calamares
+adk-cinnamon-calamares-config-git
 adk-dark-git
 adk-grub-dark-git
 adk-linux-fkey-git
@@ -8,12 +9,11 @@ adk-linux-hello
 adk-linux-keyring-git
 adk-linux-root-git
 adk-live-rescue-git
-adk-cinnamon-calamares-config-git
-adk-wallpaper-git
 adk-mirrorlist-git
 adk-neofetch-git
 adk-sddm-sugar-candy-git
 adk-system-installation-git
+adk-wallpaper-git
 alsa-firmware
 alsa-utils
 amd-ucode
@@ -27,6 +27,7 @@ base-devel
 bash-completion
 bind
 blueberry
+breeze-icons
 brltty
 broadcom-wl
 btrfs-progs
@@ -63,6 +64,7 @@ firefox
 fsarchiver
 git
 gnome-keyring
+gnome-shell
 gnome-terminal
 gnu-netcat
 gpart
@@ -92,10 +94,10 @@ lftp
 libfido2
 libusb-compat
 libxinerama
+linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
-linux
 linux-headers
 livecd-sounds
 lsscsi
@@ -107,12 +109,14 @@ man-pages
 mc
 mdadm
 memtest86+
+metacity
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
 mkinitcpio-openswap
 mlocate
 modemmanager
+modesetting
 mtools
 nano
 nbd
@@ -143,6 +147,8 @@ partclone
 parted
 partimage
 pcsclite
+pix
+plank-theme-sirius-deeplight
 ppp
 pptpclient
 print-manager
@@ -192,11 +198,12 @@ wireless_tools
 wpa_supplicant
 wvdial
 xdg-utils
+xed
+xed
 xf86-input-libinput
 xf86-input-vmmouse
 xf86-video-amdgpu
 xf86-video-ati
-xf86-video-intel
 xf86-video-nouveau
 xf86-video-vmware
 xfsprogs
@@ -204,6 +211,8 @@ xl2tpd
 xorg-apps
 xorg-server
 xorg-xinit
+xreader
+xviewer
 yay
 zsh
 

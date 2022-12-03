@@ -129,7 +129,6 @@ mkinitcpio-nfs-utils
 mkinitcpio-utils
 mlocate
 modemmanager
-modesetting
 mtools
 nano
 nbd

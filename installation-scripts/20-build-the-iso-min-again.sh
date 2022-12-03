@@ -17,7 +17,7 @@ echo
 	## Only mode this section
 
     codeName="Gothics"
-	adkVersion="22.12.01"
+	adkVersion="23.01.01"
 	IsoLabel="adk-min"
 	hostName="ADK-Linux"
 	

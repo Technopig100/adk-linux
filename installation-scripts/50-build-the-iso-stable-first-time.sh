@@ -17,7 +17,7 @@ echo
 	## Only mode this section
 
     codeName="Cascade"
-	adkVersion="22.12.01"
+	adkVersion="23.01.01"
 	IsoLabel="adk-stable"
 	hostName="ADK-Linux"
 	

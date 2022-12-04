@@ -34,8 +34,6 @@ broadcom-wl
 btrfs-progs
 cinnamon
 cinnamon-translations
-clonezilla
-cloud-init
 cryptsetup
 cups
 cups-pdf
@@ -63,8 +61,13 @@ f2fs-tools
 fatresize
 firefox
 fsarchiver
+galculator 
+gedit 
 git
 gnome-keyring
+gnome-online-accounts 
+gnome-screenshot 
+gnome-system-monitor 
 gnome-terminal
 gnu-netcat
 gpart
@@ -75,6 +78,7 @@ grub
 grub-btrfs
 gst-plugins-bad
 gst-plugins-good
+gufw
 gvfs-smb
 hdparm
 hunspell
@@ -85,9 +89,8 @@ hyperv
 intel-ucode
 inter-font
 irssi
-iw
-iwd
 jfsutils
+kamoso 
 kitty-terminfo
 less
 lftp
@@ -120,6 +123,7 @@ mtools
 nano
 nbd
 ndisc6
+nemo-python 
 nerd-fonts-meslo
 networkmanager
 nfs-utils
@@ -137,7 +141,9 @@ open-vm-tools
 openconnect
 openssh
 openvpn
+orca
 os-prober
+p7zip 
 packagekit-qt5
 pacman-contrib
 pamac-aur
@@ -145,6 +151,7 @@ pamac-tray-icon-plasma
 partclone
 parted
 partimage
+pavucontrol 
 pcsclite
 pix
 plank
@@ -152,7 +159,8 @@ plank-theme-sirius-deeplight
 ppp
 pptpclient
 print-manager
-pulseaudio-alsa
+pulseaudio 
+pulseaudio-alsa 
 pulseaudio-bluetooth
 purpose
 pv
@@ -170,6 +178,7 @@ screen
 sddm
 sdparm
 sg3_utils
+simple-scan
 smartmontools
 sof-firmware
 squashfs-tools
@@ -186,6 +195,8 @@ tpm2-tss
 udftools
 ufw
 ufw-extras
+unrar 
+unzip 
 usb_modeswitch
 usbmuxd
 usbutils
@@ -206,6 +217,7 @@ xf86-video-amdgpu
 xf86-video-ati
 xf86-video-nouveau
 xf86-video-vmware
+xfce4-clipman-plugin
 xfsprogs
 xl2tpd
 xorg-apps

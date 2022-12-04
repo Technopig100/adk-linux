@@ -10,7 +10,7 @@ RebootCommand=/usr/bin/systemctl reboot
 
 [Theme]
 Current=adk-sugar-candy
-CursorTheme=Oxygen_White
+CursorTheme=BreezeX-Light
 Font=Noto Sans,10,-1,0,50,0,0,0,0,0
 
 [XDisplay]

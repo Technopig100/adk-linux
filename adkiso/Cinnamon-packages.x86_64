@@ -35,7 +35,6 @@ breeze-icons
 brltty
 broadcom-wl
 btrfs-progs
-bulky
 cinnamon
 cinnamon-translations
 cryptsetup
@@ -208,7 +207,6 @@ tcpdump
 terminus-font
 testdisk
 texinfo
-thingy
 timeshift
 timeshift-autosnap
 tpm2-tss
@@ -224,7 +222,6 @@ usbutils
 virtualbox-guest-utils
 vlc
 vpnc
-webapp-manager
 wget
 wireless-regdb
 wireless_tools

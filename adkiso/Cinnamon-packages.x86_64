@@ -31,6 +31,8 @@ bind
 binutils
 bison
 blueman
+breeze
+breeze-gtk
 breezex-light
 brltty
 broadcom-wl
@@ -246,4 +248,3 @@ xsettings-client
 xviewer
 yay
 zsh
-

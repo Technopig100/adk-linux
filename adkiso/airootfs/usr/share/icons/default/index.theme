@@ -1,2 +1,4 @@
 [Icon Theme]
-Inherits=BreezeX-Light
+Name=BreezeX-Light
+Comment=BreezeX Light cursors.
+Inherits="hicolor"

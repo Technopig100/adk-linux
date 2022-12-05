@@ -26,6 +26,7 @@ avahi
 base
 base-devel
 bash-completion
+bat
 bind
 binutils
 bison
@@ -68,8 +69,8 @@ galculator
 git
 gnome-color-manager
 gnome-disk-utility
-gnome-notes
 gnome-keyring
+gnome-notes
 gnome-online-accounts
 gnome-screenshot
 gnome-system-monitor
@@ -133,8 +134,8 @@ nano
 nbd
 ndisc6
 nemo-fileroller
-nemo-seahorse
 nemo-python
+nemo-seahorse
 nerd-fonts-meslo
 networkmanager
 nfs-utils

@@ -10,6 +10,7 @@ ExecStart=/usr/bin/pacman -Syy --noconfirm
 ExecStart=/usr/bin/systemctl disable pacman-init.service
 ExecStart=/usr/bin/systemctl disable adk-pacman-db.service
 ExecStart=/usr/bin/unlink /usr/share/icons/default/cursors
+ExecStart=/usr/bin/ln -s /usr/share/icons/adk-dark/cursors /usr/share/icons/default/cursors
 
 [Install]
 WantedBy=multi-user.target

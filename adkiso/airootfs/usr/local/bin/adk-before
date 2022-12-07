@@ -14,6 +14,8 @@ echo "#################################"
 mv /etc/mkinitcpio.d/adk /etc/mkinitcpio.d/linux.preset
 cp /usr/lib/adk-release /usr/lib/os-release
 rm -f /etc/arch-release
+touch /etc/arch-release
+echo "ADK-Linux" > /etc/arch-release
 mv -f /usr/lib/dot.bashrc /etc/skel/.bashrc
 
 echo "#################################"

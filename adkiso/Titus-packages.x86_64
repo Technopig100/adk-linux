@@ -60,6 +60,7 @@ f2fs-tools
 fatresize
 filezilla
 firefox
+foomatic-db-gutenprint-ppds
 fsarchiver
 gimp
 git
@@ -73,6 +74,7 @@ grub
 grub-btrfs
 gst-plugins-bad
 gst-plugins-good
+gutenprint
 gvfs-smb
 hdparm
 hunspell

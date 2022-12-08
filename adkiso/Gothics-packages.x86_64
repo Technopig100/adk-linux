@@ -55,6 +55,7 @@ expac
 f2fs-tools
 fatresize
 firefox
+foomatic-db-gutenprint-ppds
 fsarchiver
 git
 gnome-keyring
@@ -66,6 +67,7 @@ grub
 grub-btrfs
 gst-plugins-bad
 gst-plugins-good
+gutenprint
 gvfs-smb
 hdparm
 hunspell

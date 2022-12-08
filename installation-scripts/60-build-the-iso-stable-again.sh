@@ -18,7 +18,7 @@ echo
 
     codeName="Cascade"
 	adkVersion="23.01.01"
-	IsoLabel="adk-sta"
+	IsoLabel="adk-cascade"
 	hostName="ADK-Linux"
 	
 

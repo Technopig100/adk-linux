@@ -198,7 +198,6 @@ ufw-extras
 usb_modeswitch
 usbmuxd
 usbutils
-variety
 virtualbox-guest-utils
 vpnc
 wget

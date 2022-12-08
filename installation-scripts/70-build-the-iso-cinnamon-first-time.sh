@@ -18,7 +18,7 @@ echo
 
     codeName="Cinnamon"
 	adkVersion="23.01.01"
-	IsoLabel="adk-cin"
+	IsoLabel="adk-cinnamon"
 	hostName="ADK-Linux"
 	
 	## First letter of desktop is small letter

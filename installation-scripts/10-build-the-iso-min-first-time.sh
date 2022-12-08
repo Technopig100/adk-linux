@@ -18,7 +18,7 @@ echo
 
     codeName="Gothics"
 	adkVersion="23.01.01"
-	IsoLabel="adk-min"
+	IsoLabel="adk-gothics"
 	hostName="ADK-Linux"
 	
 	## First letter of desktop is small letter

@@ -18,7 +18,7 @@ echo
 
     codeName="Titus"
 	adkVersion="23.01.01"
-	IsoLabel="adk-lin"
+	IsoLabel="adk-titus"
 	hostName="ADK-Linux"
 	
 

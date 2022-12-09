@@ -7,5 +7,4 @@ ALL_microcode=(/boot/*-ucode.img)
 PRESETS=('adklinux')
 
 adklinux_image="/boot/initramfs-linux.img"
-adklinux_efi_image="esp/EFI/Linux/adklinux-linux.efi"
-adklinux_options="--splash /usr/share/systemd/bootctl/silent-logo.bmp"
+adklinux_options="--splash /usr/share/systemd/bootctl/splash-adk.bmp"

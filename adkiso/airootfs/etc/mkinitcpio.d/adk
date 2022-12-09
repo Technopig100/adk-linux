@@ -1,8 +1,11 @@
-# mkinitcpio preset file for the 'ADK-Linux' package on adk
+# mkinitcpio preset file for the 'ADK-Linux' package on adklinux
 
-PRESETS=('adk')
+ALL_config="/etc/mkinitcpio.conf"
+ALL_kver="/boot/vmlinuz-linux"
+ALL_microcode=(/boot/*-ucode.img)
 
-ALL_kver='/boot/vmlinuz-linux'
-ALL_config='/etc/mkinitcpio.conf'
+PRESETS=('adklinux')
 
-adk_image="/boot/initramfs-linux.img"
+adklinux_image="/boot/initramfs-linux.img"
+#adklinux_efi_image="esp/EFI/Linux/archlinux-linux.efi"
+adklinux_options="--splash /usr/share/systemd/bootctl/silent-logo.bmp"

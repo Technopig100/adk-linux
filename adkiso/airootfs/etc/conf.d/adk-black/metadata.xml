@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thememeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://fbsplash.berlios.de/schemas/1.0/thememeta.xsd">
+	<name>adk-black</name>
+	<version>1.0</version>
+	<author>
+		<name>Technopig100</name>
+		<email>technopig@hotmail.com</name>
+	</author>
+	<description>An ADK-Linux fbsplash theme with a new logo</description>
+	<license>CC-BY-NC-SA</license>
+	<url>http://www.archlinux.org/art/</url>
+</thememeta>

@@ -7,4 +7,3 @@ ALL_microcode=(/boot/*-ucode.img)
 PRESETS=('adklinux')
 
 adklinux_image="/boot/initramfs-linux.img"
-adklinux_options="--splash /usr/share/systemd/bootctl/splash-adk.bmp"

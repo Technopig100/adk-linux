@@ -17,7 +17,7 @@ echo
 	## Only mode this section
 
     codeName="Cinnamon"
-	adkVersion="23.01.01"
+	adkVersion="23.01"
 	IsoLabel="adk-cinnamon"
 	hostName="ADK-Linux"
 	

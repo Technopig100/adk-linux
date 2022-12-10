@@ -1,4 +1,4 @@
-# mkinitcpio preset file for the 'ADK-Linux' package on adklinux
+# mkinitcpio preset file for the 'Linux' package on adklinux
 
 ALL_config="/etc/mkinitcpio.conf"
 ALL_kver="/boot/vmlinuz-linux"

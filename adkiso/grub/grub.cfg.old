@@ -7,12 +7,6 @@ insmod iso9660
 # Use graphics-mode output
 insmod all_video
 insmod font
-insmod gfxmenu
-loadfont ($root)/@/usr/share/grub/themes/adk-dark/unifont-regular-16.pf2
-insmod png
-set theme=($root)/@/usr/share/grub/themes/adk-dark/theme.txt
-export theme
-
 if loadfont "${prefix}/fonts/unicode.pf2" ; then
     insmod gfxterm
     set gfxmode="auto"

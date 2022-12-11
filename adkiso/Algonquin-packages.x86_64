@@ -1,4 +1,3 @@
-#adk-xfce-git
 adk-branding-config-git
 adk-calamares
 adk-dark-git
@@ -13,6 +12,7 @@ adk-sddm-sugar-candy-git
 adk-system-installation-git
 adk-wallpaper-git
 adk-xfce-calamares-config-git
+adk-xfce-git
 alsa-firmware
 alsa-utils
 amd-ucode

@@ -42,6 +42,7 @@ rm -f /etc/sddm.conf.d/autologin.conf
 rm /root/{.automated_script.sh,.zlogin}
 cp /etc/adk-release /etc/lsb-release
 mv /etc/sddm.conf.d/adk_settings /etc/sddm.conf.d/kde_settings.conf
+mv /etc/mota /etc/motd
 rm -f /etc/sddm.conf.d/adk_settings
 
 #cleanup

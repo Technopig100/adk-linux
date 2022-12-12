@@ -24,7 +24,7 @@ echo
 	## First letter of desktop is small letter
 
 	desktop="Gnome"
-	dmDesktop="gnome"
+	dmDesktop="gnome-xorg"
 	arch="x86_64"
     isoLabel="$IsoLabel-$adkVersion-$arch.iso"
 

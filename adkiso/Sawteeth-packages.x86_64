@@ -63,9 +63,9 @@ firefox
 flex
 foomatic-db-gutenprint-ppds
 fsarchiver
-galculator
 git
 gnome
+gnome-calculator
 gnome-disk-utility
 gnome-extra
 gnome-keyring
@@ -126,14 +126,9 @@ mkinitcpio-openswap
 mlocate
 modemmanager
 mtools
-mugshot
 nano
-nautilus-image-converter 
 nbd
 ndisc6
-nemo-fileroller
-nemo-python
-nemo-seahorse
 nerd-fonts-meslo
 networkmanager
 nfs-utils

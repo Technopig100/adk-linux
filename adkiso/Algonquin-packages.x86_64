@@ -124,13 +124,9 @@ mkinitcpio-openswap
 mlocate
 modemmanager
 mtools
-mugshot
 nano
 nbd
 ndisc6
-nemo-fileroller
-nemo-python
-nemo-seahorse
 nerd-fonts-meslo
 networkmanager
 nfs-utils

@@ -1,6 +1,8 @@
 adk-branding-config-git
 adk-calamares
 adk-dark-git
+adk-gnome-calamares-config-git
+adk-gnome-git
 adk-grub-dark-git
 adk-linux-fkey-git
 adk-linux-keyring-git
@@ -11,8 +13,6 @@ adk-neofetch-git
 adk-sddm-sugar-candy-git
 adk-system-installation-git
 adk-wallpaper-git
-adk-xfce-calamares-config-git
-adk-xfce-git
 alacarte
 alsa-firmware
 alsa-utils
@@ -65,7 +65,9 @@ foomatic-db-gutenprint-ppds
 fsarchiver
 galculator
 git
+gnome
 gnome-disk-utility
+gnome-extra
 gnome-keyring
 gnome-notes
 gnu-netcat
@@ -126,6 +128,7 @@ modemmanager
 mtools
 mugshot
 nano
+nautilus-image-converter 
 nbd
 ndisc6
 nemo-fileroller
@@ -230,9 +233,6 @@ xf86-video-amdgpu
 xf86-video-ati
 xf86-video-nouveau
 xf86-video-vmware
-xfce4
-xfce4-clipman-plugin
-xfce4-goodies
 xfsprogs
 xl2tpd
 xorg-apps

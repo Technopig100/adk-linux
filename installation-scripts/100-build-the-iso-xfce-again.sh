@@ -2,7 +2,7 @@
 #set -e
 ##################################################################################################################
 #
-#   ADK-Linux code name Algonquin is a Build with Linux kernel and as little Packages as possible.
+#   ADK-Linux code name Algonquin is a Build with Linux kernel and XFCE4 Packages.
 #
 ##################################################################################################################
 echo
@@ -18,7 +18,7 @@ echo
 
     codeName="Algonquin"
 	adkVersion="23.01"
-	IsoLabel="adk-xfce"
+	IsoLabel="adk-algonquin"
 	hostName="ADK-Linux"
 	
 	## First letter of desktop is small letter

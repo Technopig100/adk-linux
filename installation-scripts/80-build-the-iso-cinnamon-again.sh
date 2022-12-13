@@ -2,7 +2,7 @@
 #set -e
 ##################################################################################################################
 #
-#   ADK-Linux code name Cinnamon is a Build with Linux kernel and as little Packages as possible.
+#   ADK-Linux code name Cinnamon is a Build with Linux kernel and Cinnamon Desktop.
 #
 ##################################################################################################################
 echo

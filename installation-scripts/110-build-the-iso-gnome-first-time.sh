@@ -2,7 +2,7 @@
 #set -e
 ##################################################################################################################
 #
-#   ADK-Linux code name Algonquin is a Build with Linux kernel and as little Packages as possible.
+#   ADK-Linux code name Sawteeth is a Build with Linux kernel and Gnome Packages.
 #
 ##################################################################################################################
 echo
@@ -18,7 +18,7 @@ echo
 
     codeName="Sawteeth"
 	adkVersion="23.01"
-	IsoLabel="adk-gnome"
+	IsoLabel="adk-sawteeth"
 	hostName="ADK-Linux"
 	
 	## First letter of desktop is small letter

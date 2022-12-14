@@ -2,7 +2,7 @@
 #set -e
 ##################################################################################################################
 #
-#   ADK-Linux code name Couchsachraga is a Build with Linux kernel and Mate Desktop.
+#   ADK-Linux code name Server is a Build with Linux kernel and Cockpit Web interface.
 #
 ##################################################################################################################
 echo
@@ -16,9 +16,9 @@ echo
 
 	## Only mode this section
 
-    codeName="Couchsachraga"
+    codeName="Server"
 	adkVersion="23.01"
-	IsoLabel="adk-couchsachraga"
+	IsoLabel="adk-server"
 	hostName="ADK-Linux"
 	
 	## First letter of desktop is small letter

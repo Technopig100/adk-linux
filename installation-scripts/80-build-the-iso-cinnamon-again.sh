@@ -2,7 +2,7 @@
 #set -e
 ##################################################################################################################
 #
-#   ADK-Linux code name Cinnamon is a Build with Linux kernel and Cinnamon Desktop.
+#   ADK-Linux code name Santanoni is a Build with Linux kernel and Cinnamon Desktop.
 #
 ##################################################################################################################
 echo
@@ -16,9 +16,9 @@ echo
 
 	## Only mode this section
 
-    codeName="Cinnamon"
+    codeName="Santanoni"
 	adkVersion="23.01"
-	IsoLabel="adk-cinnamon"
+	IsoLabel="adk-santanoni"
 	hostName="ADK-Linux"
 	
 	## First letter of desktop is small letter

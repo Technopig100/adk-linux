@@ -108,7 +108,7 @@ pptpclient
 pv
 qemu-base
 qemu-block-gluster
-qemu-block-iscsi samba
+qemu-block-iscsi
 qemu-guest-agent
 qt5-svg
 qt5-xmlpatterns
@@ -118,7 +118,9 @@ reiserfsprogs
 rp-pppoe
 rsync
 rxvt-unicode-terminfo
+samba
 screen
+sddm
 sdparm
 sg3_utils
 smartmontools
@@ -126,7 +128,6 @@ sof-firmware
 solid
 squashfs-tools
 squashfs-tools
-sddm
 sudo
 syslinux
 systemd-resolvconf

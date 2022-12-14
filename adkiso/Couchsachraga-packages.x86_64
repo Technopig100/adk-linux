@@ -63,7 +63,6 @@ firefox
 flex
 foomatic-db-gutenprint-ppds
 fsarchiver
-galculator
 git
 gnome-disk-utility
 gnome-keyring
@@ -158,9 +157,6 @@ parted
 partimage
 pavucontrol
 pcsclite
-pix
-plank
-plank-theme-sirius-deeplight
 ppp
 pptpclient
 print-manager

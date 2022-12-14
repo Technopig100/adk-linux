@@ -1,13 +1,13 @@
 adk-branding-config-git
 adk-calamares
-adk-server-config-git
-adk-server-git
 adk-grub-dark-git
 adk-linux-fkey-git
 adk-linux-keyring-git
 adk-live-rescue-git
 adk-mirrorlist-git
 adk-neofetch-git
+adk-server-config-git
+adk-server-git
 adk-system-installation-git
 amd-ucode
 arch-install-scripts
@@ -123,6 +123,7 @@ partclone
 parted
 partimage
 pcsclite
+plasma-desktop
 plasma-framework
 podman
 polkit-qt5
@@ -158,10 +159,10 @@ systemd-resolvconf
 tcpdump
 terminus-font
 testdisk
-tmux
 texinfo
 timeshift
 timeshift-autosnap
+tmux
 tpm2-tss
 udftools
 udisks2

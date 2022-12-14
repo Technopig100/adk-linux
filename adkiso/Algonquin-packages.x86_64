@@ -67,7 +67,6 @@ galculator
 git
 gnome-disk-utility
 gnome-keyring
-gnome-notes
 gnu-netcat
 gpart
 gpm
@@ -158,9 +157,6 @@ parted
 partimage
 pavucontrol
 pcsclite
-pix
-plank
-plank-theme-sirius-deeplight
 ppp
 pptpclient
 print-manager
@@ -211,7 +207,6 @@ usb_modeswitch
 usbmuxd
 usbutils
 virtualbox-guest-utils
-vlc
 vpnc
 wget
 wireless-regdb

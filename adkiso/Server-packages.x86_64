@@ -8,6 +8,7 @@ adk-mirrorlist-git
 adk-neofetch-git
 adk-server-config-git
 adk-server-git
+adk-stable-root-git
 adk-system-installation-git
 amd-ucode
 arch-install-scripts
@@ -27,7 +28,6 @@ cockpit-machines
 cockpit-pcp
 cockpit-podman
 cryptsetup
-dolphin
 darkhttpd
 ddrescue
 dhclient
@@ -36,6 +36,7 @@ dkms
 dmidecode
 dmraid
 dnsmasq
+dolphin
 dosfstools
 duf
 e2fsprogs

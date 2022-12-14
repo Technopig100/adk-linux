@@ -26,8 +26,10 @@ cloud-init
 cni-plugins
 cockpit
 cockpit-machines
+cockpit-packagekit
 cockpit-pcp
 cockpit-podman
+cockpit-storaged
 crun
 cryptsetup
 darkhttpd
@@ -44,6 +46,7 @@ duf
 e2fsprogs
 edk2-shell
 efibootmgr
+eslint
 espeakup
 ethtool
 exfatprogs
@@ -85,6 +88,7 @@ libfido2
 libpwquality
 libusb-compat
 libvirt
+libvirt-storage-gluster
 linux
 linux-atm
 linux-firmware
@@ -133,6 +137,7 @@ pcsclite
 plasma-desktop
 plasma-framework
 podman
+podman-docker 
 polkit-qt5
 ppp
 pptpclient
@@ -141,6 +146,8 @@ qemu-base
 qemu-block-gluster
 qemu-block-iscsi
 qemu-guest-agent
+qemu-user-static
+qemu-user-static-binfmt
 qt5-svg
 qt5-xmlpatterns
 refind
@@ -161,6 +168,7 @@ sof-firmware
 solid
 squashfs-tools
 squashfs-tools
+stylelint
 sudo
 syslinux
 systemd-resolvconf
@@ -178,6 +186,7 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
+virt-firmware
 virt-install
 virtualbox-guest-utils
 vpnc

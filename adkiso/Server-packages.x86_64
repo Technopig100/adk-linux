@@ -72,6 +72,7 @@ ki18n
 kiconthemes
 kio
 kitty-terminfo
+konsole
 kpmcore
 less
 lftp
@@ -102,10 +103,10 @@ mkinitcpio-openswap
 mlocate
 modemmanager
 mtools
-networkmanager
 nano
 nbd
 ndisc6
+networkmanager
 nfs-utils
 nilfs-utils
 nmap

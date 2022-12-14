@@ -61,11 +61,18 @@ rm -f /usr/local/bin/Installation_guide
 rm -f /usr/local/bin/choose-mirror
 rm -f /usr/local/bin/adklinux-graphical-target
 systemctl enable libvirtd
-systemctl enable --now firewalld.service 
+wait
+systemctl enable --now firewalld.service
+wait 
+firewall-cmd --add-service cockpit --permanent
 wait
 ufw enable
 wait 
 ufw allow ssh
+wait
 firewall-cmd --add-service cockpit --permanent
+wait
 systemctl enable cockpit.socket
+wait
+firewall-cmd --add-service cockpit --permanent
 rm -f /usr/local/bin/adk-final

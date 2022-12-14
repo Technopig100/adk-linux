@@ -118,7 +118,6 @@ mc
 mdadm
 memtest86+
 metacity
-mintstick
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
@@ -149,7 +148,6 @@ openssh
 openvpn
 orca
 os-prober
-osmo
 p7zip
 packagekit-qt5
 pacman-contrib
@@ -160,9 +158,6 @@ parted
 partimage
 pavucontrol
 pcsclite
-pix
-plank
-plank-theme-sirius-deeplight
 ppp
 pptpclient
 print-manager

@@ -60,7 +60,6 @@ firewalld
 fsarchiver
 fuse-overlayfs
 git
-gnu-netcat
 gpart
 gpm
 gptfdisk

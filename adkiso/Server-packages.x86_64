@@ -27,6 +27,7 @@ cockpit-machines
 cockpit-pcp
 cockpit-podman
 cryptsetup
+dolphin
 darkhttpd
 ddrescue
 dhclient

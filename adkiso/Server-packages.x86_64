@@ -59,6 +59,7 @@ fatresize
 firewalld
 fsarchiver
 fuse-overlayfs
+gnome-disk-utility
 git
 gpart
 gpm

@@ -178,6 +178,7 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
+virt-install
 virtualbox-guest-utils
 vpnc
 wget

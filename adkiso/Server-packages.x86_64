@@ -16,6 +16,7 @@ b43-fwcutter
 base
 bind
 boost-libs
+bridge-utils
 brltty
 broadcom-wl
 btrfs-progs
@@ -129,6 +130,7 @@ ntfs-3g
 nvme-cli
 open-iscsi
 open-vm-tools
+openbsd-netcat
 openconnect
 openssh
 openvpn

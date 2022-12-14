@@ -23,8 +23,8 @@ echo
 	
 	## First letter of desktop is small letter
 
-	desktop="Mate"
-	dmDesktop="mate"
+	desktop="None"
+	dmDesktop="plasma"
 	arch="x86_64"
     isoLabel="$IsoLabel-$adkVersion-$arch.iso"
 

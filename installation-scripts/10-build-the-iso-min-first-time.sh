@@ -27,6 +27,8 @@ echo
 	dmDesktop="plasma"
 	arch="x86_64"
     isoLabel="$IsoLabel-$adkVersion-$arch.iso"
+    iso_Publisher="ADK Linux <https://github.com/Technopig100>"
+    iso_Application="Arch Linux Live/Rescue CD"
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 68-1"
@@ -172,13 +174,19 @@ echo
 	#Setting variables
 
 	#profiledef.sh
-	oldname1='iso_name='
+	oldname1='iso_name="archlinux"'
 	newname1='iso_name='$IsoLabel
 
-	oldname2='iso_label='
+	oldname2='iso_label="ARCH_$(date +%Y%m)"'
 	newname2='iso_label='$IsoLabel
 
-	oldname7='iso_version='
+	oldname8='iso_publisher="Arch Linux <https://archlinux.org>"'
+	newname8='iso_publisher='$iso_Publisher
+
+	oldname9='iso_application="Arch Linux Live/Rescue CD"'
+	newname9='iso_application='$iso_Application
+
+	oldname7='iso_version="$(date +%Y.%m.%d)"'
 	newname7='iso_version='$adkVersion
 
 	oldname3='ISO_CODENAME='
@@ -201,15 +209,17 @@ echo
 	sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/adkiso/profiledef.sh
 	sed -i 's/'$oldname2'/'$newname2'/g' $buildFolder/adkiso/profiledef.sh
 	sed -i 's/'$oldname7'/'$newname7'/g' $buildFolder/adkiso/profiledef.sh
-	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
-	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/adkiso/airootfs/etc/hostname
-	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/adkiso/airootfs/etc/sddm.conf.d/adk_settings
-	sed -i 's/'$oldname6'/'$newname6'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
+    sed -i 's/'$oldname8'/'$newname1'/g' $buildFolder/adkiso/profiledef.sh
+	sed -i 's/'$oldname9'/'$newname1'/g' $buildFolder/adkiso/profiledef.sh
+	#sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
+	#sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/adkiso/airootfs/etc/hostname
+	#sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/adkiso/airootfs/etc/sddm.conf.d/adk_settings
+	#sed -i 's/'$oldname6'/'$newname6'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
 
-	echo "Adding time to /etc/dev-rel"
-	date_build=$(date -d now)
-	echo "Iso build on : "$date_build
-	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/g" $buildFolder/adkiso/airootfs/etc/dev-rel
+	#echo "Adding time to /etc/dev-rel"
+	#date_build=$(date -d now)
+	#echo "Iso build on : "$date_build
+	#sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/g" $buildFolder/adkiso/airootfs/etc/dev-rel
 
 echo
 echo "################################################################## "

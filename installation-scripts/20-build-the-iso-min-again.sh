@@ -201,15 +201,15 @@ echo
 	sed -i 's/'$oldname1'/'$newname1'/g' $buildFolder/adkiso/profiledef.sh
 	sed -i 's/'$oldname2'/'$newname2'/g' $buildFolder/adkiso/profiledef.sh
 	sed -i 's/'$oldname7'/'$newname7'/g' $buildFolder/adkiso/profiledef.sh
-	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
-	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/adkiso/airootfs/etc/hostname
-	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/adkiso/airootfs/etc/sddm.conf.d/adk_settings
-	sed -i 's/'$oldname6'/'$newname6'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
+	#sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
+	#sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/adkiso/airootfs/etc/hostname
+	#sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/adkiso/airootfs/etc/sddm.conf.d/adk_settings
+	#sed -i 's/'$oldname6'/'$newname6'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
 
-	echo "Adding time to /etc/dev-rel"
-	date_build=$(date -d now)
-	echo "Iso build on : "$date_build
-	sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/g" $buildFolder/adkiso/airootfs/etc/dev-rel
+	#echo "Adding time to /etc/dev-rel"
+	#date_build=$(date -d now)
+	#echo "Iso build on : "$date_build
+	#sudo sed -i "s/\(^ISO_BUILD=\).*/\1$date_build/g" $buildFolder/adkiso/airootfs/etc/dev-rel
 
 echo
 echo "################################################################## "

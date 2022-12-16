@@ -1,10 +1,8 @@
-# mkinitcpio preset file for the 'ADK-Linux' package on adkiso
+# mkinitcpio preset file for the 'linux' package on archiso
 
-ALL_config="/etc/mkinitcpio.conf"
-ALL_kver="/boot/vmlinuz-linux"
-ALL_microcode=(/boot/*-ucode.img)
+PRESETS=('archiso')
 
-PRESETS=('adkiso')
+ALL_kver='/boot/vmlinuz-linux'
+ALL_config='/etc/mkinitcpio.conf'
 
-adkiso_image="/boot/initramfs-linux.img"
-
+archiso_image="/boot/initramfs-linux.img"

@@ -185,7 +185,7 @@ echo
 	newname3='ISO_CODENAME='$codeName
 
 	#hostname
-	oldname4='hostname'
+	oldname4='archiso'
 	newname4=$hostName
 
 	#sddm.conf user-session

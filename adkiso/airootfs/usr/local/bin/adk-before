@@ -11,7 +11,11 @@ pacman-key --populate adklinux
 
 echo "Changing into our own linux.preset"
 echo "#################################"
-mv /etc/mkinitcpio.d/adk /etc/mkinitcpio.d/linux.preset
+cp -f /etc/adk-sshd_config /etc/sshd_config
+cp -f /etc/mkinitcpio.d/adk /etc/mkinitcpio.d/linux.preset
+cp -f /etc/adk-mkinitcpio.conf /etc/mkinitcpio.conf
+cp -f /etc/adk-passwd /etc/passwd
+cp -f /etc/adk-shadow /etc/shadow
 cp /usr/lib/adk-release /usr/lib/os-release
 rm -f /etc/arch-release
 mv -f /usr/lib/dot.bashrc /etc/skel/.bashrc

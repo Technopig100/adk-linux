@@ -21,6 +21,7 @@ echo
 	IsoLabel="adk-gothics"
 	hostName="ADK-Linux"
 	
+
 	## First letter of desktop is small letter
 
 	desktop="Plasma"
@@ -31,6 +32,7 @@ echo
     iso_Application="Arch Linux Live/Rescue CD"
 
 	# setting of the general parameters
+	
 	archisoRequiredVersion="archiso 68-1"
 	buildFolder=$HOME"/adk-build"
 	outFolder=$HOME"/ADK-Out"
@@ -138,7 +140,7 @@ echo
 	echo "Deleting the build folder if one exists - takes some time"
 	[ -d $buildFolder ] && sudo rm -rf $buildFolder
 	echo
-	echo "Copying the Archiso folder to build work"
+	echo "Copying the adkiso folder to build"
 	echo
 	mkdir $buildFolder
 	cp -r ../adkiso $buildFolder/adkiso

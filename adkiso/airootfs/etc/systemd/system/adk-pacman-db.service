@@ -1,0 +1,14 @@
+[Unit]
+Description=Initializes Pacman data base
+Requires=etc-pacman.d-gnupg.mount
+After=pacman-init.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=no
+ExecStart=/usr/bin/pacman -Syy --noconfirm
+ExecStart=/usr/bin/systemctl disable pacman-init.service
+ExecStart=/usr/bin/systemctl disable adk-pacman-db.service
+
+[Install]
+WantedBy=multi-user.target

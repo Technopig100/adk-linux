@@ -1,0 +1,9 @@
+# mkinitcpio preset file for the 'Linux' package on adkiso
+
+ALL_config="/etc/mkinitcpio.conf"
+ALL_kver="/boot/vmlinuz-linux"
+ALL_microcode=(/boot/*-ucode.img)
+
+PRESETS=('adkiso')
+
+adkiso_image="/boot/initramfs-linux.img"

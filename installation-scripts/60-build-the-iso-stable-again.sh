@@ -208,6 +208,7 @@ echo
 	sed -i 's/'$oldname3'/'$newname3'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
 	sed -i 's/'$oldname4'/'$newname4'/g' $buildFolder/adkiso/airootfs/etc/hostname
 	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/adkiso/airootfs/etc/sddm.conf.d/adk_settings
+	sed -i 's/'$oldname5'/'$newname5'/g' $buildFolder/adkiso/airootfs/etc/sddm.conf.d/autologin.conf
 	sed -i 's/'$oldname6'/'$newname6'/g' $buildFolder/adkiso/airootfs/etc/dev-rel
 
 	echo "Adding time to /etc/dev-rel"

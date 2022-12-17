@@ -15,7 +15,7 @@ GNU GPL v3
 
 In this repository you'll find:
 
--  ADK-Linux ISO Builder for ADK-Linux and ADK-Min!
+-  ADK-Linux ISO Builder for ADK-Linux and It's Flavors!
 
 To build you will need to install:
 

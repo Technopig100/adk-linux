@@ -22,8 +22,6 @@ file_permissions=(
   ["/etc/sudoers.d"]="0:0:750"
   ["/root/.automated_script.sh"]="0:0:755"
   ["/etc/polkit-1/rules.d"]="0:0:750"
-  #["/usr/bin/calamares_polkit"]="0:0:755"
-  #["/etc/xdg/autostart/calamares.desktop"]="0:0:644"
   ["/etc/sudoers.d"]="0:0:750"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
@@ -32,4 +30,6 @@ file_permissions=(
   #["/usr/local/bin/adk-before"]="0:0:755"
   #["/usr/local/bin/adk-final"]="0:0:755"
   #["/usr/local/bin/adklinux-graphical-target"]="0:0:755"
+  #["/usr/bin/calamares_polkit"]="0:0:755"
+  #["/etc/xdg/autostart/calamares.desktop"]="0:0:644"
 )

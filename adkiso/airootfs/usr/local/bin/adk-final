@@ -21,7 +21,7 @@ chgrp polkitd /etc/polkit-1/rules.d
 echo "Copy /etc/skel to /root"
 echo "#################################"
 cp -aT /etc/skel/ /root/
-cp -f /etc/xdg/.bashrc-latest /root/.bashrc
+cp -f /etc/xdg/.bashrc /root/.bashrc
 
 echo "Cleanup autologin root"
 echo "#################################"

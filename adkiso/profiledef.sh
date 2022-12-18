@@ -26,7 +26,6 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
-  #["/usr/local/bin/adk-linux_rescue"]="0:0:755"
   ["/usr/local/bin/adk-before"]="0:0:755"
   ["/usr/local/bin/adk-final"]="0:0:755"
   ["/usr/local/bin/adklinux-graphical-target"]="0:0:755"

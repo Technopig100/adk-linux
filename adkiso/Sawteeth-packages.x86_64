@@ -70,6 +70,9 @@ gnome-disk-utility
 gnome-extra
 gnome-keyring
 gnome-notes
+gnome-power-manager
+gnome-screenshot
+gnome-software-packagekit-plugin
 gnu-netcat
 gpart
 gpm
@@ -151,8 +154,6 @@ os-prober
 p7zip
 packagekit-qt5
 pacman-contrib
-pamac-aur
-pamac-tray-icon-plasma
 partclone
 parted
 partimage

@@ -13,6 +13,7 @@ echo "Changing into our own linux.preset"
 echo "#################################"
 mv /etc/mkinitcpio.d/adk /etc/mkinitcpio.d/linux.preset
 cp /usr/lib/adk-release /usr/lib/os-release
+mv -f /etc/mota /etc/motd
 rm -f /etc/arch-release
 mv -f /usr/lib/dot.bashrc /etc/skel/.bashrc
 

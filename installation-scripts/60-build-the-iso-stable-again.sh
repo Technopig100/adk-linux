@@ -38,6 +38,7 @@ echo
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
+	echo "Kernel                                 : "$keRnal
 	echo "Building the desktop                   : "$desktop
 	echo "Building version                       : "$adkVersion
 	echo "Iso label                              : "$isoLabel

@@ -18,6 +18,7 @@ bind
 boost-libs
 bridge-utils
 brltty
+broadcom-wl-dkms
 btrfs-progs
 buildah
 ckbcomp

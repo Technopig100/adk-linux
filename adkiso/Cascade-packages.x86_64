@@ -28,6 +28,7 @@ bash-completion
 bat
 bluedevil
 brltty
+broadcom-wl-dkms
 btrfs-progs
 ckbcomp
 cryptsetup

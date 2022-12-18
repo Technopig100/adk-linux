@@ -1,0 +1,14 @@
+# mkinitcpio preset file for the 'linux-lts' package adkiso
+
+ALL_config="/etc/mkinitcpio.conf"
+ALL_kver="/boot/vmlinuz-linux-lts"
+
+PRESETS=('adkiso' 'fallback')
+
+#adkiso_config="/etc/mkinitcpio.conf"
+adkiso_image="/boot/initramfs-linux-lts.img"
+#adkiso_options=""
+
+#fallback_config="/etc/mkinitcpio.conf"
+fallback_image="/boot/initramfs-linux-lts-fallback.img"
+fallback_options="-S autodetect"

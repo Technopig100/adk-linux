@@ -20,6 +20,7 @@ echo
 	adkVersion="23.01"
 	IsoLabel="adk-gothics"
 	hostName="ADK-Linux"
+	keRnal="linux"
 	
 
 	## First letter of desktop is small letter
@@ -150,6 +151,7 @@ echo "Phase 4 :"
 echo "- Removing the old packages.x86_64 file from build folder"
 echo "- Copying the new packages.x86_64 file to the build folder"
 echo "- Changing group for polkit folder"
+echo "- Setting kernel Long term or standered"
 tput sgr0
 echo "################################################################## "
 echo
@@ -160,6 +162,10 @@ echo
 	echo "Copying the new packages.x86_64 file to the build folder"
 	cp -f ../adkiso/$codeName-packages.x86_64 $buildFolder/adkiso/packages.x86_64
 	echo
+	mv $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/$keRnal.preset.pacsave $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/$keRnel.preset
+    echo
+	rm -f $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/*.pacsave
+
 
 echo
 echo "################################################################## "

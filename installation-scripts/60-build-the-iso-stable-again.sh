@@ -169,7 +169,7 @@ echo
     echo
 	rm -f $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/*.pacsave
 	echo
-	sed -i 's/'vmlinuz-linux'/'vmlinuz-$keRnel'/g' $buildFolder/adkiso/gub/grub.cfg
+	sed -i 's/'vmlinuz-linux'/'vmlinuz-$keRnel'/g' $buildFolder/adkiso/grub/grub.cfg
 	sed -i 's/'initramfs-linux.img'/'initramfs-$keRnel.img'/g' $buildFolder/adkiso/grub/grub.cfg
 
 

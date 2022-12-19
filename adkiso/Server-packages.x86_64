@@ -94,11 +94,9 @@ libpwquality
 libusb-compat
 libvirt
 libvirt-storage-gluster
-linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
-linux-headers
 linux-lts
 linux-lts-headers
 livecd-sounds

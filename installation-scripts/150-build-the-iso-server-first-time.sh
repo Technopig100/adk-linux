@@ -20,7 +20,7 @@ echo
 	adkVersion="23.01"
 	IsoLabel="adk-server"
 	hostName="ADK-Linux"
-	keRnel="linux"
+	keRnel="linux-lts"
 	
 
 	## First letter of desktop is small letter

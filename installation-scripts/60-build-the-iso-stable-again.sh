@@ -165,7 +165,7 @@ echo
 	echo "Copying the new packages.x86_64 file to the build folder"
 	cp -f ../adkiso/$codeName-packages.x86_64 $buildFolder/adkiso/packages.x86_64
 	echo
-	mv $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/$keRnel.preset.pacsave $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/$keRnel.preset
+	mv $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/linux.preset.pacsave $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/$keRnel.preset
     echo
 	rm -f $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/*.pacsave
 	echo
@@ -175,7 +175,7 @@ echo
 	find $buildFolder \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/'initramfs-linux'/'initramfs-$keRnel'/g'
 	#find $buildFolder/ -type f -exec sed -i -e "s/'vmlinuz-linux'/'vmlinuz-$keRnel'/g" {} \;
 	find $buildFolder \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/'vmlinuz-linux'/'vmlinuz-$keRnel'/g'
-	
+
 echo
 echo "################################################################## "
 tput setaf 2

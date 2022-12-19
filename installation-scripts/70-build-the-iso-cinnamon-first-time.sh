@@ -20,6 +20,7 @@ echo
 	adkVersion="23.01"
 	IsoLabel="adk-santanoni"
 	hostName="ADK-Linux"
+	keRnel="linux-hardened"
 	
 
 	## First letter of desktop is small letter
@@ -37,6 +38,7 @@ echo
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
+	echo "Kernel                                 : "$keRnel
 	echo "Building the desktop                   : "$desktop
 	echo "Building version                       : "$adkVersion
 	echo "Iso label                              : "$isoLabel
@@ -150,6 +152,7 @@ echo "Phase 4 :"
 echo "- Removing the old packages.x86_64 file from build folder"
 echo "- Copying the new packages.x86_64 file to the build folder"
 echo "- Changing group for polkit folder"
+echo "- Setting kernel"
 tput sgr0
 echo "################################################################## "
 echo
@@ -160,6 +163,14 @@ echo
 	echo "Copying the new packages.x86_64 file to the build folder"
 	cp -f ../adkiso/$codeName-packages.x86_64 $buildFolder/adkiso/packages.x86_64
 	echo
+	mv $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/linux.preset.pacsave $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/$keRnel.preset
+    echo
+	rm -f $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/*.pacsave
+	echo
+	echo "Adjusting for $keRnel kernel"
+	echo 	
+	find $buildFolder \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/'initramfs-linux'/'initramfs-$keRnel'/g'
+	find $buildFolder \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/'vmlinuz-linux'/'vmlinuz-$keRnel'/g'
 
 echo
 echo "################################################################## "

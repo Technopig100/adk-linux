@@ -170,20 +170,10 @@ echo
 	rm -f $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/*.pacsave
 	echo
 	echo "Adjusting for $keRnel kernel"
-	echo 
-	#find . -type f -print0 | xargs -0 sed -i "s/'vmlinuz-linux'/'vmlinuz-$keRnel'/g" {} $buildFolder/;
-	#find . -type f -print0 | xargs -0 sed -i "s/'initramfs-linux.img'/'initramfs-$keRnel.img'/g" {} $buildFolder/;
-	
-	find $buildFolder/ -type f -exec sed -i -e "s/'initramfs-linux.img'/'initramfs-$keRnel.img'/g" {} \;
+	echo 	
+	find $buildFolder/ -type f -exec sed -i -e "s/'initramfs-linux'/'initramfs-$keRnel'/g" {} \;
 	find $buildFolder/ -type f -exec sed -i -e "s/'vmlinuz-linux'/'vmlinuz-$keRnel'/g" {} \;
 	
-	#find . -type f -exec sed -i -e "s/'vmlinuz-linux'/'vmlinuz-$keRnel'/g" {} $buildFolder/;
-	#find . -type f -exec sed -i -e "s/'initramfs-linux.img'/'initramfs-$keRnel.img'/g" {} $buildFolder/;
-	
-	#sed -i 's/'vmlinuz-linux'/'vmlinuz-$keRnel'/g' $buildFolder/adkiso/grub/grub.cfg
-	#sed -i 's/'initramfs-linux.img'/'initramfs-$keRnel.img'/g' $buildFolder/adkiso/grub/grub.cfg
-
-
 echo
 echo "################################################################## "
 tput setaf 2

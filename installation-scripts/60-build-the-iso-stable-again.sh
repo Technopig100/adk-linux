@@ -171,8 +171,10 @@ echo
 	echo
 	echo "Adjusting for $keRnel kernel"
 	echo 	
-	find $buildFolder/ -type f -exec sed -i -e "s/'initramfs-linux'/'initramfs-$keRnel'/g" {} \;
-	find $buildFolder/ -type f -exec sed -i -e "s/'vmlinuz-linux'/'vmlinuz-$keRnel'/g" {} \;
+	#find $buildFolder/ -type f -exec sed -i -e "s/'initramfs-linux'/'initramfs-$keRnel'/g" {} \;
+	find $buildFolder \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/'initramfs-linux'/'initramfs-$keRnel'/g'
+	#find $buildFolder/ -type f -exec sed -i -e "s/'vmlinuz-linux'/'vmlinuz-$keRnel'/g" {} \;
+	find $buildFolder \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/'vmlinuz-linux'/'vmlinuz-$keRnel'/g'
 	
 echo
 echo "################################################################## "

@@ -12,6 +12,7 @@ adk-stable-root-git
 adk-system-installation-git
 amd-ucode
 arch-install-scripts
+avahi
 b43-fwcutter
 base
 bind
@@ -59,8 +60,8 @@ fatresize
 firewalld
 fsarchiver
 fuse-overlayfs
-gnome-disk-utility
 git
+gnome-disk-utility
 gpart
 gpm
 gptfdisk

@@ -104,11 +104,11 @@ lftp
 libfido2
 libusb-compat
 libxinerama
-linux
+linux-hardened
 linux-atm
 linux-firmware
 linux-firmware-marvell
-linux-headers
+linux-hardened-headers
 livecd-sounds
 lsscsi
 lvm2

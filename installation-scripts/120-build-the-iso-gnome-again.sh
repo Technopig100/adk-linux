@@ -2,7 +2,7 @@
 #set -e
 ##################################################################################################################
 #
-#   ADK-Linux code name Sawteeth is a Build with Linux kernel and Gnome Packages.
+#   ADK-Linux code name Onondaga is a Build with Linux kernel and Gnome Packages.
 #
 ##################################################################################################################
 echo
@@ -15,10 +15,11 @@ echo "################################################################## "
 echo
 
 	## Only mode this section
+	## Choose one officially supported kernels linux, linux-hardened, linux-lts, linux-rt, linux-rt-lts and linux-zen..
 
-    codeName="Sawteeth"
+    codeName="Onondaga"
 	adkVersion="23.01"
-	IsoLabel="adk-sawteeth"
+	IsoLabel="adk-onondaga"
 	hostName="ADK-Linux"
 	keRnel="linux"
 	

@@ -15,7 +15,8 @@ echo "################################################################## "
 echo
 
 	## Only mode this section
-
+	## Choose one officially supported kernels linux, linux-hardened, linux-lts, linux-rt, linux-rt-lts and linux-zen..
+    
     codeName="Gothics"
 	adkVersion="23.01"
 	IsoLabel="adk-gothics"
@@ -164,7 +165,13 @@ echo
 	cp -f ../adkiso/$codeName-packages.x86_64 $buildFolder/adkiso/packages.x86_64
 	mv $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/linux.preset.pacsave $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/$keRnel.preset
 	rm -f $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/*.pacsave
-	echo "Adjusting for $keRnel kernel"
+	echo
+    echo "##################################################################"
+    tput setaf 2
+    echo "Adding the $keRnel kernel"
+    tput sgr0
+    echo "################################################################## "
+    echo
 	sed -i 's/'zz-kernel-target'/'$keRnel'/g' $buildFolder/adkiso/packages.x86_64	
 	find $buildFolder \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/'initramfs-linux'/'initramfs-$keRnel'/g'
 	find $buildFolder \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/'vmlinuz-linux'/'vmlinuz-$keRnel'/g'

@@ -15,6 +15,7 @@ echo "################################################################## "
 echo
 
 	## Only mode this section
+	## Choose one officially supported kernels linux, linux-hardened, linux-lts, linux-rt, linux-rt-lts and linux-zen..
 
     codeName="Algonquin"
 	adkVersion="23.01"

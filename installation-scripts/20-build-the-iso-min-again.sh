@@ -168,7 +168,7 @@ echo
 	rm -f $buildFolder/adkiso/airootfs/etc/mkinitcpio.d/*.pacsave
 	echo
 	echo "Adjusting for $keRnel kernel"
-	echo 	
+	sed -i 's/'zz-kernel-target'/'$keRnel'/g' $buildFolder/adkiso/packages.x86_64	
 	find $buildFolder \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/'initramfs-linux'/'initramfs-$keRnel'/g'
 	find $buildFolder \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/'vmlinuz-linux'/'vmlinuz-$keRnel'/g'
 

@@ -102,6 +102,8 @@ linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
+linux-firmware-qlogic
+linux-firmware-whence
 linux-headers
 livecd-sounds
 lsscsi

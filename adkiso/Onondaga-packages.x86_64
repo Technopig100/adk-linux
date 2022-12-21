@@ -2,7 +2,7 @@ adk-branding-config-git
 adk-calamares
 adk-dark-git
 adk-gnome-calamares-config-git
-adk-gnome-git
+#adk-gnome-git
 adk-grub-dark-git
 adk-linux-fkey-git
 adk-linux-keyring-git

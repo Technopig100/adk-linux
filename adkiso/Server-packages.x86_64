@@ -99,8 +99,6 @@ libvirt-storage-gluster
 linux-atm
 linux-firmware
 linux-firmware-marvell
-linux-lts
-linux-lts-headers
 livecd-sounds
 lsscsi
 lvm2
@@ -206,5 +204,6 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-xorg-server
 yaml-cpp
+zz-kernel-target
+zz-kernel-target-headers

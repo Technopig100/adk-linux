@@ -104,11 +104,9 @@ lftp
 libfido2
 libusb-compat
 libxinerama
-linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
-linux-headers
 livecd-sounds
 lsscsi
 lvm2
@@ -230,3 +228,5 @@ xorg-apps
 xorg-server
 xorg-xinit
 yay
+zz-kernel-target
+zz-kernel-target-headers

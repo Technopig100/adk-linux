@@ -107,8 +107,6 @@ linux-firmware
 linux-firmware-marvell
 linux-firmware-qlogic
 linux-firmware-whence
-linux-lts
-linux-lts-headers
 lsscsi
 man-db
 man-pages
@@ -209,3 +207,5 @@ xfsprogs
 xl2tpd
 xorg-server
 xorg-xinit
+zz-kernel-target
+zz-kernel-target-headers

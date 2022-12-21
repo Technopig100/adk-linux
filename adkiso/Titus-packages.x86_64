@@ -109,13 +109,11 @@ libktorrent
 libmms
 libsecret
 libusb-compat
-linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
 linux-firmware-qlogic
 linux-firmware-whence
-linux-headers
 lsscsi
 man-db
 man-pages
@@ -233,3 +231,5 @@ xl2tpd
 xorg-server
 xorg-xinit
 yay
+zz-kernel-target
+zz-kernel-target-headers

@@ -78,8 +78,8 @@ hyperv
 intel-ucode
 iptables-nft
 irssi
-iw
-iwd
+#iw
+#iwd
 jfsutils
 kconfig
 kcoreaddons
@@ -195,7 +195,7 @@ usbutils
 vim
 virt-firmware
 virt-install
-virtualbox-guest-utils
+#virtualbox-guest-utils
 vpnc
 wget
 wireless-regdb

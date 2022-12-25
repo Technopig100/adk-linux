@@ -36,7 +36,7 @@ echo
 	archisoRequiredVersion="archiso 68-1"
 	buildFolder=$HOME"/adk-build"
 	outFolder=$HOME"/ADK-Out"
-	archisoVersion=$(sudo pacman -Q archiso)
+	archisoVersion=$(sudo -s pacman -Q archiso)
 
 	echo "################################################################## "
 	echo "Kernel                                 : "$keRnel
@@ -139,7 +139,7 @@ echo "################################################################## "
 echo
 
 	echo "Deleting the build folder if one exists - takes some time"
-	[ -d $buildFolder ] && sudo rm -rf $buildFolder
+	[ -d $buildFolder ] && sudo -s rm -rf $buildFolder
 	echo
 	echo "Copying the adkiso folder to build"
 	echo

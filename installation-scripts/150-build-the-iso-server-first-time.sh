@@ -290,6 +290,7 @@ echo "##################################################################"
 tput setaf 2
 echo "DONE"
 echo "- Check your out folder :"$outFolder
+echo "Iso label               : "$isoLabel
 tput sgr0
 echo "################################################################## "
 echo

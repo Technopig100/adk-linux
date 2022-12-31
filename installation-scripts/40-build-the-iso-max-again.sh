@@ -33,10 +33,10 @@ echo
 
 	# setting of the general parameters
 	
-	archisoRequiredVersion="archiso 68-1"
+	archisoRequiredVersion="archiso 69-1"
 	buildFolder=$HOME"/adk-build"
 	outFolder=$HOME"/ADK-Out"
-	archisoVersion=$(sudo -s pacman -Q archiso)
+	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
 	echo "Kernel                                 : "$keRnel

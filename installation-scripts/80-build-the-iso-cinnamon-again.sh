@@ -21,7 +21,7 @@ echo
 	adkVersion="23.01"
 	IsoLabel="adk-santanoni"
 	hostName="ADK-Linux"
-	keRnel="linux-hardened"
+	keRnel="linux-zen"
 	
 
 	## First letter of desktop is small letter

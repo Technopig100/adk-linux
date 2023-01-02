@@ -7,7 +7,6 @@ adk-linux-hello
 adk-linux-keyring-git
 adk-live-rescue-git
 adk-min-wallpaper-git
-adk-wallpaper-git
 adk-mirrorlist-git
 adk-neofetch-git
 adk-sddm-sugar-candy-git
@@ -15,6 +14,7 @@ adk-stable-calamares-config-git
 adk-stable-plasma-git
 adk-stable-root-git
 adk-system-installation-git
+adk-wallpaper-git
 alsa-firmware
 alsa-utils
 amd-ucode
@@ -55,6 +55,7 @@ exfatprogs
 expac
 f2fs-tools
 fatresize
+firefox
 flatpak
 foomatic-db-gutenprint-ppds
 fsarchiver
@@ -89,7 +90,6 @@ kgamma5
 kget
 kinfocenter
 kirigami2
-konqueror
 konsole
 kscreen
 kwallet-pam

@@ -30,5 +30,4 @@ file_permissions=(
   ["/usr/local/bin/adk-final"]="0:0:755"
   ["/usr/local/bin/adklinux-graphical-target"]="0:0:755"
   ["/usr/bin/calamares_polkit"]="0:0:755"
-  #["/etc/xdg/autostart/calamares.desktop"]="0:0:644"
 )

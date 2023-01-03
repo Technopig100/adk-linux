@@ -18,7 +18,7 @@ echo
 	## Choose one officially supported kernels linux, linux-hardened, linux-lts, linux-rt, linux-rt-lts and linux-zen..
 
     codeName="Santanoni"
-	adkVersion="23.01"
+	adkVersion="23.02"
 	IsoLabel="adk-santanoni"
 	hostName="ADK-Linux"
 	keRnel="linux-zen"

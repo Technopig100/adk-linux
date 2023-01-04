@@ -6,13 +6,13 @@ adk-linux-fkey-git
 adk-linux-keyring-git
 adk-linux-root-git
 adk-live-rescue-git
+adk-mate-calamares-config-git
+adk-mate-git
 adk-mirrorlist-git
 adk-neofetch-git
 adk-sddm-sugar-candy-git
 adk-system-installation-git
 adk-wallpaper-git
-adk-mate-calamares-config-git
-adk-mate-git
 alacarte
 alsa-firmware
 alsa-utils
@@ -111,6 +111,8 @@ m4
 make
 man-db
 man-pages
+mate
+mate-extra
 mc
 mdadm
 memtest86+
@@ -127,6 +129,7 @@ nano
 nbd
 ndisc6
 nerd-fonts-meslo
+network-manager-applet
 networkmanager
 nfs-utils
 nilfs-utils
@@ -222,8 +225,6 @@ xf86-video-amdgpu
 xf86-video-ati
 xf86-video-nouveau
 xf86-video-vmware
-mate
-mate-extra
 xfsprogs
 xl2tpd
 xorg-apps

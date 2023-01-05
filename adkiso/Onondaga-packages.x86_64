@@ -67,9 +67,7 @@ git
 gnome
 gnome-calculator
 gnome-disk-utility
-gnome-extra
 gnome-keyring
-gnome-notes
 gnome-power-manager
 gnome-screenshot
 gnome-software-packagekit-plugin
@@ -97,7 +95,6 @@ intel-ucode
 inter-font
 irssi
 jfsutils
-kamoso
 kitty-terminfo
 less
 lftp

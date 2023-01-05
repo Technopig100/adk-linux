@@ -112,6 +112,7 @@ man-pages
 mc
 mdadm
 memtest86+
+menulibre
 metacity
 mintstick
 mkinitcpio
@@ -121,6 +122,7 @@ mkinitcpio-openswap
 mlocate
 modemmanager
 mtools
+mugshot
 nano
 nbd
 ndisc6

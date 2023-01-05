@@ -7,7 +7,7 @@ adk-linux-keyring-git
 adk-linux-root-git
 adk-live-rescue-git
 adk-mate-calamares-config-git
-#adk-mate-git
+adk-mate-git
 adk-mirrorlist-git
 adk-neofetch-git
 adk-sddm-sugar-candy-git
@@ -113,6 +113,7 @@ man-db
 man-pages
 mate
 mate-extra
+mate-menu
 mc
 mdadm
 memtest86+

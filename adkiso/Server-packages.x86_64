@@ -75,6 +75,7 @@ hdparm
 hw-probe
 hwinfo
 hyperv
+inotify-tools
 intel-ucode
 iptables-nft
 irssi

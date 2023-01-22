@@ -78,6 +78,7 @@ hunspell
 hunspell-en_US
 hwinfo
 hyperv
+inotify-tools
 intel-ucode
 irssi
 jfsutils

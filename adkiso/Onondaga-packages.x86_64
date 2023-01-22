@@ -1,8 +1,8 @@
+#adk-gnome-git
 adk-branding-config-git
 adk-calamares
 adk-dark-git
 adk-gnome-calamares-config-git
-#adk-gnome-git
 adk-grub-dark-git
 adk-linux-fkey-git
 adk-linux-keyring-git
@@ -91,6 +91,7 @@ hunspell-en_US
 hw-probe
 hwinfo
 hyperv
+inotify-tools
 intel-ucode
 inter-font
 irssi

@@ -1,1 +1,1 @@
-../adk-pacman-db.service
+/etc/systemd/system/adk-pacman-db.service

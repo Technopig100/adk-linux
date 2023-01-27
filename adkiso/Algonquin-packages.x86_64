@@ -12,7 +12,7 @@ adk-sddm-sugar-candy-git
 adk-system-installation-git
 adk-wallpaper-git
 adk-xfce-calamares-config-git
-adk-xfce-git
+#adk-xfce-git
 alacarte
 alsa-firmware
 alsa-utils

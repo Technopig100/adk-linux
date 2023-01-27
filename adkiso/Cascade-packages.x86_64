@@ -11,7 +11,7 @@ adk-mirrorlist-git
 adk-neofetch-git
 adk-sddm-sugar-candy-git
 adk-stable-calamares-config-git
-adk-stable-plasma-git
+#adk-stable-plasma-git
 adk-stable-root-git
 adk-system-installation-git
 adk-wallpaper-git

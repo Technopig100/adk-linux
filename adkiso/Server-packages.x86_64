@@ -1,9 +1,3 @@
-#php-legacy
-#php-legacy-cgi
-#php-legacy-fpm
-#php-legacy-gd
-#php-legacy-imagick
-#php-legacy-intl
 adk-branding-config-git
 adk-calamares
 adk-grub-dark-git
@@ -30,6 +24,8 @@ brltty
 broadcom-wl-dkms
 btrfs-progs
 buildah
+certbot
+certbot-apache
 ckbcomp
 clonezilla
 cloud-init
@@ -202,6 +198,7 @@ sdparm
 sg3_utils
 slirp4netns
 smartmontools
+snapd
 sof-firmware
 solid
 squashfs-tools

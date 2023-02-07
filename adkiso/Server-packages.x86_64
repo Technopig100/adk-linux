@@ -16,6 +16,7 @@ arch-install-scripts
 avahi
 b43-fwcutter
 base
+bash-completion
 bat
 bind
 boost-libs
@@ -184,6 +185,7 @@ qemu-user-static-binfmt
 qt5-svg
 qt5-xmlpatterns
 rate-mirrors
+redis
 refind
 reflector
 reiserfsprogs

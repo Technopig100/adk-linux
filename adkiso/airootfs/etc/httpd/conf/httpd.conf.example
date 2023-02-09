@@ -171,10 +171,10 @@ LoadModule autoindex_module modules/mod_autoindex.so
 #LoadModule info_module modules/mod_info.so
 #LoadModule suexec_module modules/mod_suexec.so
 <IfModule !mpm_prefork_module>
-	#LoadModule cgid_module modules/mod_cgid.so
+    #LoadModule cgid_module modules/mod_cgid.so
 </IfModule>
 <IfModule mpm_prefork_module>
-	#LoadModule cgi_module modules/mod_cgi.so
+    #LoadModule cgi_module modules/mod_cgi.so
 </IfModule>
 #LoadModule dav_fs_module modules/mod_dav_fs.so
 #LoadModule dav_lock_module modules/mod_dav_lock.so
@@ -228,7 +228,7 @@ ServerAdmin example@hotmail.com
 #
 # If your host doesn't have a registered DNS name, enter its IP address here.
 #
-#ServerName www.example.com:80
+ServerName 127.0.1.1.:80
 
 #
 # Deny access to the entirety of your server's filesystem. You must
@@ -237,7 +237,7 @@ ServerAdmin example@hotmail.com
 #
 <Directory />
     AllowOverride none
-    Require all granted
+    Require all denied
 </Directory>
 
 #
@@ -286,7 +286,7 @@ DocumentRoot "/var/www/html"
 # is requested.
 #
 <IfModule dir_module>
-    DirectoryIndex index.php
+    DirectoryIndex index.html
 </IfModule>
 
 #
@@ -294,7 +294,7 @@ DocumentRoot "/var/www/html"
 # viewed by Web clients. 
 #
 <Files ".ht*">
-    Require all granted
+    Require all denied
 </Files>
 
 #
@@ -493,7 +493,7 @@ LogLevel warn
 # necessary.
 
 # PHP-fpm 
-Include conf/extra/php-fpm.conf
+#Include conf/extra/php-fpm.conf
 
 # Server-pool management (MPM specific)
 Include conf/extra/httpd-mpm.conf
@@ -514,11 +514,7 @@ Include conf/extra/httpd-userdir.conf
 #Include conf/extra/httpd-info.conf
 
 # Virtual hosts
-Include conf/extra/httpd-vhosts.conf
-
-#Enabled Vhosts:
-#Include conf/vhosts/your_domain1_name
-#Include conf/vhosts/your_domain3_name
+#Include conf/extra/httpd-vhosts.conf
 
 # Local access to the Apache HTTP Server Manual
 #Include conf/extra/httpd-manual.conf

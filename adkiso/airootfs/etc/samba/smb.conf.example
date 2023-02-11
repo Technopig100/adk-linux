@@ -232,11 +232,10 @@
 
 # Anyone can read and write in this folder
 # create the folder in your home folder and
-# change adkuser into your username
+# change adk-user into your username
 # delete the ; characters to activate
-
 ;[SHARED]
-;path = /home/adkuser/SHARED
+;path = /home/adk-user/SHARED
 ;browseable = yes
 ;guest ok = yes
 ;public = yes

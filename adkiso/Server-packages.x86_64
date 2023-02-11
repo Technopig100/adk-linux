@@ -27,12 +27,14 @@ btrfs-progs
 buildah
 certbot
 certbot-apache
+certbot-nginx
 ckbcomp
 clonezilla
 cloud-init
 cni-plugins
 cockpit
 cockpit-machines
+cockpit-navigator
 cockpit-packagekit
 cockpit-pcp
 cockpit-podman

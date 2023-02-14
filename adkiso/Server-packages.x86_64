@@ -28,7 +28,6 @@ btrfs-progs
 buildah
 certbot
 certbot-apache
-certbot-nginx
 ckbcomp
 clonezilla
 cloud-init
@@ -132,7 +131,6 @@ ndisc6
 netavark
 networkmanager
 nfs-utils
-nginx
 nilfs-utils
 nmap
 ntfs-3g

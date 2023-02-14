@@ -44,9 +44,9 @@ rm /root/{.automated_script.sh,.zlogin}
 cp /etc/adk-release /etc/lsb-release
 mv /etc/sddm.conf.d/adk_settings /etc/sddm.conf.d/kde_settings.conf
 rm -f /etc/sddm.conf.d/adk_settings
-rm -f /usr/local/share/webapps/letsencrypt/placeholder.conf
-rm -f /var/www/_letsencrypt/placeholder.conf
-rm -f /etc/php/placeholder.conf
+#rm -f /usr/local/share/webapps/letsencrypt/placeholder.conf
+#rm -f /var/www/_letsencrypt/placeholder.conf
+#rm -f /etc/php/placeholder.conf
 
 #cleanup
 for i in `ls /home/`; do rm -rf /home/$i/*/calamares.desktop || exit 0; done

@@ -27,6 +27,7 @@ brltty
 broadcom-wl-dkms
 btrfs-progs
 buildah
+cdrkit
 certbot
 certbot-apache
 ckbcomp

@@ -70,4 +70,5 @@ wait
 ufw allow ssh
 wait
 systemctl enable cockpit.socket
+timeshift --btrfs
 rm -f /usr/local/bin/adk-final

@@ -18,7 +18,7 @@ echo
 	## Choose one officially supported kernels linux, linux-hardened, linux-lts, linux-rt, linux-rt-lts and linux-zen..
 
     codeName="Titus"
-	adkVersion="23.02"
+	adkVersion="23.03"
 	IsoLabel="adk-titus"
 	hostName="ADK-Linux"
 	keRnel="linux"

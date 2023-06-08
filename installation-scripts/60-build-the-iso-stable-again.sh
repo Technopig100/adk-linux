@@ -18,7 +18,7 @@ echo
 	## Choose one officially supported kernels linux, linux-hardened, linux-lts, linux-rt, linux-rt-lts and linux-zen..
 
     codeName="Cascade"
-	adkVersion="23.03"
+	adkVersion="23.06"
 	IsoLabel="adk-cascade"
 	hostName="ADK-Linux"
 	keRnel="linux-lts"
@@ -33,7 +33,7 @@ echo
 
 	# setting of the general parameters
 	
-	archisoRequiredVersion="archiso 70-1"
+	archisoRequiredVersion="archiso 71-1"
 	buildFolder=$HOME"/adk-build"
 	outFolder=$HOME"/ADK-Out"
 	archisoVersion=$(sudo pacman -Q archiso)

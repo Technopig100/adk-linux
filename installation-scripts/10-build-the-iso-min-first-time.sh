@@ -33,7 +33,7 @@ echo
 
 	# setting of the general parameters
 	
-	archisoRequiredVersion="archiso 70-1"
+	archisoRequiredVersion="archiso 71-1"
 	buildFolder=$HOME"/adk-build"
 	outFolder=$HOME"/ADK-Out"
 	archisoVersion=$(sudo pacman -Q archiso)

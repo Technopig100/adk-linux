@@ -145,7 +145,7 @@ osmo
 packagekit-qt5
 pacman-contrib
 pamac-aur
-#pamac-tray-icon-plasma
+pamac-tray-icon-plasma
 partclone
 parted
 partimage

@@ -14,11 +14,11 @@ tput sgr0
 echo "################################################################## "
 echo
 
-	## Only mode this section
+	## Only mod this section
 	## Choose one officially supported kernels linux, linux-hardened, linux-lts, linux-rt, linux-rt-lts and linux-zen..
     
     codeName="Gothics"
-	adkVersion="23.06"
+	adkVersion="23.11"
 	IsoLabel="adk-gothics"
 	hostName="ADK-Linux"
 	keRnel="linux"

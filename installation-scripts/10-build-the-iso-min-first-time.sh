@@ -18,7 +18,7 @@ echo
 	## Choose one officially supported kernels linux, linux-hardened, linux-lts, linux-rt, linux-rt-lts and linux-zen..
     
     codeName="Gothics"
-	adkVersion="23.06"
+	adkVersion="23.11"
 	IsoLabel="adk-gothics"
 	hostName="ADK-Linux"
 	keRnel="linux"
@@ -33,7 +33,7 @@ echo
 
 	# setting of the general parameters
 	
-	archisoRequiredVersion="archiso 71-1"
+	archisoRequiredVersion="archiso 73-1"
 	buildFolder=$HOME"/adk-build"
 	outFolder=$HOME"/ADK-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
